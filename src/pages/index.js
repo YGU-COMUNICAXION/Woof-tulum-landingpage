@@ -1,8 +1,23 @@
 import * as React from "react"
 import "../styles/home.css"
+import Layout from "../components/layout"
+import ManchasItem from "../components/manchasItem"
+import Mancha1 from "../images/mobile/sobre/mancha-cepillo.svg"
+import ManchaCard from "../components/manchaCard/ index"
+import ManchaCardimg from "../images/mobile/sobre/mancha-contenedor.svg"
+import ProcessCard from "../components/processCard"
+import Perro1 from "../images/mobile/sobre/processCards/foto-1.png"
+import ConsejosCard from "../components/consejosCard"
+import Hueso from "../images/mobile/sobre/consejosCards/hueso.svg"
+import ServiciosCard from "../components/serviciosCard"
+import Domicilio from "../images/mobile/servicios/serviciosCard/auto.svg"
+
 
 const IndexPage = () => {
+const Red = ("#FCCA65")
+
   return (
+    <Layout>
     <div className="mainDiv">
       <div className="sobreWoof">
         <div className="sobreFirstSection">
@@ -26,7 +41,7 @@ const IndexPage = () => {
         </div>
         <div className="sobreThirdSection">
           <div className="manchasRow">
-            {/* manchas item x2 */}
+            <ManchasItem image={Mancha1} text={"Peinar y cepillar el manto del perro"}/>
           </div>
           <div className="manchasRow">
             {/* manchas item x2 */}
@@ -36,14 +51,16 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="sobreFourthSection">
-          {/* bootsrapcard */}
+          <ManchaCard backgroundImage={ManchaCardimg}>
+            <h2>Que es una peluqueria de bajo estrés?</h2>
+          </ManchaCard>
         </div>
         <div className="sobreFifhtSection">
-          {/* proccessCard x 3 */}
+          <ProcessCard image={Perro1} title={"Antes de la sesión"} text={"crksjdhfkasjdhfkasjdhfklasjdhfklashjdfkasjhdfkasjhdfkljashf kd fhkasjhdf kasj hfkas f sajdkfhsakjdhfaks djhfsjh"} backgroundColor={Red}/>
         </div>
         <div className="sobreSixthSection">
           <h2></h2>
-          {/* consejosCard */}
+          <ConsejosCard text={"kjshdfkjh fsajd hfkasjdhfask dfas dfkasjdf askhfkjhdffkasfh asdfh askjdfh askjf hsajfhaskjhf s"} icon={Hueso}/>
         </div>
         <div className="sobreSeventhSection">
           <h2>Servicios de primera calidad para que puedas consentir a tu peludo.</h2>
@@ -59,7 +76,7 @@ const IndexPage = () => {
         </div>
         <div className="serviciosSecondSection">
           <h2>Servicio a domicilio</h2>
-          {/* serviciosCard x4 */}
+          <ServiciosCard icon={Domicilio} text={"kjdshfkasjhfdkasjhdfkashjfaskjhfkjashfkasjhf ashfd askjhdfkasjh fkas f"} backgroundColor={Red}/>
           {/* button */}
         </div>
         <div className="serviciosThirdSection">
@@ -109,6 +126,7 @@ const IndexPage = () => {
       </div>
       <div className=""></div>
     </div>
+    </Layout>
   )
 }
 
