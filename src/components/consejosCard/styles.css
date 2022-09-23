@@ -6,3 +6,19 @@
     width: 100%;
     text-align: center;
 }
+.consejosP {
+    font-family: "M Light";
+
+}
+.consejosP span {
+    font-family: "M Medium";
+
+}
+@font-face {
+    font-family: "M Medium";
+    src: url("../../static/fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: "M Light";
+    src: url("../../static/fonts/Montserrat-Light.ttf");
+}

@@ -1,0 +1,27 @@
+.contactoCardDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 100%;
+}
+.contactoUpperDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contactoUpperDiv h3 {
+    font-family: "M Bold";
+}
+.contactoCardDiv p {
+    font-family: "M Medium";
+    margin-bottom: 0%;
+
+}
+@font-face {
+    font-family: "M Bold";
+    src: url("../../static/fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "M Medium";
+    src: url("../../static/fonts/Montserrat-Medium.ttf");
+}

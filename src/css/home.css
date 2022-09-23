@@ -1,0 +1,369 @@
+.sobreFirstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF5E0;
+    padding: 3% 5% 15% 5%;
+}
+.sobreFirstSection img {
+    width: 100%;
+}
+.mainTitle {
+    font-family: "M Light";
+    font-size: 180%;
+    margin-bottom: 10%;
+}
+.sectionTitle {
+    font-family: "M Bold";
+    color: #5189D3;
+}
+.mainTitle  span {
+    font-family: "M Bold";
+    color: #77D0D1;
+}
+.mainTitle  span2 {
+    font-family: "M Bold";
+    color: #FE6B73;
+}
+.firstDescription {
+    font-family: "M Light";
+    width: 100%;
+    margin-top: 13%;
+}
+.firstDescription span {
+    font-family: "M SemiBold";
+}
+.sobreSecondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13% 3% 13% 3%;
+}
+.secondTitle {
+    font-family: "M Bold";
+    color: #5189D3;
+    text-align: center;
+}
+.sobreSecondSection h3 {
+    text-align: center;
+}
+.secondSubtitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.multiColorSubt {
+    font-family: "M Bold";
+    color: #FCCA65;
+    font-size: 190%;
+}
+.multiColorSubt span{
+    font-family: "M LightItalic";
+    color: black;
+}
+.multiColorSubt span1 {
+    font-family: "Stick";
+    color: #77D0D1;
+}
+.lightP {
+    font-family: "M Light";
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.lightP span{
+    font-family: "M Bold";
+}
+.sobreSecondSection h3 {
+    font-family: "M Bold";
+    width: 70%;
+    text-align: center;
+}
+.tricolor {
+    font-family: "Stick";
+    color: #FE6B73;
+}
+.tricolor span{
+    color: #5189D3;
+}
+.tricolor span1 {
+    color: #FCCA65;
+}
+.boldP {
+    font-family: "M Medium";
+}
+.sobreThirdSection {
+    background-color: #FFF5E0;
+    padding: 13% 3% 13% 3%;
+}
+.manchasRow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+.sobreFourthSection {
+    padding: 13% 3% 13% 3%;
+
+}
+.sobreFifhtSection {
+    padding: 33% 0% 13% 0%;
+}
+.sobreSixthSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 3% 13% 3%;
+
+}
+.sobreSixthSection h2 {    
+    font-family: "M Light";
+    text-align: center;
+}
+.sobreSixthSection span {
+    font-family: "M Bold";
+    color: #77D0D1;
+}
+.sobreSixthSection span1 {
+    font-family: "M Bold";
+    color: #FCCA65;
+}
+.sobreSeventhSection {
+    background-image: url("../images/mobile/sobre/BannerWoof_Pagina_Opc1.svg");
+    padding: 2% 3% 0% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sevenH2 {
+    text-align: center;
+    font-family: "M Light";
+    font-size: 120%;
+    color: #FE6B73;
+    width: 80%;
+    margin-bottom: 28%;
+}
+.sevenH2 span {
+    font-family: "M Bold"; 
+}
+.serviciosFirstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5% 3% 13% 3%;
+}
+.serviciosFirstSection h1 {
+    font-family: "M Bold";
+    color: #5189D3;
+}
+.serviciosFirstP {
+    font-family: "M Light";
+    width: 80%;
+    margin-bottom: 0%;
+}
+.serviciosFirstP span {
+    font-family: "M Bold";
+}
+.serviciosSecondTextDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviciosSecondText {
+    font-family: "M Light";
+    font-size: 90%;
+    width: 80%;
+    margin-bottom: 0%;
+}
+.serviciosSecondText span {
+    font-family: "M Bold";
+
+}
+.serviciosSecondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5189D3;
+    padding: 5% 3% 13% 3%;
+}
+.serviciosSecondSection h2 {
+    font-family: "Stick";
+    color: white;
+    text-align: center;
+}
+.serviciosThirdSection {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF5E0;
+    padding: 13% 3% 13% 3%;
+}
+.serviciosThirdSection h2 {
+    font-family: "Stick";
+    color: #FCCA65;
+}
+.serviciosThirdSection p {
+    font-family: "M Light";
+}
+.serviciosThirdSection span {
+    font-family: "M Bold";
+}
+.instalacionesFirstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 13% 3% 13% 3%;
+}
+.instalacionesDescription {
+    font-family: "M Bold";
+    color: #FE6B73;
+}
+.instalacionesDescription span {
+    color: #77D0D1;
+}
+.instalacionesDescription span1 {
+    font-family: "M Light";
+    color: black;
+}
+.instalacionesDescription span2 {
+    font-family: "M MediumItalic";
+    color: #5189D3;
+}
+.firstPerrito {
+    width: 60%;
+    margin-bottom: 15%;
+}
+.notaras {
+    font-family: "M Light";
+    margin-bottom: 15%;
+    width: 88%;
+}
+.notaras span{
+    font-family: "M Bold";
+}
+.perritosRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+.perritosRow img {
+    width: 30%;
+    margin: 2%;
+}
+.citaFirstSection {
+    background-color: #FFF5E0;
+    padding: 0% 0% 13% 0%;
+
+}
+.hazCitaDiv {
+    padding: 9% 9% 0% 3%;
+    background-image: url("../images/mobile/cita/contenedor.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.hazCitaDiv h2 {
+    font-family: "M Bold";
+    color: white;
+}
+.hazCitaFirstP {
+    font-family: "M Light";
+    color: white;
+}
+.hazCitaFirstP span{
+    font-family: "M SemiBold";
+}
+.hazCitaSecondP {
+    font-family: "M Light";
+    color: white;
+    font-size: 80%;
+}
+.citaSecondSection {
+    background-color: #FFF5E0;
+    /* padding: 0% 0% 13% 0%; */
+    background-image: url("../images/mobile/cita/bannercita.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.regaloDiv {
+    padding: 0% 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.regaloDiv h2{
+    font-family: "M Bold";
+    color: #FE6B73;
+    font-size: 120%;
+    margin: 0;
+}
+.regaloP {
+    font-family: "M Light";
+    width: 87%;
+    text-align: center;
+    font-size: 90%;
+    margin-bottom: 25%;
+
+}
+.regaloP span {
+    font-family: "M Medium";
+    width: 87%;
+    text-align: center;
+}
+.testimonios {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "M Bold";
+    src: url("../static/fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "M ExtraBold";
+    src: url("../static/fonts/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "M Light";
+    src: url("../static/fonts/Montserrat-Light.ttf");
+}
+@font-face {
+    font-family: "M LightItalic";
+    src: url("../static/fonts/Montserrat-LightItalic.ttf");
+}
+@font-face {
+    font-family: "M Medium";
+    src: url("../static/fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: "M MediumItalic";
+    src: url("../static/fonts/Montserrat-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "M SemiBold";
+    src: url("../static/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Stick";
+    src: url("../static/fonts/StickARound.otf");
+}

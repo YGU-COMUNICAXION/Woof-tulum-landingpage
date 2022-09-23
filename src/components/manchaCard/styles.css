@@ -6,3 +6,45 @@
     align-items: center;
     padding: 10% 4%;
 }
+.firsth1 {
+    font-family: "M Medium";
+    color: white;
+}
+.firsth1 span {
+    font-family: "M ExtraBold";
+}
+.secondh1 {
+    font-family: "Stick";
+    color: white;
+}
+.secondh1 span {
+    color: #FCCA65;
+}
+.manchaP {
+    font-family: "M Light";
+    color: white;
+}
+.manchaP span{
+    font-family: "M SemiBold";
+    color: white;
+}
+@font-face {
+    font-family: "M ExtraBold";
+    src: url("../../static/fonts/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Stick";
+    src: url("../../static/fonts/StickARound.otf");
+}
+@font-face {
+    font-family: "M Light";
+    src: url("../../static/fonts/Montserrat-Light.ttf");
+}
+@font-face {
+    font-family: "M SemiBold";
+    src: url("../../static/fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: "M Medium";
+    src: url("../../static/fonts/Montserrat-Medium.ttf");
+}

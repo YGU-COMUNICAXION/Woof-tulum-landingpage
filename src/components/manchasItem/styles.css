@@ -3,4 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 180px;
+}
+.manchasItemDiv p {
+    text-align: center;
+    font-family: "M Regular";
+
+}
+@font-face {
+    font-family: "M Regular";
+    src: url("../../static/fonts/Montserrat-Regular.ttf");
 }

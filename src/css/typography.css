@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "M Regular";
+    src: url("../static/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "M Bold";
+    src: url("../static/fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "M ExtraBold";
+    src: url("../static/fonts/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "M Light";
+    src: url("../static/fonts/Montserrat-Light.ttf");
+}
+@font-face {
+    font-family: "M LightItalic";
+    src: url("../static/fonts/Montserrat-LightItalic.ttf");
+}
+@font-face {
+    font-family: "M Medium";
+    src: url("../static/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: "M SemiBold";
+    src: url("../static/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Stick";
+    src: url("../static/fonts/StickARound.otf");
+}
+
