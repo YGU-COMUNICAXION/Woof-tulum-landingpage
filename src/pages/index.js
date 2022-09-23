@@ -1,6 +1,9 @@
 import * as React from "react"
 import "../styles/home.css"
+import Huellas1 from "../images/mobile/sobre/Group 70.svg"
+import PerroHome from "../images/mobile/sobre/perropatas.svg"
 import Layout from "../components/layout"
+import Perro2 from "../images/mobile/sobre/foto-perrito.svg"
 import ManchasItem from "../components/manchasItem"
 import Mancha1 from "../images/mobile/sobre/mancha-cepillo.svg"
 import ManchaCard from "../components/manchaCard/ index"
@@ -9,7 +12,13 @@ import ProcessCard from "../components/processCard"
 import Perro1 from "../images/mobile/sobre/processCards/foto-1.png"
 import ConsejosCard from "../components/consejosCard"
 import Hueso from "../images/mobile/sobre/consejosCards/hueso.svg"
+import Patitias1 from "../images/mobile/sobre/BannerWoof_Pagina_Opc1.svg"
 import ServiciosCard from "../components/serviciosCard"
+import Regla from "../images/mobile/servicios/Regla_woof 1.svg"
+import PerroVerde from "../images/mobile/instalaciones/foto-perrito-verde.svg"
+import PerroAmarillo from "../images/mobile/instalaciones/foto-perrito-amarillo.svg"
+import PerroRojo from "../images/mobile/instalaciones/foto-perrito-coral.svg"
+import PerroAzul from "../images/mobile/instalaciones/foto-perrito-verde.svg"
 import Domicilio from "../images/mobile/servicios/serviciosCard/auto.svg"
 
 
@@ -21,16 +30,16 @@ const Red = ("#FCCA65")
     <div className="mainDiv">
       <div className="sobreWoof">
         <div className="sobreFirstSection">
-          <div></div>
+            <img src={Huellas1}/>
             <h1>En Woof Tulum hacemos mucho más que cuidar mascotas<span></span><span></span></h1>
-            <img></img>
+            <img src={PerroHome}/>
             <p>Nos preocupamos por tu mascota tanto como nos preocupamos por la nuestra. Así que puedes encontrar en nuestro equipo a amantes de los animales con la experiencia para brindarte el servicio de calidad que tus amigos perrunos se merecen.</p>
         </div>
         <div className="sobreSecondSection">
           <h2>Sobre Woof Tulum</h2>
-          <div>
+          <div className="secondSubtitle">
             <h2>Mucho más que Estética</h2>
-            <img/>
+            <img src={Perro2}/>
           </div>
           <p>Ante todo, somos unos verdaderos amantes de los animales.</p>
           <p> Y esa, es la principal razón que nos ha llevado a fundar Woof Tulum, una peluquería canina especializada en cuidar y mimar a las mascotas siguiendo un modelo de estética de bajo estrés.</p>
@@ -42,12 +51,15 @@ const Red = ("#FCCA65")
         <div className="sobreThirdSection">
           <div className="manchasRow">
             <ManchasItem image={Mancha1} text={"Peinar y cepillar el manto del perro"}/>
+            <ManchasItem image={Mancha1} text={"Peinar y cepillar el manto del perro"}/>
           </div>
           <div className="manchasRow">
-            {/* manchas item x2 */}
+            <ManchasItem image={Mancha1} text={"Peinar y cepillar el manto del perro"}/>
+            <ManchasItem image={Mancha1} text={"Peinar y cepillar el manto del perro"}/>
           </div>
           <div className="manchasRow">
-            {/* manchas item x2 */}
+            <ManchasItem image={Mancha1} text={"Peinar y cepillar el manto del perro"}/>
+            <ManchasItem image={Mancha1} text={"Peinar y cepillar el manto del perro"}/>
           </div>
         </div>
         <div className="sobreFourthSection">
@@ -56,15 +68,15 @@ const Red = ("#FCCA65")
           </ManchaCard>
         </div>
         <div className="sobreFifhtSection">
-          <ProcessCard image={Perro1} title={"Antes de la sesión"} text={"crksjdhfkasjdhfkasjdhfklasjdhfklashjdfkasjhdfkasjhdfkljashf kd fhkasjhdf kasj hfkas f sajdkfhsakjdhfaks djhfsjh"} backgroundColor={Red}/>
+          {/* <ProcessCard image={Perro1} title={"Antes de la sesión"} text={"crksjdhfkasjdhfkasjdhfklasjdhfklashjdfkasjhdfkasjhdfkljashf kd fhkasjhdf kasj hfkas f sajdkfhsakjdhfaks djhfsjh"} backgroundColor={Red}/> */}
         </div>
         <div className="sobreSixthSection">
-          <h2></h2>
+          <h2>Consejos para antes y después del baño </h2>
           <ConsejosCard text={"kjshdfkjh fsajd hfkasjdhfask dfas dfkasjdf askhfkjhdffkasfh asdfh askjdfh askjf hsajfhaskjhf s"} icon={Hueso}/>
         </div>
         <div className="sobreSeventhSection">
           <h2>Servicios de primera calidad para que puedas consentir a tu peludo.</h2>
-          <img/>
+          <img src={Patitias1}/>
         </div>
       </div>
       <div className="servicios">
@@ -82,19 +94,19 @@ const Red = ("#FCCA65")
         <div className="serviciosThirdSection">
           <h2>Hand Stripping</h2>
           <p>Se trata de una muda artificial del pelo. Quitamos las capas que están a punto de caerse para que no dificulte el crecimiento de la nuevas capas de pelo y así crezca mucho más fuerte.</p>
-          <img/>
+          <img src={Regla}/>
         </div>
       </div>
       <div className="instalaciones">
         <div className="instalacionesFirstSection">
           <h1>Instalaciones</h1>
           <h2>Woof Tulum es un lugar de respeto, tranquilidad, higiene, belleza y diseño de imagen.</h2>
-          <img/>
+          <img src={PerroVerde}/>
           <p>Notarás el resultado a un precio justo y lo más importante es la responsabilidad que tenemos con nuestros amigos peludos.</p>
           <div className="perritosRow">
-            <img/>
-            <img/>
-            <img/>
+            <img src={PerroAmarillo}/>
+            <img src={PerroRojo}/>
+            <img src={PerroAzul}/>
           </div>
           <p>También vendemos alimento y accesorios para tus mascotas</p>
         </div>
