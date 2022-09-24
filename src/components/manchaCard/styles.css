@@ -1,23 +1,30 @@
 .manchaDiv {
     background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10% 4%;
+    padding: 0% 10% 7% 10%;
+    height: 440px;
+    width: 100%;
 }
-.firsth1 {
+.firsth2 {
     font-family: "M Medium";
     color: white;
+    margin-bottom: 0;
+    margin-top: 0;
 }
-.firsth1 span {
+.firsth2 span {
     font-family: "M ExtraBold";
 }
-.secondh1 {
+.secondh2 {
     font-family: "Stick";
     color: white;
+    margin-bottom: 0;
+
 }
-.secondh1 span {
+.secondh2 span {
     color: #FCCA65;
 }
 .manchaP {

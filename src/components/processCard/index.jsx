@@ -1,15 +1,12 @@
 import React from 'react'
 import "./styles.css"
 
-export default function ProcessCard({image, title, text, backgroundColor}) {
+export default function ProcessCard({image, title, text, backgroundColor, color}) {
   return (
-    <div className='proccessMainDiv'>
-        <div className='processCardContent'>
-            <img src={image}/>
-            <h2>{title}</h2>
-            <p>{text}</p>
-        </div>
-        <div className='colorDiv' style={{backgroundColor: `${backgroundColor}` }}/>
+    <div className='colorDiv' style={{backgroundColor: `${backgroundColor}` }}>
+      <img className='perroImage' src={image}/>
+      <h2 style={{color: color}}>{title}</h2>
+      <p style={{color: color}}>{text}</p>
     </div>
   )
 }

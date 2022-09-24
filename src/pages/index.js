@@ -15,6 +15,8 @@ import ManchaCard from "../components/manchaCard/ index"
 import ManchaCardimg from "../images/mobile/sobre/mancha-contenedor.svg"
 import ProcessCard from "../components/processCard"
 import Perro1 from "../images/mobile/sobre/processCards/foto-1.png"
+import Perro3 from "../images/mobile/sobre/processCards/foto-3.png"
+import Perro4 from "../images/mobile/sobre/processCards/foto-4.png"
 import ConsejosCard from "../components/consejosCard"
 import PerroIcon from "../images/mobile/sobre/consejosCards/perro.svg"
 import Hueso from "../images/mobile/sobre/consejosCards/hueso.svg"
@@ -34,11 +36,14 @@ import ContactoCard from "../components/contactoCard"
 import Phone from "../images/mobile/contacto/Phone.svg"
 import Clock from "../images/mobile/contacto/Clock.svg"
 import Ubi from "../images/mobile/contacto/MapPin.svg"
+import CarouselTestimonios from "../components/carousel"
 
 const IndexPage = () => {
 const Red = ("#FCCA65")
 const Beige = ("#FFF5E0")
 const White = ("#FFFFFF")
+const Black = ("#000000")
+const Blue = ("#5189D3")
 
   return (
     <Layout>
@@ -79,13 +84,15 @@ const White = ("#FFFFFF")
         </div>
         <div className="sobreFourthSection">
           <ManchaCard backgroundImage={ManchaCardimg}>
-            <h2 className="firsth1">¿Que es una peluqueria de <span>bajo estrés?</span></h2>
-            <h2 className="secondh1">En <span>Woof Tulum Spa</span>, tu mascota marca el ritmo</h2>
+            <h2 className="firsth2">¿Que es una peluqueria de <span>bajo estrés?</span></h2>
+            <h2 className="secondh2">En <span>Woof Tulum Spa</span>, tu mascota marca el ritmo</h2>
             <p className="manchaP">Queremos que tus caninos se sientan <span>como en casa y estén felices cuando vengas a buscarlos</span>. Por ello hemos apostado por un modelo de <span>peluquería canina de bajo estrés</span>.</p>
           </ManchaCard>
         </div>
         <div className="sobreFifhtSection">
-          <ProcessCard image={Perro1} title={"Antes de la sesión"} text={"crksjdhfkasjdhfkasjdhfklasjdhfklashjdfkasjhdfkasjhdfkljashf kd fhkasjhdf kasj hfkas f sajdkfhsakjdhfaks djhfsjh"} backgroundColor={Red}/>
+          <ProcessCard image={Perro1} title={"Antes de la sesión"} text={"Creamos un clima de calma y contemplamos el comportamiento de tu perro. La primera sesión será más lenta, ya que es una nueva experiencia para tu amigo peludo y requiere de un proceso de adaptación. El fin es evitarle el sentimiento miedo y desconfianza que le genera entrar a una peluquería canina."} backgroundColor={Red}/>
+          <ProcessCard image={Perro4} title={"Durante la sesión"} text={"Presentamos el material de manera progresiva, es decir, las máquinas de corte, secador, bañera, etcétera y cuidamos la potencia del aire, la temperatura o fuerza del agua, así como la velocidad del corte. Sin prisa pero sin pausa. El ritmo de trabajo es lento, para que el perro asimile el proceso y vaya poco a poco sintiendo confianza con su peluquero."} backgroundColor={Black} color={White} />
+          <ProcessCard image={Perro3} title={"El momento del baño"} text={"Es lento, ya que dejamos que tu peludo tenga contacto con el agua y no se asuste. Si se muestra tranquilo, mojamos el resto del cuerpo a través de una ducha suave. Asimismo, utilizamos los mejores productos para mantener el pH del pelaje y evitar reacciones alérgicas."} backgroundColor={Blue}/>
         </div>
         <div className="sobreSixthSection">
           <h2>Consejos para <span>antes</span> y <span1>después</span1> del baño </h2>
@@ -154,19 +161,18 @@ const White = ("#FFFFFF")
       </div>
       <div className="testimonios">
         <h1 className="sectionTitle">Testimonios</h1>
-        {/* carousel */}
+        <CarouselTestimonios ></CarouselTestimonios>
       </div>
       <div className="contacto">
         <h1 className="sectionTitle">Contacto</h1>
-        <div>
+        <div className="contactoCardsDiv">
           <ContactoCard icon={Phone} title={"Teléfono"} info={"+52 984 217 0782"}/>
           <ContactoCard icon={Clock} title={"Horario"} info={"Lunes a Viernes: 9:00am - 18:00pm"}>
             <p>Sábados: 9:00am - 17:00pm</p>
           </ContactoCard>
           <ContactoCard icon={Ubi} title={"Dirección"} info={"Av. La Selva, 77760 Tulum, Q.R., México"}/>
         </div>
-        {/* mapa */}
-      </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14975.835857120077!2d-87.4692647!3d20.2190262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x42b4fe450d31e588!2sWoof%20Tulum!5e0!3m2!1ses!2smx!4v1664055019260!5m2!1ses!2smx" className="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
       <div className=""></div>
     </div>
     </Layout>

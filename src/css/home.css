@@ -103,11 +103,13 @@
     margin-bottom: 4%;
 }
 .sobreFourthSection {
-    padding: 13% 3% 13% 3%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 2% 4% 2%;
 }
 .sobreFifhtSection {
-    padding: 33% 0% 13% 0%;
+    padding: 10% 0% 13% 0%;
 }
 .sobreSixthSection {
     display: flex;
@@ -292,6 +294,7 @@
     background-image: url("../images/mobile/cita/bannercita.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 .regaloDiv {
     padding: 0% 10% 0% 10%;
@@ -331,6 +334,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5% 4% 13% 4%;
+
+}
+.contactoCardsDiv {
+    width: 100%;
+    margin-bottom: 10%;
+}
+.mapa {
+    width: 100%;
+    height: 350px;
+    border: 0;
+    margin-bottom: 25%;
 }
 
 @font-face {
