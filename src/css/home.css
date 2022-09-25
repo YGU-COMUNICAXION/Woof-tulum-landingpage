@@ -363,7 +363,7 @@
     border-radius: 10px;
     margin-bottom: 25%;
 }
-
+/* clases desktop */
 @font-face {
     font-family: "M Bold";
     src: url("../static/fonts/Montserrat-Bold.ttf");
