@@ -39,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 13% 3% 13% 3%;
+    padding: 13% 4% 13% 4%;
 }
 .secondTitle {
     font-family: "M Bold";
@@ -48,11 +48,17 @@
 }
 .sobreSecondSection h3 {
     text-align: center;
+    margin-bottom: 9%;
+    font-family: "M Bold";
+    width: 70%;
+    text-align: center;
+    margin-top: 9%;
 }
 .secondSubtitle {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 90%;
 }
 .multiColorSubt {
     font-family: "M Bold";
@@ -69,20 +75,18 @@
 }
 .lightP {
     font-family: "M Light";
-    margin-bottom: 0;
+    margin-bottom: 0%;
     margin-top: 0;
 }
 .lightP span{
     font-family: "M Bold";
 }
-.sobreSecondSection h3 {
-    font-family: "M Bold";
-    width: 70%;
-    text-align: center;
-}
 .tricolor {
     font-family: "Stick";
     color: #FE6B73;
+    font-size: 280%;
+    margin-bottom: 9%;
+
 }
 .tricolor span{
     color: #5189D3;
@@ -92,6 +96,7 @@
 }
 .boldP {
     font-family: "M Medium";
+    margin-bottom: 8%;
 }
 .sobreThirdSection {
     background-color: #FFF5E0;
@@ -328,14 +333,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5% 4% 13% 4%;
+}
+.testimonios h1 {
+    margin-bottom: 7%;
+}
+.carouselDiv {
+    width: 90%;
+    border-radius: 15%;
 }
 .contacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5% 4% 13% 4%;
-
+    padding: 10% 4% 13% 4%;
+}
+.contacto h1 {
+    margin-bottom: 15%;
 }
 .contactoCardsDiv {
     width: 100%;
@@ -345,6 +360,7 @@
     width: 100%;
     height: 350px;
     border: 0;
+    border-radius: 10px;
     margin-bottom: 25%;
 }
 

@@ -32,13 +32,13 @@ const HorizontalDiv = styled.div`
         width: 25vw;
     }
     div > p:nth-child(1) {
-        font-family: 'Roboto Bold';
+        font-family: 'M SemiBold';
         font-size: 19px;
     }
     a {
         color: white;
         text-decoration: none;
-        font-family: 'Roboto Regular';
+        font-family: 'M Light';
         font-size: 17px;
     }
 
@@ -124,10 +124,11 @@ const HorizontalDiv = styled.div`
         div img {
             width: 35%;
             margin-left: 1vw;
+            margin-bottom: 15%
         }
         div {
             width: 100%;
-            padding-left: 20%;
+            padding-left: 2%;
             margin-bottom: 3vw;
         }
         div:nth-child(1) {
@@ -139,7 +140,7 @@ const HorizontalDiv = styled.div`
             padding-top: 3%;
         }
         a {
-            font-size: 20px;
+            font-size: 15px;
         }
         div > p:nth-child(1) {
             font-size: 22px;
@@ -148,7 +149,7 @@ const HorizontalDiv = styled.div`
 `
 
 const FooterTag = styled.footer`
-    background-color: #0B2A3B;
+    background-color: #518AD3;
     width: 100vw;
     overflow-x: hidden;
 `
@@ -157,7 +158,7 @@ const DerechosDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Roboto Regular';
+    font-family: 'M Light';
     font-size: 15px;
 
     div {
@@ -207,24 +208,29 @@ const Footer = () => {
                         <img src={Logo} alt="Logo White" />
                     </div>
                     <div>
-                        <p>Contáctanos</p>
-                        <p><a href="tel:5580452327">55 8045 2327</a></p>
-                        <p><a href="mailto:espana@ingezar.com.mx">espana@ingezar.com.mx</a></p>
+                        <p>Woof Tulum</p>
+                        <p><Link to='/aviso-de-privacidad'>Sobre Woof Tulum</Link></p>
+                        <p><Link to='/cookies'>¿Porque una peluquería canina</Link></p>
+                        <p><Link to='/aviso-de-privacidad'>¿Qué es una peluquería canina?</Link></p>
+                        <p><Link to='/cookies'>¿Porque una peluquería canina</Link></p>
+                        <p><Link to='/aviso-de-privacidad'>¿Qué es una peluquería de bajo estrés?</Link></p>
+                        <p><Link to='/cookies'>Consejos</Link></p>
                     </div>
                     <div>
-                        <p>Legales</p>
+                        <p>Servicios</p>
                         <p><Link to='/aviso-de-privacidad'>Aviso de Privacidad</Link></p>
                         <p><Link to='/cookies'>Políticas de Cookies</Link></p>
                     </div>
                     <div>
-                        <p>Síguenos en redes</p>
-                        <p><a href="https://www.linkedin.com/company/ingezar-españa" target='_blank' >Linkedin</a></p>
-                        <p><a href="https://www.facebook.com/IngezarEspana/" target='_blank'>Facebook</a></p>
-                        <p><a href="https://www.instagram.com/ingezardesarrollos/" target='_blank'>Instagram</a></p>
+                        <p>Redes sociales</p>
+                        <p><a href="https://wa.me/5215580452327">Whatsapp</a></p>
+                        <p><a href="https://www.facebook.com/profile.php?id=100084692705749" target='_blank'>Facebook</a></p>
+                        <p><a href="https://www.instagram.com/wooftulum/" target='_blank'>Instagram</a></p>
                     </div>
                 </HorizontalDiv>
                 <DerechosDiv>
-                    <p>©2022 Ingezar. Todos los derechos reservados. Elaborado por <a href="https://www.ygucomunicaxion.com" target='_blank'>YGU Comunicaxión</a></p>
+                    <p>©2022 Woof Tulum.</p>
+                    <p> Todos los derechos reservados</p>
                 </DerechosDiv>
             </MainDiv>
         </FooterTag>

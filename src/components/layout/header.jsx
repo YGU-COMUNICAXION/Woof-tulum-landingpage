@@ -122,15 +122,15 @@ const HeaderTag = styled.header`
 const MobileNav = styled.nav`
     display: flex;
     flex-direction: column;
-    background-color: #0B2A3B;
+    background-color: white;
     padding: 5% 0% 3% 8%;
 
     a {
         text-decoration: none;
-        color: white;
-        font-family: 'G Regular';
+        color: Black;
+        font-family: 'M SemiBold';
         font-size: 18px;
-        margin-bottom: 10px;
+        margin-bottom: 16px;
     }
 `
 
@@ -146,10 +146,13 @@ const Header = () => {
                 </Link>
             </div>
             <nav>
-            <Link to='/' >Inicio</Link>
-                <Link to='/resorts' >Resorts</Link>
-                <Link to='/experiencias' >Experiencias</Link>
-                <Link to='/contacto' >Contacto</Link>
+                <Link to='/' >Inicio</Link>
+                <Link to='/resorts' >Sobre Woof Tulum</Link>
+                <Link to='/experiencias' >Servicios</Link>
+                <Link to='/contacto' >Instalaciones</Link>
+                <Link to='/resorts' >Haz tu cita</Link>
+                <Link to='/experiencias' >Testimonios</Link>
+                <Link to='/contacto'>Contacto</Link>
             </nav>
             <div>
                     <a href="ahskasvkasvk" target="_blank">
@@ -173,9 +176,12 @@ const Header = () => {
         { nav ? (
             <MobileNav>
                 <Link to='/' >Inicio</Link>
-                <Link to='/resorts' >Resorts</Link>
-                <Link to='/experiencias' >Experiencias</Link>
-                <Link to='/contacto' >Contacto</Link>
+                <Link to='/resorts' >Sobre Woof Tulum</Link>
+                <Link to='/experiencias' >Servicios</Link>
+                <Link to='/contacto' >Instalaciones</Link>
+                <Link to='/resorts' >Haz tu cita</Link>
+                <Link to='/experiencias' >Testimonios</Link>
+                <Link to='/contacto'>Contacto</Link>
             </MobileNav>
         ) : null }
         </div>

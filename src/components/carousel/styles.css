@@ -1,4 +1,22 @@
 .yellowDiv {
     background-color: #FCCA65;
     padding: 10% 5%;
+    height: 360px;
+}
+.carousel {
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.carousel-indicators [data-bs-target]  {
+    background-color: #77D0D1;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+
+}
+
+.carousel-indicators .active {
+    background-color: #FCCA65;
+    border: solid black 1px;
+    margin-top: 4%;
 }

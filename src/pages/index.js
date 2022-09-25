@@ -161,7 +161,9 @@ const Blue = ("#5189D3")
       </div>
       <div className="testimonios">
         <h1 className="sectionTitle">Testimonios</h1>
-        <CarouselTestimonios ></CarouselTestimonios>
+        <div className="carouselDiv">
+          <CarouselTestimonios/>
+        </div>
       </div>
       <div className="contacto">
         <h1 className="sectionTitle">Contacto</h1>
