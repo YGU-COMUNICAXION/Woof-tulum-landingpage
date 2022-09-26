@@ -363,6 +363,14 @@
     border-radius: 10px;
     margin-bottom: 25%;
 }
+.perritosBottom {
+    background-image: url("../images/mobile/layout/footer/Footer_Woof\ 1.svg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 3%;
+}
 /* clases desktop */
 .sobreFirstSectionDesk {
     display: flex;
@@ -451,7 +459,7 @@
 }
 .sobreThirdSectionDesk {
     background-color: #FFF5E0;
-    padding: 13% 3% 13% 3%;
+    padding: 5% 3% 3% 3%;
 }
 .manchasRowDesk {
     display: flex;
@@ -461,17 +469,17 @@
 .sobreFourthSectionDesk{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 5% 4% 7% 4%;
+    justify-content: space-between;
+    padding: 5% 4% 3% 4%;
     position: relative;
     z-index: 1;
 }
 .huellasPeluqueria {
     position: absolute;
     z-index: 2;
-    width: 65%;
+    width: 57%;
     left:40%;
-    top: 15%;
+    top: 4%;
 }
 .perritoPeluqueria {
     position: absolute;
@@ -500,6 +508,10 @@
     font-family: "M Bold";
     color: #77D0D1;
 }
+.sobreSixthSectionDesk span1 {
+    font-family: "M Bold";
+    color: #FCCA65;
+}
 .consejosRow {
     display: flex;
     flex-direction: row;
@@ -511,6 +523,26 @@
     align-items: center;
     background-color: #5189D3;
     padding: 5% 3% 7% 3%;
+}
+.sobreSeventhSectionDesk {
+    background-image: url("../images/desktop/sobre/patitasbottom.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 2% 0% 0% 0%;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+}
+.sevenH2Desk {
+    text-align: center;
+    font-family: "M Light";
+    font-size: 120%;
+    color: #FE6B73;
+    width: 50%;
+}
+.sevenH2Desk span {
+    font-family: "M Bold"; 
 }
 .serviciosSecondSectionDesk h2 {
     font-family: "Stick";
@@ -530,7 +562,6 @@
     padding: 5% 3% 5% 3%;
     justify-content: center;
     align-items: center;
-    
 }
 .handStrippingHorDiv {
     display: flex;
@@ -570,7 +601,10 @@
 .descriptionImageDesk {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 .descriptionImageDesk img {
     width: 25%;
@@ -640,11 +674,75 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+}
+.testimoniosDesk img {
+    width: 30%;
 }
 .contactoDeskDiv {
     display: flex;
     flex-direction: row;
 }
+.contactoCardsDivDesk {
+    margin-top: 5%;
+}
+@media only screen and (min-width: 752px){
+    .sobreFifhtSectionDesk {
+        display: flex;
+        flex-direction: row;
+        padding:0%;
+    }
+    .sobreSixthSectionDesk h2 {
+        width: 30%;
+        font-size: 130%;
+        margin-bottom: 3%;
+    }
+    .serviciosFirstSection {
+        padding: 4% 3% 5% 3%;
+
+    }
+    .serviciosFirstSection h1 {
+        margin-bottom: 4%;
+    }
+    .serviciosFirstP {
+        font-size: 80%
+    }
+    .serviciosSecondTextDiv {
+        margin-top: 3%;
+    }
+    .instalacionesFirstSection {
+        padding: 5% 4% 5% 4%;
+    }
+    .notaras {
+        font-family: "M Light";
+        margin-bottom: 5%;
+        width: 88%;
+    } 
+    .perritosRow img {
+        width: 22%;
+    }
+    .instalacionesDescription {
+        text-align: left;
+        font-size: 140%;
+        width: 50%;
+    }
+    .testimonios {
+        padding: 5% 4% 5% 4%;
+    }
+    .contacto {
+        padding: 5% 4% 5% 4%;
+    }
+    .contacto h1 {
+        margin-bottom: 7%;
+    }
+    .mapa {
+        width: 48%;
+        height: 300px;
+        margin-bottom: 0%;
+    }
+    
+}
+
 @font-face {
     font-family: "M Bold";
     src: url("../static/fonts/Montserrat-Bold.ttf");
@@ -669,12 +767,10 @@
     font-family: "M MediumItalic";
     src: url("../static/fonts/Montserrat-MediumItalic.ttf");
 }
-
 @font-face {
     font-family: "M SemiBold";
     src: url("../static/fonts/Montserrat-SemiBold.ttf");
 }
-
 @font-face {
     font-family: "Stick";
     src: url("../static/fonts/StickARound.otf");

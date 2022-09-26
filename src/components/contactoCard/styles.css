@@ -7,15 +7,31 @@
 .contactoUpperDiv{
     display: flex;
     flex-direction: row;
+    justify-content: left;
     align-items: center;
 }
 .contactoUpperDiv h3 {
     font-family: "M Bold";
+    margin-bottom: 0%;
 }
 .contactoCardDiv p {
     font-family: "M Medium";
     margin-bottom: 0%;
 
+}
+@media only screen and (min-width: 752px){
+    .contactoUpperDiv img {
+        width: 8%;
+        margin-right: 3%;
+    }
+    .contactoUpperDiv h3 {
+        font-size: 100%;
+    }
+    .contactoCardDiv p {
+        font-family: "M Medium";
+        margin-bottom: 0%;
+    
+    }
 }
 @font-face {
     font-family: "M Bold";

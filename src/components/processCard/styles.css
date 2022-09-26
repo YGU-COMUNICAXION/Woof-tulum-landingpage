@@ -19,6 +19,22 @@
     font-family: "M Light";
     width: 100%;
 }
+@media only screen and (min-width: 752px){
+    .colorDiv {
+        padding: 6% 3% 0% 3%;
+        height: 210px;
+    }
+    .perroImage {
+        height: 30%;
+        top: -12%;
+    }
+    .colorDiv h2 {
+        font-size: 90%;
+    }
+    .colorDiv p {
+        font-size: 60%;
+    }
+}
 @font-face {
     font-family: "M SemiBold";
     src: url("../../static/fonts/Montserrat-SemiBold.ttf");

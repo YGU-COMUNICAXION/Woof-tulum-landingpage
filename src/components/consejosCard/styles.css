@@ -6,13 +6,30 @@
     width: 100%;
     text-align: center;
 }
+.consejosDivDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .consejosP {
     font-family: "M Light";
 
 }
 .consejosP span {
     font-family: "M Medium";
-
+}
+@media only screen and (min-width: 752px){
+    .consejosDivDesk {
+        margin: 2%;
+    }
+   .consejosDivDesk img {
+    height: 40px;
+    margin-bottom: 10%;
+    
+   } 
+   .consejosP {
+    font-size: 60%;
+   }
 }
 @font-face {
     font-family: "M Medium";

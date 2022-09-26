@@ -13,6 +13,7 @@ import Mancha5 from "../images/mobile/sobre/mancha-jerginga.svg"
 import Mancha6 from "../images/mobile/sobre/mancha-cola.svg"
 import ManchaCard from "../components/manchaCard/ index"
 import ManchaCardimg from "../images/mobile/sobre/mancha-contenedor.svg"
+import ManchaCardDesk from "../images/desktop/sobre/contenedor-por-que-una-peluqería.svg"
 import ProcessCard from "../components/processCard"
 import Perro1 from "../images/mobile/sobre/processCards/foto-1.png"
 import Perro3 from "../images/mobile/sobre/processCards/foto-3.png"
@@ -26,7 +27,7 @@ import Regla from "../images/mobile/servicios/Regla_woof 1.svg"
 import PerroVerde from "../images/mobile/instalaciones/foto-perrito-verde.svg"
 import PerroAmarillo from "../images/mobile/instalaciones/foto-perrito-amarillo.svg"
 import PerroRojo from "../images/mobile/instalaciones/foto-perrito-coral.svg"
-import PerroAzul from "../images/mobile/instalaciones/foto-perrito-verde.svg"
+import PerroAzul from "../images/mobile/instalaciones/foto-perrito-azul.svg"
 import Domicilio from "../images/mobile/servicios/serviciosCard/auto.svg"
 import Aseo from "../images/mobile/servicios/serviciosCard/estampilla.svg"
 import BajoCosto from "../images/mobile/servicios/serviciosCard/plata.svg"
@@ -43,7 +44,7 @@ import PataAmarilla from "../images/desktop/sobre/pataAmarilla.svg"
 import PataAzul from "../images/desktop/sobre/pataazul.svg"
 import PerroHomeDesk from "../images/desktop/sobre/foto-home.svg"
 import HuellasPeluqueria from "../images/desktop/sobre/huellaspeluqueria.svg"
-import PerritoPeluqueria from "../images/desktop/sobre/peluqueria.svg"
+import PerritoPeluqueria from "../images/desktop/sobre/foto-perrito.svg"
 import PerritoStripping from "../images/desktop/servicios/perritohandstripping.svg"
 import PerritoCita from "../images/desktop/cita/foto-perrito-haz-tu-cita.svg"
 import HuellasCita from "../images/desktop/cita/patitascita.svg"
@@ -153,7 +154,7 @@ const windowSize = useWindowSize();
         </div>
         ):(
           <div className="sobreFourthSectionDesk">
-            <ManchaCard backgroundImage={ManchaCardimg}>
+            <ManchaCard backgroundImage={ManchaCardDesk}>
               <h2 className="firsth2">¿Que es una peluqueria de <span>bajo estrés?</span></h2>
               <h2 className="secondh2">En <span>Woof Tulum Spa</span>, tu mascota marca el ritmo</h2>
               <p className="manchaP">Queremos que tus caninos se sientan <span>como en casa y estén felices cuando vengas a buscarlos</span>. Por ello hemos apostado por un modelo de <span>peluquería canina de bajo estrés</span>.</p>
@@ -192,10 +193,16 @@ const windowSize = useWindowSize();
               </div>
             </div>
           )}
+          {windowSize < 752 ? (
+            <div className="sobreSeventhSection">
+              <h2 className="sevenH2">Servicios de <span>primera calidad</span> para que puedas <span>consentir a tu peludo</span>.</h2>
+            </div>
+          ):(
+            <div className="sobreSeventhSectionDesk">
+              <h2 className="sevenH2Desk">Servicios de <span>primera calidad</span> para que puedas <span>consentir a tu peludo</span>.</h2>
+            </div>
+          )}
 
-        <div className="sobreSeventhSection">
-          <h2 className="sevenH2">Servicios de <span>primera calidad</span> para que puedas <span>consentir a tu peludo</span>.</h2>
-        </div>
       </div>
       <div className="servicios">
         <div className="serviciosFirstSection">
@@ -211,9 +218,9 @@ const windowSize = useWindowSize();
           <div className="serviciosSecondSection">
             <h2>Servicio a domicilio</h2>
             <ServiciosCard icon={Domicilio} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={Beige}/>
-            <ServiciosCard icon={Aseo} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={White}/>
-            <ServiciosCard icon={BajoCosto} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={Beige}/>
-            <ServiciosCard icon={Atencion} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={White}/>
+            <ServiciosCard icon={Aseo} text={"Aseo de primera calidad para su cachorro o perro adulto."} backgroundColor={White}/>
+            <ServiciosCard icon={BajoCosto} text={"Bajo costo, sin contratos, sin tarifas ocultas."} backgroundColor={Beige}/>
+            <ServiciosCard icon={Atencion} text={"Atención personalizada y personal amable."} backgroundColor={White}/>
             {/* button */}
           </div>
         ):(
@@ -221,11 +228,11 @@ const windowSize = useWindowSize();
             <h2>Servicio a domicilio</h2>
             <div className="serviciosCardGrid">
               <ServiciosCard icon={Domicilio} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={Beige}/>
-              <ServiciosCard icon={Aseo} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={White}/>
+              <ServiciosCard icon={Aseo} text={"Aseo de primera calidad para su cachorro o perro adulto."} backgroundColor={White}/>
             </div>
             <div className="serviciosCardGrid">
-              <ServiciosCard icon={BajoCosto} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={Beige}/>
-              <ServiciosCard icon={Atencion} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={White}/>
+              <ServiciosCard icon={Atencion} text={"Atención personalizada y personal amable."} backgroundColor={White}/>
+              <ServiciosCard icon={BajoCosto} text={"Bajo costo, sin contratos, sin tarifas ocultas."} backgroundColor={Beige}/>
             </div>            
             {/* button */}
           </div>
@@ -358,7 +365,7 @@ const windowSize = useWindowSize();
           </>
         )} 
       </div>
-      <div className=""></div>
+      <div className="perritosBottom"></div>
     </div>
     </Layout>
   )

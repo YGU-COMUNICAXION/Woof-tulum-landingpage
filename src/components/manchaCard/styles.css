@@ -1,3 +1,4 @@
+
 .manchaDiv {
     background-repeat: no-repeat;
     background-size: contain;
@@ -34,6 +35,24 @@
 .manchaP span{
     font-family: "M SemiBold";
     color: white;
+}
+@media only screen and (min-width: 752px){
+    .manchaDiv{
+        height: 420px;
+        padding: 0% 4% 7% 5%;
+        width: 47%;
+        margin-top: 3%;
+    }
+    .firsth2 {
+        font-size: 125%;
+        margin-bottom: 7%;
+    }
+    .secondh2 {
+        font-size: 130%;
+    }
+    .manchaP {
+        font-size: 80%;
+    }
 }
 @font-face {
     font-family: "M ExtraBold";
