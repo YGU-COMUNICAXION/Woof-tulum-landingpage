@@ -46,6 +46,7 @@ import HuellasPeluqueria from "../images/desktop/sobre/huellaspeluqueria.svg"
 import PerritoPeluqueria from "../images/desktop/sobre/peluqueria.svg"
 import PerritoStripping from "../images/desktop/servicios/perritohandstripping.svg"
 import PerritoCita from "../images/desktop/cita/foto-perrito-haz-tu-cita.svg"
+import HuellasCita from "../images/desktop/cita/patitascita.svg"
 import PeritoTestimonios from "../images/desktop/testimonios/foto (1).svg"
 
 const IndexPage = () => {
@@ -70,17 +71,17 @@ const windowSize = useWindowSize();
         </div>
       ):(
         <div className="sobreFirstSectionDesk">
-          <div>
-            <img src={PatasTop}/>
-            <h1 className="mainTitle">En <span>Woof Tulum</span> hacemos mucho más que <span2>cuidar mascotas</span2></h1>
-            <div>
-              <p className="firstDescription">Nos preocupamos por tu mascota tanto como nos preocupamos por la nuestra. Así que puedes encontrar en <span>nuestro equipo</span> a <span>amantes de los animales</span> con la experiencia para brindarte el servicio de calidad que tus amigos perrunos se merecen.</p>
+          <div className="leftHomeDiv">
+            <img className="patasTop" src={PatasTop}/>
+            <h1 className="mainTitleDesk">En <span>Woof Tulum</span> hacemos mucho más que <span2>cuidar mascotas</span2></h1>
+            <div className="pata-description">
+              <p className="firstDescriptionDesk">Nos preocupamos por tu mascota tanto como nos preocupamos por la nuestra. Así que puedes encontrar en <span>nuestro equipo</span> a <span>amantes de los animales</span> con la experiencia para brindarte el servicio de calidad que tus amigos perrunos se merecen.</p>
               <img src={PataAmarilla}/>
             </div>
-            <img src={PataAzul}/>
+            <img className="pataAzul" src={PataAzul}/>
           </div>
-          <div>
-            <img src={PerroHomeDesk}/>
+          <div className="perroHomeDiv">
+            <img className="perroHomeDesk" src={PerroHomeDesk}/>
           </div>
         </div>
       )}
@@ -112,7 +113,7 @@ const windowSize = useWindowSize();
           <h3>¿Por qué una peluquería canina? </h3>
           <h2 className="tricolor">Bañar, <span>secar,</span> <span1>cortar…</span1></h2>
           <p className="boldP">La peluquería canina es mucho más que el arreglo o la estética del animal.</p>
-          <p className="lightP">En Woof Tulum, te ayudamos a mantener la higiene de tu mascota como prevención de su salud y a detectar alteraciones en su piel, así como alguna enfermedad. También realizamos estas otras tareas.</p>
+          <p className="lightP" style={{textAlign : "center"}}>En Woof Tulum, te ayudamos a mantener la higiene de tu mascota como prevención de su salud y a detectar alteraciones en su piel, así como alguna enfermedad. También realizamos estas otras tareas.</p>
         </div>
       )}
         {windowSize <  752 ? (
@@ -157,8 +158,8 @@ const windowSize = useWindowSize();
               <h2 className="secondh2">En <span>Woof Tulum Spa</span>, tu mascota marca el ritmo</h2>
               <p className="manchaP">Queremos que tus caninos se sientan <span>como en casa y estén felices cuando vengas a buscarlos</span>. Por ello hemos apostado por un modelo de <span>peluquería canina de bajo estrés</span>.</p>
             </ManchaCard>
-            <img src={HuellasPeluqueria}/>
-            <img src={PerritoPeluqueria}/>
+            <img className="huellasPeluqueria" src={HuellasPeluqueria}/>
+            <img className="perritoPeluqueria" src={PerritoPeluqueria}/>
           </div>
         )}
           {windowSize <  752 ? (
@@ -237,9 +238,9 @@ const windowSize = useWindowSize();
           </div>
         ):(
           <div className="serviciosThirdSectionDesk">
-            <h2>Hand Stripping</h2>
             <div className="handStrippingHorDiv">
               <div className="handInfo">
+                <h2>Hand Stripping</h2>
                 <p>Se trata de una <span>muda artificial del pelo</span>. Quitamos las capas que están a punto de caerse para que <span>no dificulte el crecimiento de la nuevas capas de pelo</span> y así <span>crezca mucho más fuerte</span>.</p>
                 <img src={PerritoStripping}/>
               </div>
@@ -297,7 +298,7 @@ const windowSize = useWindowSize();
         <>
         <div className="citaFirstSectionDesk">
           <div className="citaUpperDiv">
-            <div className="hazCitaDiv">
+            <div className="hazCitaDivDesk">
               <h2>Haz tu cita</h2>
               <p className="hazCitaFirstP">Comprueba nuestra <span>disponibilidad</span> y <span>reserva la fecha y la hora</span> que más te convengan. Te sugerimos <span>agendar</span> con al menos <span>1 día de anticipación</span> para garantizar que tengamos espacio disponible para tu mascota.</p>
               <p className="hazCitaSecondP">*En caso de que tu mascota venga con pulgas y/o garrapatas considera que se aplicará un tarifa extra a tu servicio.</p>
@@ -305,12 +306,13 @@ const windowSize = useWindowSize();
             </div>
             <img src={PerritoCita}/>
           </div>
-          <div>
-            <div className="regaloDivDesk">
+          <div className="regaloDivDesk">
+            <div className="regaloDivInfo">
               <h2>¡Regalo para tu peludo!</h2>
-              <p className="regaloP">Por ser <span>cliente frecuente</span>, el <span>10mo baño</span> va por nuestra cuenta. </p>
+              <p className="regaloPDesk">Por ser <span>cliente frecuente</span>, el <span>10mo baño</span> va por nuestra cuenta. </p>
             </div>
-          </div>  
+          </div>
+          <img className="huellasCita" src={HuellasCita}/>
         </div>
         </>
       )}
@@ -322,7 +324,7 @@ const windowSize = useWindowSize();
             <CarouselTestimonios/>
           </div>
         ):(
-          <div>
+          <div className="testimoniosDesk">
             <CarouselTestimonios/>
             <img src={PeritoTestimonios}/>
           </div>

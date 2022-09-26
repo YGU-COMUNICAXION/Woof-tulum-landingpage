@@ -364,6 +364,287 @@
     margin-bottom: 25%;
 }
 /* clases desktop */
+.sobreFirstSectionDesk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF5E0;
+    padding: 3% 5% 3% 5%;
+}
+.leftHomeDiv {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.patasTop {
+    width: 60%;
+}
+.mainTitleDesk {
+    font-family: "M Light";
+    font-size: 180%;
+    margin-bottom: 10%;
+}
+.mainTitleDesk  span {
+    font-family: "M Bold";
+    color: #77D0D1;
+}
+.mainTitleDesk  span2 {
+    font-family: "M Bold";
+    color: #FE6B73;
+}
+.pata-description {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+.firstDescriptionDesk {
+    font-family: "M Light";
+    width: 100%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+}
+.firstDescriptionDesk span {
+    font-family: "M SemiBold";
+}
+.pata-description img {
+    width: 15%;
+}
+.pataAzul {
+    width: 15%;
+    margin-left: 10%;
+}
+.perroHomeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perroHomeDesk {
+    width: 90%;
+}
+.sobreSecondSectionDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 4% 7% 4%;
+}
+.sobreSecondSectionDesk h1 {
+    margin-bottom: 6%;
+}
+.sobreFirstHorDivDesk {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.sobreFirstHorDivDesk img {
+    width: 25%;
+}
+.subtitleDescriptionDesk {
+    width: 60%;
+}
+.subtitleDescriptionDesk h2 {
+    width: 60%;
+}
+.sobreThirdSectionDesk {
+    background-color: #FFF5E0;
+    padding: 13% 3% 13% 3%;
+}
+.manchasRowDesk {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.sobreFourthSectionDesk{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5% 4% 7% 4%;
+    position: relative;
+    z-index: 1;
+}
+.huellasPeluqueria {
+    position: absolute;
+    z-index: 2;
+    width: 65%;
+    left:40%;
+    top: 15%;
+}
+.perritoPeluqueria {
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+    left: 60%;
+    top: 15%;
+}
+.sobreFifhtSectionDesk {
+    display: flex;
+    flex-direction: row;
+    padding: 10% 0% 0% 0%;
+}
+.sobreSixthSectionDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 3% 5% 3%;
+}
+.sobreSixthSectionDesk h2 {    
+    font-family: "M Light";
+    text-align: center;
+}
+.sobreSixthSectionDesk span {
+    font-family: "M Bold";
+    color: #77D0D1;
+}
+.consejosRow {
+    display: flex;
+    flex-direction: row;
+}
+.serviciosSecondSectionDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5189D3;
+    padding: 5% 3% 7% 3%;
+}
+.serviciosSecondSectionDesk h2 {
+    font-family: "Stick";
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.serviciosCardGrid {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+.serviciosThirdSectionDesk {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF5E0;
+    padding: 5% 3% 5% 3%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.handStrippingHorDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+}
+.handInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 80%;
+}
+.handInfo h2 {
+    font-family: "Stick";
+    color: #FCCA65;
+}
+.handInfo p {
+    font-family: "M Light";
+}
+.handInfo img {
+    width: 40%;
+    margin-left: 20%;
+}
+.handInfo span {
+    font-family: "M Bold";
+}
+.reglaDiv {
+    display: flex;
+    justify-content: center;
+}
+.reglaDiv img{
+    width: 90%;
+}
+.descriptionImageDesk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.descriptionImageDesk img {
+    width: 25%;
+    margin-bottom: 0;
+}
+.citaFirstSectionDesk {
+    background-color: #FFF5E0;
+    padding: 5% 0% 0% 0%;
+    position: relative;
+}
+.citaUpperDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hazCitaDivDesk {
+    padding: 5% 9% 0% 3%;
+    background-image: url("../images/mobile/cita/contenedor.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 47%;
+    height: 370px;
+}
+.hazCitaDivDesk h2 {
+    font-family: "M Bold";
+    color: white;
+}
+.citaUpperDiv img {
+    width: 30%;
+    margin-right: 5%;
+}
+.huellasCita {
+    position: absolute;
+    z-index: 8;
+    width: 18%;
+    left: 48%;
+    bottom: 25%;
+}
+.regaloDivDesk {
+    background-image: url("../images/mobile/cita/bannercita.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 200px;
+}
+.regaloDivInfo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.regaloDivInfo h2{
+    font-family: "M Bold";
+    color: #FE6B73;
+    font-size: 120%;
+    margin: 0;
+}
+.regaloPDesk {
+    font-family: "M Light";
+    width: 87%;
+    text-align: center;
+    font-size: 90%;
+    margin-bottom: 0%;
+}
+.testimoniosDesk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contactoDeskDiv {
+    display: flex;
+    flex-direction: row;
+}
 @font-face {
     font-family: "M Bold";
     src: url("../static/fonts/Montserrat-Bold.ttf");
