@@ -1,0 +1,23 @@
+.btn-primary {
+    background-color: #77D0D1;
+    border-radius: 50px;
+    border: none;
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-primary img {
+    width: 17%;
+}
+.btn-primary p {
+    color: black;
+    margin-bottom: 0%;
+    font-family: "M Regular";
+}
+@font-face {
+    font-family: "M Regular";
+    src: url("../../static/fonts/Montserrat-Regular.ttf");
+}

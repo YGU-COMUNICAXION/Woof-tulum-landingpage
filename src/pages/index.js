@@ -49,6 +49,8 @@ import PerritoStripping from "../images/desktop/servicios/perritohandstripping.s
 import PerritoCita from "../images/desktop/cita/foto-perrito-haz-tu-cita.svg"
 import HuellasCita from "../images/desktop/cita/patitascita.svg"
 import PeritoTestimonios from "../images/desktop/testimonios/foto (1).svg"
+import Boton from "../components/boton"
+import WhatsappButton from "../images/mobile/cita/WhatsappLogo.svg"
 
 const IndexPage = () => {
 const Red = ("#FCCA65")
@@ -221,7 +223,12 @@ const windowSize = useWindowSize();
             <ServiciosCard icon={Aseo} text={"Aseo de primera calidad para su cachorro o perro adulto."} backgroundColor={White}/>
             <ServiciosCard icon={BajoCosto} text={"Bajo costo, sin contratos, sin tarifas ocultas."} backgroundColor={Beige}/>
             <ServiciosCard icon={Atencion} text={"Atención personalizada y personal amable."} backgroundColor={White}/>
-            {/* button */}
+            <div className="serviciosBotonDiv">
+              <Boton>
+                <p>Consultar precios</p>
+              </Boton>
+            </div>
+
           </div>
         ):(
           <div className="serviciosSecondSectionDesk">
@@ -234,7 +241,11 @@ const windowSize = useWindowSize();
               <ServiciosCard icon={Atencion} text={"Atención personalizada y personal amable."} backgroundColor={White}/>
               <ServiciosCard icon={BajoCosto} text={"Bajo costo, sin contratos, sin tarifas ocultas."} backgroundColor={Beige}/>
             </div>            
-            {/* button */}
+            <div className="serviciosBotonDiv">
+              <Boton>
+                <p>Consultar precios</p>
+              </Boton>
+            </div>
           </div>
         )}
         {windowSize < 752 ? (
@@ -290,7 +301,10 @@ const windowSize = useWindowSize();
             <h2>Haz tu cita</h2>
             <p className="hazCitaFirstP">Comprueba nuestra <span>disponibilidad</span> y <span>reserva la fecha y la hora</span> que más te convengan. Te sugerimos <span>agendar</span> con al menos <span>1 día de anticipación</span> para garantizar que tengamos espacio disponible para tu mascota.</p>
             <p className="hazCitaSecondP">*En caso de que tu mascota venga con pulgas y/o garrapatas considera que se aplicará un tarifa extra a tu servicio.</p>
-            {/* button */}
+            <Boton>
+              <img src={WhatsappButton}/>
+              <p>Agendar cita</p>
+            </Boton>
           </div>
         </div>
         <div className="citaSecondSection">
@@ -309,7 +323,12 @@ const windowSize = useWindowSize();
               <h2>Haz tu cita</h2>
               <p className="hazCitaFirstP">Comprueba nuestra <span>disponibilidad</span> y <span>reserva la fecha y la hora</span> que más te convengan. Te sugerimos <span>agendar</span> con al menos <span>1 día de anticipación</span> para garantizar que tengamos espacio disponible para tu mascota.</p>
               <p className="hazCitaSecondP">*En caso de que tu mascota venga con pulgas y/o garrapatas considera que se aplicará un tarifa extra a tu servicio.</p>
-              {/* button */}
+              <div className="citabotonDivDesk">
+                <Boton>
+                  <img src={WhatsappButton}/>
+                  <p>Agendar cita</p>
+                </Boton>
+              </div>
             </div>
             <img src={PerritoCita}/>
           </div>

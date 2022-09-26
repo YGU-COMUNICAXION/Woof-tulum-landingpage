@@ -203,6 +203,10 @@
     color: white;
     text-align: center;
 }
+.serviciosBotonDiv {
+    display: flex;
+    justify-content: center;
+}
 .serviciosThirdSection {
     display: flex;
     flex-direction: column;
@@ -271,11 +275,11 @@
 
 }
 .hazCitaDiv {
-    padding: 9% 9% 0% 3%;
+    padding: 9% 9% 0% 7%;
     background-image: url("../images/mobile/cita/contenedor.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 350px;
+    height: 390px;
 }
 .hazCitaDiv h2 {
     font-family: "M Bold";
@@ -621,7 +625,7 @@
     justify-content: space-between;
 }
 .hazCitaDivDesk {
-    padding: 5% 9% 0% 3%;
+    padding: 5% 5% 0% 3%;
     background-image: url("../images/mobile/cita/contenedor.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -635,6 +639,9 @@
 .citaUpperDiv img {
     width: 30%;
     margin-right: 5%;
+}
+.citabotonDivDesk {
+    margin-top: 10%;
 }
 .huellasCita {
     position: absolute;
@@ -710,6 +717,10 @@
     .serviciosSecondTextDiv {
         margin-top: 3%;
     }
+    .serviciosBotonDiv {
+        width: 45%;
+        margin-top: 5%;
+    }
     .instalacionesFirstSection {
         padding: 5% 4% 5% 4%;
     }
@@ -725,6 +736,13 @@
         text-align: left;
         font-size: 140%;
         width: 50%;
+    }
+    .hazCitaFirstP {
+        font-size: 80%;
+    }
+    .hazCitaSecondP {
+        font-size: 80%;
+
     }
     .testimonios {
         padding: 5% 4% 5% 4%;
