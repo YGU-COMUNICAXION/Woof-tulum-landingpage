@@ -35,7 +35,7 @@
         font-size: 60%;
     }
 }
-@media only screen and (min-width: 752px){
+@media only screen and (min-width: 1000px){
     .colorDiv {
         padding: 6% 3% 0% 3%;
         height: 250px;
@@ -51,7 +51,7 @@
         font-size: 70%;
     }
 }
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1500px){
     .colorDiv {
         height: 410px;
     }
@@ -60,6 +60,32 @@
     }
     .colorDiv p {
         font-size: 120%;
+    }
+}
+@media only screen and (min-width: 2000px){
+    .colorDiv {
+        height: 610px;
+    }
+    .perroImage {
+        height: 30%;
+        top: -13%;
+    }
+    .colorDiv h2 {
+        font-size: 220%;
+    }
+    .colorDiv p {
+        font-size: 170%;
+    }
+}
+@media only screen and (min-width: 2500px){
+    .colorDiv {
+        height: 710px;
+    }
+    .colorDiv h2 {
+        font-size: 260%;
+    }
+    .colorDiv p {
+        font-size: 200%;
     }
 }
 @font-face {

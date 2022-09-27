@@ -28,6 +28,30 @@
         font-size: 110%;
     }
 }
+@media only screen and (min-width: 2000px){
+    .manchasItemDiv {
+        width: 320px;
+    }
+    .manchasItemDiv img {
+        width: 50%;
+        margin-bottom: 10%;
+    }
+    .manchasItemDiv p  {
+        font-size: 150%;
+    }
+}
+@media only screen and (min-width: 2500px){
+    .manchasItemDiv {
+        width: 450px;
+    }
+    .manchasItemDiv img {
+        width: 55%;
+        margin-bottom: 10%;
+    }
+    .manchasItemDiv p  {
+        font-size: 200%;
+    }
+}
 @font-face {
     font-family: "M Regular";
     src: url("../../static/fonts/Montserrat-Regular.ttf");

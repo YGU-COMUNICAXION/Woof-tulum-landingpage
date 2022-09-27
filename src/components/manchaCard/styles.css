@@ -95,6 +95,41 @@
         font-size: 110%;
     }
 }
+@media only screen and (min-width: 2000px){
+    .manchaDiv { 
+        height: 800px;
+        padding: 6% 17% 2% 4%;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .firsth2 {
+        font-size: 290%;
+    }
+    .secondh2 {
+        font-size: 260%;
+    }
+    .manchaP {
+        font-size: 180%;
+    }
+}
+@media only screen and (min-width: 2500px){
+    .manchaDiv { 
+        height: 1000px;
+        padding: 6% 17% 2% 4%;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .firsth2 {
+        font-size: 350%;
+    }
+    .secondh2 {
+        font-size: 380%;
+        width: 70%;
+    }
+    .manchaP {
+        font-size: 220%;
+    }
+}
 @font-face {
     font-family: "M ExtraBold";
     src: url("../../static/fonts/Montserrat-ExtraBold.ttf");

@@ -1038,7 +1038,243 @@
         margin-bottom: 0%;
     }
 }
-
+@media only screen and (min-width: 2000px){
+    .sectionTitle {
+        font-size: 380%;
+    }
+    .sobreFirstSectionDesk {
+        padding: 3% 7% 3% 7%;
+    }
+    .leftHomeDiv {
+        width: 50%;
+    }
+    .mainTitleDesk {
+        font-size: 330%;
+        width: 70%;
+        margin-bottom: 8%;
+    }
+    .firstDescriptionDesk {
+        font-size: 190%;
+    }
+    .perroHomeDiv {
+        width: 35%;
+    }
+    .perroHomeDesk {
+        width: 100%;
+    }
+    .multiColorSubt {
+        font-size: 380%;
+        width: 35%;
+        margin-bottom: 5%;
+    }
+    .lightP {
+        font-size: 190%;
+        width: 90%;
+    }
+    .sobreSecondSectionDesk h3 {
+        font-size: 250%;
+        margin-bottom: 1%;
+    }
+    .tricolor {
+        font-size: 500%;
+        margin-bottom: 1%;
+    }
+    .boldP {
+        font-size: 190%;
+    }
+    .sobreSixthSectionDesk h2 {
+        font-size: 380%;
+    }
+    .sobreSeventhSectionDesk {
+        height: 530px;
+    }
+    .sevenH2Desk {
+        font-size: 280%;
+        margin-top: 2%;
+        width: 35%;
+    }
+    .serviciosFirstP {
+        font-size: 200%;
+        width: 70%;
+    }
+    .serviciosSecondText {
+        font-size: 200%;
+        width: 100%;
+    }
+    .serviciosSecondSectionDesk h2 {
+        font-size: 350%;
+    }
+    .serviciosBotonDiv {
+        width: 25%;
+    }
+    .handInfo h2 {
+        font-size: 380%;
+    }
+    .handInfo p {
+        font-size: 220%;
+        width: 80%;
+    }
+    .handInfo img {
+        width: 30%;
+    }
+    .reglaDiv  {
+        width: 50%;
+    }
+    .instalacionesDescription {
+        font-size: 290%;
+    }
+    .notaras {
+        font-size: 220%;
+        margin-bottom: 5%;
+    }
+    .perritosRow {
+        width: 80%;
+    }
+    .perritosRow img {
+        width: 33%;
+    }
+    .hazCitaDivDesk {
+        height: 970px;
+    }
+    .hazCitaDivDesk h2 {
+        font-size: 450%;
+        margin-bottom: 13%;
+    }
+    .hazCitaFirstP {
+        font-size: 190%;
+        margin-bottom: 10%;
+    }
+    .hazCitaSecondP {
+        font-size: 160%;
+    }
+    .citabotonDivDesk {
+        width: 70%;
+    }
+    .huellasCita {
+        width: 16%;
+        bottom: 30%;
+        left: 45%;
+    }
+    .regaloDivDesk {
+       height: 600px;
+       margin-top:0%;
+    }
+    .regaloDivInfo h2 {
+        font-size: 320%;
+    }
+    .regaloPDesk {
+        font-size: 220%;
+    }
+    .testimonios {
+        padding: 3% 4% 3% 4%;
+    }
+    .contactoCardsDivDesk {
+        margin-top: 0%;
+    }
+    .mapa {
+        width: 40%;
+        height: 550px;
+        margin-bottom: 0%;
+    }
+}
+@media only screen and (min-width: 2500px){
+    .sectionTitle {
+        font-size: 460%;
+    }
+    .mainTitleDesk {
+        font-size: 450%;
+        width: 70%;
+    }
+    .firstDescriptionDesk {
+        font-size: 230%;
+    }
+    .multiColorSubt {
+        font-size: 480%;
+    }
+    .lightP {
+        font-size: 240%;
+        width: 90%;
+    }
+    .sobreSecondSectionDesk h3 {
+        font-size: 350%;
+    }
+    .tricolor {
+        font-size: 670%;
+        margin-bottom: 1%;
+    }
+    .boldP {
+        font-size: 250%;
+    }
+    .huellasPeluqueria {
+        width: 50%;
+        left:37%
+    }
+    .perritoPeluqueria {
+        width: 20%;
+        top: 18%
+    }
+    .sobreSixthSectionDesk h2 {
+        font-size: 480%;
+    }
+    .sobreSeventhSectionDesk {
+        height: 650px;
+    }
+    .sevenH2Desk {
+        font-size: 380%;
+        margin-top: 2%;
+        width: 40%;
+    }
+    .serviciosFirstP {
+        font-size: 250%;
+    }
+    .serviciosSecondText {
+        font-size: 250%;
+    }
+    .serviciosSecondSectionDesk h2 {
+        font-size: 450%;
+    }
+    .handInfo h2 {
+        font-size: 580%;
+    }
+    .handInfo p {
+        font-size: 260%;
+        width: 80%;
+    }
+    .instalacionesDescription {
+        font-size: 350%;
+    }
+    .notaras {
+        font-size: 280%;
+        width: 60%;
+        margin-bottom: 5%;
+    }
+    .hazCitaDivDesk {
+        height: 1180px;
+    }
+    .huellasCita {
+        width: 16%;
+        bottom: 25%;
+        left: 45%;
+    }
+    .regaloDivDesk {
+        height: 670px;
+        margin-top:0%;
+    }
+    .regaloDivInfo h2 {
+        font-size: 420%;
+    }
+    .regaloPDesk {
+        font-size: 290%;
+    }
+    .testimoniosDesk img {
+        width: 50%;
+    }
+    .mapa {
+        width: 50%;
+        height: 750px;
+        margin-bottom: 0%;
+    }
+}
 @font-face {
     font-family: "M Bold";
     src: url("../static/fonts/Montserrat-Bold.ttf");

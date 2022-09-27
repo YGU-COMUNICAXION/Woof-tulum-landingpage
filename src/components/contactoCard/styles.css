@@ -61,6 +61,34 @@
         font-size: 120%;
     }
 }
+@media only screen and (min-width: 2000px){
+    .contactoUpperDiv img {
+        width: 11%;
+    }
+    .contactoUpperDiv {
+        margin-bottom: 3%;
+    }
+    .contactoUpperDiv h3 {
+        font-size: 220%;
+    }
+    .contactoCardDiv p {
+        font-size: 180%;
+    }
+}
+@media only screen and (min-width: 2500px){
+    .contactoUpperDiv img {
+        width: 15%;
+    }
+    .contactoUpperDiv {
+        margin-bottom: 3%;
+    }
+    .contactoUpperDiv h3 {
+        font-size: 270%;
+    }
+    .contactoCardDiv p {
+        font-size: 210%;
+    }
+}
 @font-face {
     font-family: "M Bold";
     src: url("../../static/fonts/Montserrat-Bold.ttf");

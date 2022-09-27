@@ -30,7 +30,7 @@
     font-size: 60%;
    }
 }
-@media only screen and (min-width: 752px){
+@media only screen and (min-width: 1000px){
     .consejosDivDesk {
         width: 30%;
     }
@@ -42,13 +42,31 @@
         font-size: 80%;
     }
 }
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1500px){
     .consejosDivDesk img {
         height: 80px;
         margin-bottom: 10%;
        } 
     .consejosP {
         font-size: 120%;
+    }
+}
+@media only screen and (min-width: 2000px){
+    .consejosDivDesk img {
+        height: 100px;
+        margin-bottom: 10%;
+       } 
+    .consejosP {
+        font-size: 180%;
+    }
+}
+@media only screen and (min-width: 2500px){
+    .consejosDivDesk img {
+        height: 125px;
+        margin-bottom: 10%;
+       } 
+    .consejosP {
+        font-size: 210%;
     }
 }
 @font-face {

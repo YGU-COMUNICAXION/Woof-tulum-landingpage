@@ -40,3 +40,19 @@
         font-size: 120%;
     }
 }
+@media only screen and (min-width: 2000px){
+    .serviciosMainDiv {
+        width: 500px;
+    }
+    .serviciosMainDiv p{
+        font-size: 150%;
+    }
+}
+@media only screen and (min-width: 2500px){
+    .serviciosMainDiv {
+        width: 600px;
+    }
+    .serviciosMainDiv p{
+        font-size: 180%;
+    }
+}
