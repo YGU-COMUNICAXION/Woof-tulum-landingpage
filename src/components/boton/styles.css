@@ -17,7 +17,30 @@
     margin-bottom: 0%;
     font-family: "M Regular";
 }
-
+@media only screen and (min-width: 1500px){
+    .btn-primary {
+        height: 60px;
+    }
+    .btn-primary p {
+        font-size: 160%;
+    } 
+}
+@media only screen and (min-width: 2000px){
+    .btn-primary {
+        height: 70px;
+    }
+    .btn-primary p {
+        font-size: 150%;
+    } 
+}
+@media only screen and (min-width: 2500px){
+    .btn-primary {
+        height: 80px;
+    }
+    .btn-primary p {
+        font-size: 180%;
+    } 
+}
 @font-face {
     font-family: "M Regular";
     src: url("../../static/fonts/Montserrat-Regular.ttf");
