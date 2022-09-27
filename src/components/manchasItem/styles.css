@@ -19,6 +19,15 @@
         font-size: 70%;
     }
 }
+@media only screen and (min-width: 1500px){
+    .manchasItemDiv img {
+        width: 60%;
+        margin-bottom: 10%;
+    }
+    .manchasItemDiv p  {
+        font-size: 110%;
+    }
+}
 @font-face {
     font-family: "M Regular";
     src: url("../../static/fonts/Montserrat-Regular.ttf");

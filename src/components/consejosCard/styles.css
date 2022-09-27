@@ -25,11 +25,31 @@
    .consejosDivDesk img {
     height: 40px;
     margin-bottom: 10%;
-    
    } 
    .consejosP {
     font-size: 60%;
    }
+}
+@media only screen and (min-width: 752px){
+    .consejosDivDesk {
+        width: 30%;
+    }
+    .consejosDivDesk img {
+        height: 60px;
+        margin-bottom: 10%;
+       } 
+    .consejosP {
+        font-size: 80%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .consejosDivDesk img {
+        height: 80px;
+        margin-bottom: 10%;
+       } 
+    .consejosP {
+        font-size: 120%;
+    }
 }
 @font-face {
     font-family: "M Medium";

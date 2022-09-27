@@ -27,3 +27,30 @@
         font-size: 70%;
     }
 }
+@media only screen and (min-width: 1000px){
+    .carousel{
+        width: 420px;
+        height: 300px;
+    }
+    .testimonio{
+        font-size: 100%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .carousel{
+        width: 550px;
+        height: 400px;
+    }
+    .yellowDiv {
+        height: 400px;
+    }
+    .testimonio{
+        font-size: 140%;
+    }
+    .user {
+        font-size: 140%;
+    }
+    .carousel-indicators .active {
+        margin-top: 2.5%;
+    }
+}

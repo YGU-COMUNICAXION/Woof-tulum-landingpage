@@ -35,6 +35,33 @@
         font-size: 60%;
     }
 }
+@media only screen and (min-width: 752px){
+    .colorDiv {
+        padding: 6% 3% 0% 3%;
+        height: 250px;
+    }
+    .perroImage {
+        height: 35%;
+        top: -15%;
+    }
+    .colorDiv h2 {
+        font-size: 100%;
+    }
+    .colorDiv p {
+        font-size: 70%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .colorDiv {
+        height: 410px;
+    }
+    .colorDiv h2 {
+        font-size: 150%;
+    }
+    .colorDiv p {
+        font-size: 120%;
+    }
+}
 @font-face {
     font-family: "M SemiBold";
     src: url("../../static/fonts/Montserrat-SemiBold.ttf");

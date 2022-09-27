@@ -21,3 +21,22 @@
         font-size: 70%;
     }
 }
+@media only screen and (min-width: 1000px){
+    .serviciosMainDiv {
+        width: 350px;
+    }
+    .serviciosMainDiv img {
+        width: 15%;
+    }
+    .serviciosMainDiv p{
+        font-size: 100%;
+    }
+}
+@media only screen and (min-width: 1500px){
+    .serviciosMainDiv {
+        width: 400px;
+    }
+    .serviciosMainDiv p{
+        font-size: 120%;
+    }
+}

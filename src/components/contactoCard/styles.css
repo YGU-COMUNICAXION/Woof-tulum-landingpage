@@ -30,7 +30,35 @@
     .contactoCardDiv p {
         font-family: "M Medium";
         margin-bottom: 0%;
-    
+    }
+}
+@media only screen and (min-width: 1000px){
+    .contactoUpperDiv img {
+        width: 10%;
+        margin-right: 3%;
+    }
+    .contactoUpperDiv {
+        margin-bottom: 3%;
+    }
+    .contactoUpperDiv h3 {
+        font-size: 120%;
+    }
+    .contactoCardDiv p {
+        font-size: 110%;
+    }
+}
+@media only screen and (min-width: 1500px){
+    .contactoUpperDiv img {
+        width: 13%;
+    }
+    .contactoUpperDiv {
+        margin-bottom: 3%;
+    }
+    .contactoUpperDiv h3 {
+        font-size: 130%;
+    }
+    .contactoCardDiv p {
+        font-size: 120%;
     }
 }
 @font-face {
