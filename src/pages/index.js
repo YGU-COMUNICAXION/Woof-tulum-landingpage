@@ -1,5 +1,6 @@
 import * as React from "react"
 import "../css/home.css"
+import { Element } from 'react-scroll'
 import Huellas1 from "../images/mobile/sobre/Group 70.svg"
 import PerroHome from "../images/mobile/sobre/perropatas.svg"
 import Layout from "../components/layout"
@@ -89,7 +90,7 @@ const windowSize = useWindowSize();
         </div>
       )}
       {windowSize < 752 ? (
-        <div className="sobreSecondSection">
+        <div id="sobre" className="sobreSecondSection">
           <h1 className="sectionTitle">Sobre Woof Tulum</h1>
           <div className="secondSubtitle">
             <h2 className="multiColorSubt">Mucho más <span>que</span> <span1>Estética</span1></h2>
@@ -103,21 +104,22 @@ const windowSize = useWindowSize();
           <p className="lightP">En <span>Woof Tulum</span>, te ayudamos a mantener <span>la higiene de tu mascota</span> como <span>prevención de su salud</span> y a <span>detectar alteraciones en su piel</span>, así como alguna enfermedad. También realizamos estas otras tareas.</p>
         </div>
       ):(
-        <div className="sobreSecondSectionDesk">
-          <h1 className="sectionTitle">Sobre Woof Tulum</h1>
-          <div className="sobreFirstHorDivDesk">
-            <div className="subtitleDescriptionDesk">
-              <h2 className="multiColorSubt">Mucho más <span>que</span> <span1>Estética</span1></h2>
-              <p className="lightP">Ante todo, somos unos verdaderos <span>amantes de los animales</span>.</p>
-              <p className="lightP"> Y esa, es la <span>principal razón</span> que nos ha llevado a <span>fundar Woof Tulum</span>, una <span>peluquería canina especializada en cuidar y mimar</span> a las mascotas siguiendo un modelo de estética de bajo estrés.</p>
+          <div id="sobre" className="sobreSecondSectionDesk">
+            <h1 className="sectionTitle">Sobre Woof Tulum</h1>
+            <div className="sobreFirstHorDivDesk">
+              <div className="subtitleDescriptionDesk">
+                <h2 className="multiColorSubt">Mucho más <span>que</span> <span1>Estética</span1></h2>
+                <p className="lightP">Ante todo, somos unos verdaderos <span>amantes de los animales</span>.</p>
+                <p className="lightP"> Y esa, es la <span>principal razón</span> que nos ha llevado a <span>fundar Woof Tulum</span>, una <span>peluquería canina especializada en cuidar y mimar</span> a las mascotas siguiendo un modelo de estética de bajo estrés.</p>
+              </div>
+              <img src={Perro2}/>
             </div>
-            <img src={Perro2}/>
+            <h3>¿Por qué una peluquería canina? </h3>
+            <h2 className="tricolor">Bañar, <span>secar,</span> <span1>cortar…</span1></h2>
+            <p className="boldP">La peluquería canina es mucho más que el arreglo o la estética del animal.</p>
+            <p className="lightP" style={{textAlign : "center"}}>En <span>Woof Tulum</span>, te ayudamos a mantener <span>la higiene de tu mascota</span> como <span>prevención de su salud</span> y a <span>detectar alteraciones en su piel</span>, así como alguna enfermedad. También realizamos estas otras tareas.</p>
           </div>
-          <h3>¿Por qué una peluquería canina? </h3>
-          <h2 className="tricolor">Bañar, <span>secar,</span> <span1>cortar…</span1></h2>
-          <p className="boldP">La peluquería canina es mucho más que el arreglo o la estética del animal.</p>
-          <p className="lightP" style={{textAlign : "center"}}>En <span>Woof Tulum</span>, te ayudamos a mantener <span>la higiene de tu mascota</span> como <span>prevención de su salud</span> y a <span>detectar alteraciones en su piel</span>, así como alguna enfermedad. También realizamos estas otras tareas.</p>
-        </div>
+
       )}
         {windowSize <  752 ? (
         <div className="sobreThirdSection">
@@ -196,7 +198,7 @@ const windowSize = useWindowSize();
             </div>
           )}
           {windowSize < 752 ? (
-            <div className="sobreSeventhSection">
+            <div id="servicios" className="sobreSeventhSection">
               <h2 className="sevenH2">Servicios de <span>primera calidad</span> para que puedas <span>consentir a tu peludo</span>.</h2>
             </div>
           ):(
@@ -206,7 +208,7 @@ const windowSize = useWindowSize();
           )}
 
       </div>
-      <div className="servicios">
+      <div id="servicios" className="servicios">
         <div className="serviciosFirstSection">
           <h1 className="sectionTitle">Servicios</h1>
           <p className="serviciosFirstP">Contamos con el <span>servicio de recolección y entrega a domicilio</span> y nos ocupamos de todas las necesidades <span>de aseo y baño</span> que tu perro pueda necesitar.</p>
@@ -269,7 +271,7 @@ const windowSize = useWindowSize();
           </div>
         )}
       </div>
-      <div className="instalaciones">
+      <div id="instalaciones" className="instalaciones">
         <div className="instalacionesFirstSection">
           <h1 className="sectionTitle">Instalaciones</h1>
           {windowSize < 752 ? (
@@ -295,7 +297,7 @@ const windowSize = useWindowSize();
       <div className="cita">
       {windowSize < 752 ? (
         <>
-        <div className="citaFirstSection">
+        <div id="cita" className="citaFirstSection">
           <img src={HuellasA}/>
           <div className="hazCitaDiv">
             <h2>Haz tu cita</h2>
@@ -317,7 +319,7 @@ const windowSize = useWindowSize();
 
       ):(
         <>
-        <div className="citaFirstSectionDesk">
+        <div id="cita" className="citaFirstSectionDesk">
           <div className="citaUpperDiv">
             <div className="hazCitaDivDesk">
               <h2>Haz tu cita</h2>
@@ -343,7 +345,7 @@ const windowSize = useWindowSize();
         </>
       )}
       </div>
-      <div className="testimonios">
+      <div id="testimonios" className="testimonios">
         <h1 className="sectionTitle">Testimonios</h1>
         {windowSize < 752 ? (
           <div className="carouselDiv">
@@ -356,7 +358,7 @@ const windowSize = useWindowSize();
           </div>
         )}
       </div>
-      <div className="contacto">
+      <div id="contacto" className="contacto">
         <h1 className="sectionTitle">Contacto</h1>
         {windowSize < 752 ? (
           <>

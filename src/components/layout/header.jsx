@@ -1,7 +1,8 @@
 import React, {useState} from "react"
+import { Link, animateScroll as scroll } from "react-scroll";
 import Logo from "../../images/mobile/layout/header/logo.svg"
 import Menu from "../../images/mobile/layout/header/pata menú.svg"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import useWindowSize from "../../hooks/useWindowSize"
 import styled from "styled-components"
 
@@ -43,7 +44,7 @@ const HeaderTag = styled.header`
 
     @media only screen and (min-width: 1700px) {
         >div:nth-child(1) img {
-            width: 330%;
+            width: 280%;
         }
         nav {
             width: 65%;
@@ -51,7 +52,7 @@ const HeaderTag = styled.header`
             margin-left: 15%;
         }
         nav a {
-            font-size: 33px;
+            font-size: 25px;
             margin-right:1%
         }
         >div:nth-child(3) img {
@@ -61,7 +62,26 @@ const HeaderTag = styled.header`
 
     @media only screen and (min-width: 2900px) {
         nav a {
-            font-size: 50px;
+            font-size: 40px;
+        }
+        nav {
+            width: 65%;
+            padding: 3% 0% 2% 0%;
+            margin-left: 15%;
+        }
+        nav {
+            width: 65%;
+            padding: 3% 0% 2% 0%;
+            margin-left: 15%;
+        }
+        >div:nth-child(1) img {
+        width: 450%;
+        margin-left: 25%;
+        }
+    }
+    @media only screen and (min-width: 3500px) {
+        nav a {
+            font-size: 45px;
         }
         nav {
             width: 65%;
@@ -174,6 +194,9 @@ const MobileNav = styled.nav`
 const Header = () => {
     const windowSize = useWindowSize();
     const [nav, setNav] = useState(false)
+ const  scrollToTop = () => {
+        scroll.scrollToTop(); 
+    };
 
     return windowSize > 752 ? (
         <HeaderTag>
@@ -183,13 +206,13 @@ const Header = () => {
                 </Link>
             </div>
             <nav>
-                <Link to='/' >Inicio</Link>
-                <Link to='/resorts' >Sobre Woof Tulum</Link>
-                <Link to='/experiencias' >Servicios</Link>
-                <Link to='/contacto' >Instalaciones</Link>
-                <Link to='/resorts' >Haz tu cita</Link>
-                <Link to='/experiencias' >Testimonios</Link>
-                <Link to='/contacto'>Contacto</Link>
+                <Link to= "/">Inicio</Link>
+                <Link to= "sobre">Sobre Woof Tulum</Link>
+                <Link to='servicios' >Servicios</Link>
+                <Link to='instalaciones' >Instalaciones</Link>
+                <Link to='cita' >Haz tu cita</Link>
+                <Link to='testimonios' >Testimonios</Link>
+                <Link to='contacto'>Contacto</Link>
             </nav>
             <div>
                     <a href="ahskasvkasvk" target="_blank">
@@ -212,13 +235,13 @@ const Header = () => {
         </HeaderTag>
         { nav ? (
             <MobileNav>
-                <Link to='/' >Inicio</Link>
-                <Link to='/resorts' >Sobre Woof Tulum</Link>
-                <Link to='/experiencias' >Servicios</Link>
-                <Link to='/contacto' >Instalaciones</Link>
-                <Link to='/resorts' >Haz tu cita</Link>
-                <Link to='/experiencias' >Testimonios</Link>
-                <Link to='/contacto'>Contacto</Link>
+            <Link to= "/">Inicio</Link>
+                <Link to= "sobre">Sobre Woof Tulum</Link>
+                <Link to='servicios' >Servicios</Link>
+                <Link to='instalaciones' >Instalaciones</Link>
+                <Link to='cita' >Haz tu cita</Link>
+                <Link to='testimonios' >Testimonios</Link>
+                <Link to='contacto'>Contacto</Link>
             </MobileNav>
         ) : null }
         </div>
