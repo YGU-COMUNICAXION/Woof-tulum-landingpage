@@ -18,10 +18,14 @@ const HeaderTag = styled.header`
         padding: 3% 10% 2% 2%;
     }
     nav a {
-        font-family: 'G Regular';
-        color: white;
+        font-family: 'M Regular';
+        color: black;
         text-decoration: none;
         font-size: 20px;
+    }
+    a:hover {
+        color: #77D0D1;
+        text-decoration: underline
     }
     >div:nth-child(1) img {
         width: 40%;
@@ -39,10 +43,16 @@ const HeaderTag = styled.header`
 
     @media only screen and (min-width: 1700px) {
         >div:nth-child(1) img {
-            width: 60%;
+            width: 330%;
+        }
+        nav {
+            width: 65%;
+            padding: 3% 0% 2% 0%;
+            margin-left: 15%;
         }
         nav a {
-            font-size: 35px;
+            font-size: 33px;
+            margin-right:1%
         }
         >div:nth-child(3) img {
             width: 45%;
@@ -50,22 +60,27 @@ const HeaderTag = styled.header`
     }
 
     @media only screen and (min-width: 2900px) {
-        >div:nth-child(1) img {
-            width: 80%;
-        }
         nav a {
             font-size: 50px;
         }
-        >div:nth-child(3) img {
-            width: 55%;
+        nav {
+            width: 65%;
+            padding: 3% 0% 2% 0%;
+            margin-left: 15%;
         }
-        >div:nth-child(3) {
-            width: 10%;
+        nav {
+            width: 65%;
+            padding: 3% 0% 2% 0%;
+            margin-left: 15%;
+        }
+        >div:nth-child(1) img {
+        width: 450%;
+        margin-left: 25%;
         }
     }
     @media only screen and (min-width: 4000px) {
         >div:nth-child(1) img {
-            width: 90%;
+            width: 520%;
         }
         nav a {
             font-size: 55px;
@@ -77,15 +92,32 @@ const HeaderTag = styled.header`
             width: 65%;
         }
     }
-    @media only screen and (max-width: 1040px) {
+    @media only screen and (max-width: 1700px) {
         nav {
-            width: 45%;
+            width: 65%;
+            padding: 3% 0% 2% 0%;
+            margin-left: 15%;
         }
         nav a {
-            font-size: 16px;
+            font-size: 20px;
         }
-        >div:nth-child(3) img {
-            width: 40%;
+        >div:nth-child(1) img {
+        width: 150%;
+        margin-left: 25%;
+        }
+    }
+    @media only screen and (max-width: 1140px) {
+        nav {
+            width: 65%;
+            padding: 3% 0% 2% 0%;
+            margin-left: 15%;
+        }
+        nav a {
+            font-size: 15px;
+        }
+        >div:nth-child(1) img {
+        width: 120%;
+        margin-left: 25%;
         }
     }
     @media only screen and (max-width: 900px) {
@@ -93,11 +125,16 @@ const HeaderTag = styled.header`
             display: flex;
             justify-content: space-between;
             width: 70%;
-            padding: 3% 10% 2% 2%;
+            padding: 3% 2% 2% 2%;
+            margin-left: 9%;
         }
-        >div:nth-child(3) img {
-            width: 60%;
+        nav a {
+            font-size: 10px;
         }
+        >div:nth-child(1) img {
+        width: 80%;
+        }
+
     }
     @media only screen and (max-width: 752px) {
         >div:nth-child(1) img {

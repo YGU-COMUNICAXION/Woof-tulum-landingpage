@@ -384,7 +384,7 @@ const windowSize = useWindowSize();
           </>
         )} 
       </div>
-      <div className="perritosBottom"></div>
+      {/* <div className="perritosBottom"></div> */}
     </div>
     </Layout>
   )
