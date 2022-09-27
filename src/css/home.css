@@ -627,7 +627,7 @@
 .hazCitaDivDesk {
     padding: 5% 5% 0% 3%;
     background-image: url("../images/mobile/cita/contenedor.svg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 47%;
     height: 395px;
