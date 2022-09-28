@@ -299,7 +299,6 @@
 }
 .citaSecondSection {
     background-color: #FFF5E0;
-    /* padding: 0% 0% 13% 0%; */
     background-image: url("../images/mobile/cita/bannercita.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -442,6 +441,21 @@
     justify-content: center;
     align-items: center;
     padding: 5% 4% 7% 4%;
+    position: relative;
+}
+.BurbujasAzules {
+    position: absolute;
+    z-index: 2;
+    bottom: 85%;
+    left: 90%;
+    width: 5%;
+}
+.BurbujasAmarillas {
+    position: absolute;
+    z-index: 3;
+    left: 70%;
+    bottom: 30%;
+    width: 5%;
 }
 .sobreSecondSectionDesk h1 {
     margin-bottom: 6%;
@@ -649,6 +663,13 @@
     width: 18%;
     left: 48%;
     bottom: 25%;
+}
+.BurbujasRojas {
+    position: absolute;
+    z-index: 3;
+    bottom: 90%;
+    left: 90%;
+    width: 7%;
 }
 .regaloDivDesk {
     background-image: url("../images/mobile/cita/bannercita.svg");

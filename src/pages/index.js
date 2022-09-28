@@ -52,6 +52,9 @@ import HuellasCita from "../images/desktop/cita/patitascita.svg"
 import PeritoTestimonios from "../images/desktop/testimonios/foto (1).svg"
 import Boton from "../components/boton"
 import WhatsappButton from "../images/mobile/cita/WhatsappLogo.svg"
+import BurbujasAzules from "../images/desktop/layout/círculos-verdes.svg"
+import BurbujasAmarillas from "../images/desktop/layout/círculos-amarillos.svg"
+import BurbujasRojas from "../images/desktop/layout/circulos-coral.svg"
 
 const IndexPage = () => {
 const Red = ("#FCCA65")
@@ -118,6 +121,8 @@ const windowSize = useWindowSize();
             <h2 className="tricolor">Bañar, <span>secar,</span> <span1>cortar…</span1></h2>
             <p className="boldP">La peluquería canina es mucho más que el arreglo o la estética del animal.</p>
             <p className="lightP" style={{textAlign : "center"}}>En <span>Woof Tulum</span>, te ayudamos a mantener <span>la higiene de tu mascota</span> como <span>prevención de su salud</span> y a <span>detectar alteraciones en su piel</span>, así como alguna enfermedad. También realizamos estas otras tareas.</p>
+            <img className="BurbujasAzules" src={BurbujasAzules}/>
+            <img className="BurbujasAmarillas" src={BurbujasAmarillas}/>
           </div>
 
       )}
@@ -340,6 +345,7 @@ const windowSize = useWindowSize();
               <p className="regaloPDesk">Por ser <span>cliente frecuente</span>, el <span>10mo baño</span> va por nuestra cuenta. </p>
             </div>
           </div>
+          <img  className="BurbujasRojas" src={BurbujasRojas}/>
           <img className="huellasCita" src={HuellasCita}/>
         </div>
         </>
