@@ -1,10 +1,10 @@
 import * as React from "react"
 import Logo from "../../images/mobile/layout/footer/logo.svg"
+import { Link, animateScroll as scroll } from "react-scroll";
 import styled from "styled-components"
 import PerritosBottom from "../../images/mobile/layout/footer/Footer_Woof 1.svg"
 import useWindowSize from "../../hooks/useWindowSize"
 
-import { Link } from "gatsby"
 
 const MainDiv = styled.div`
     display: flex;
@@ -336,17 +336,15 @@ const Footer = () => {
                         <>
                         <div>
                             <p>Woof Tulum</p>
-                            <p><Link to='/aviso-de-privacidad'>Sobre Woof Tulum</Link></p>
-                            <p><Link to='/cookies'>¿Porque una peluquería canina</Link></p>
-                            <p><Link to='/aviso-de-privacidad'>¿Qué es una peluquería canina?</Link></p>
-                            <p><Link to='/cookies'>¿Porque una peluquería canina</Link></p>
-                            <p><Link to='/aviso-de-privacidad'>¿Qué es una peluquería de bajo estrés?</Link></p>
-                            <p><Link to='/cookies'>Consejos</Link></p>
+                            <p><Link to='sobre'>Sobre Woof Tulum</Link></p>
+                            <p><Link to='porque'>¿Porque una peluquería canina</Link></p>
+                            <p><Link to='bajoEstres'>¿Qué es una peluquería de bajo estrés?</Link></p>
+                            <p><Link to='consejos'>Consejos</Link></p>
                         </div>
                         <div>
                             <p>Servicios</p>
-                            <p><Link to='/aviso-de-privacidad'>Aviso de Privacidad</Link></p>
-                            <p><Link to='/cookies'>Políticas de Cookies</Link></p>
+                            <p><Link to='servicioDomicilio'>Servicio a domicilio</Link></p>
+                            <p><Link to='handstripping'>Hand Stripping</Link></p>
                         </div>
                         <div>
                             <p>Redes sociales</p>
@@ -359,19 +357,19 @@ const Footer = () => {
                         <div>
                             <div>
                                 <p>Woof Tulum</p>
-                                <p><Link to='/aviso-de-privacidad'>Sobre Woof Tulum</Link></p>
-                                <p><Link to='/cookies'>¿Porque una peluquería canina</Link></p>
-                                <p><Link to='/aviso-de-privacidad'>¿Qué es una peluquería de bajo estrés?</Link></p>
-                                <p><Link to='/cookies'>Consejos</Link></p>
+                                <p><Link to='sobre'>Sobre Woof Tulum</Link></p>
+                                <p><Link to='porque'>¿Porque una peluquería canina</Link></p>
+                                <p><Link to='bajoEstres'>¿Qué es una peluquería de bajo estrés?</Link></p>
+                                <p><Link to='consejos'>Consejos</Link></p>
                             </div>
                             <div>
                                 <p>Servicios</p>
-                                <p><Link to='/aviso-de-privacidad'>Aviso de Privacidad</Link></p>
-                                <p><Link to='/cookies'>Políticas de Cookies</Link></p>
+                                <p><Link to='servicioDomicilio'>Servicio a domicilio</Link></p>
+                                <p><Link to='handstripping'>Hand Stripping</Link></p>
                             </div>
                             <div>
                                 <p>Redes sociales</p>
-                                <p><a href="https://wa.me/5215580452327">Whatsapp</a></p>
+                                <p><a href="https://wa.me/529842170782">Whatsapp</a></p>
                                 <p><a href="https://www.facebook.com/profile.php?id=100084692705749" target='_blank'>Facebook</a></p>
                                 <p><a href="https://www.instagram.com/wooftulum/" target='_blank'>Instagram</a></p>
                             </div>

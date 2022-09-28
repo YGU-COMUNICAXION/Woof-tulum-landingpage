@@ -101,7 +101,7 @@ const windowSize = useWindowSize();
           </div>
           <p className="lightP">Ante todo, somos unos verdaderos <span>amantes de los animales</span>.</p>
           <p className="lightP"> Y esa, es la <span>principal razón</span> que nos ha llevado a <span>fundar Woof Tulum</span>, una <span>peluquería canina especializada en cuidar y mimar</span> a las mascotas siguiendo un modelo de estética de bajo estrés.</p>
-          <h3>¿Por qué una peluquería canina? </h3>
+          <h3 id="porque">¿Por qué una peluquería canina? </h3>
           <h2 className="tricolor">Bañar, <span>secar,</span> <span1>cortar…</span1></h2>
           <p className="boldP">La peluquería canina es mucho más que el arreglo o la estética del animal.</p>
           <p className="lightP">En <span>Woof Tulum</span>, te ayudamos a mantener <span>la higiene de tu mascota</span> como <span>prevención de su salud</span> y a <span>detectar alteraciones en su piel</span>, así como alguna enfermedad. También realizamos estas otras tareas.</p>
@@ -117,7 +117,7 @@ const windowSize = useWindowSize();
               </div>
               <img src={Perro2}/>
             </div>
-            <h3>¿Por qué una peluquería canina? </h3>
+            <h3 id="porque">¿Por qué una peluquería canina? </h3>
             <h2 className="tricolor">Bañar, <span>secar,</span> <span1>cortar…</span1></h2>
             <p className="boldP">La peluquería canina es mucho más que el arreglo o la estética del animal.</p>
             <p className="lightP" style={{textAlign : "center"}}>En <span>Woof Tulum</span>, te ayudamos a mantener <span>la higiene de tu mascota</span> como <span>prevención de su salud</span> y a <span>detectar alteraciones en su piel</span>, así como alguna enfermedad. También realizamos estas otras tareas.</p>
@@ -154,7 +154,7 @@ const windowSize = useWindowSize();
           </div>
         )}
         {windowSize <  752 ? (
-        <div className="sobreFourthSection">
+        <div id="bajoEstres" className="sobreFourthSection">
           <ManchaCard backgroundImage={ManchaCardimg}>
             <h2 className="firsth2">¿Que es una peluqueria de <span>bajo estrés?</span></h2>
             <h2 className="secondh2">En <span>Woof Tulum Spa</span>, tu mascota marca el ritmo</h2>
@@ -162,7 +162,7 @@ const windowSize = useWindowSize();
           </ManchaCard>
         </div>
         ):(
-          <div className="sobreFourthSectionDesk">
+          <div id="bajoEstres" className="sobreFourthSectionDesk">
             <ManchaCard backgroundImage={ManchaCardDesk}>
               <h2 className="firsth2">¿Que es una peluqueria de <span>bajo estrés?</span></h2>
               <h2 className="secondh2">En <span>Woof Tulum Spa</span>, tu mascota marca el ritmo</h2>
@@ -186,14 +186,14 @@ const windowSize = useWindowSize();
             </div>
           )}
           {windowSize <  752 ? (
-            <div className="sobreSixthSection">
+            <div id="consejos" className="sobreSixthSection">
               <h2>Consejos para <span>antes</span> y <span1>después</span1> del baño </h2>
               <ConsejosCard text={"Media hora antes de la sesión dale un paseo relajante para que gaste energía, haga sus necesidades y se sienta más cómodo."} icon={PerroIcon}/>
               <ConsejosCard text={"Al salir de la peluquería puedes premiarle con golosinas para reforzar positivamente su comportamiento."} icon={Hueso}/>
               <ConsejosCard text={"Cepilla regularmente a tu perrito en casa para que se acostumbre a este tipo de acción y no sienta extraño cuando un desconocido lo peine."} icon={CepilloIcon}/>
             </div>
           ):(
-            <div className="sobreSixthSectionDesk">
+            <div id="consejos" className="sobreSixthSectionDesk">
               <h2>Consejos para <span>antes</span> y <span1>después</span1> del baño </h2>
               <div className="consejosRow">
                 <ConsejosCard text={"Media hora antes de la sesión dale un paseo relajante para que gaste energía, haga sus necesidades y se sienta más cómodo."} icon={PerroIcon}/>
@@ -224,21 +224,21 @@ const windowSize = useWindowSize();
           </div>
         </div>
         {windowSize < 752 ? (
-          <div className="serviciosSecondSection">
+          <div id="servicioDomicilio" className="serviciosSecondSection">
             <h2>Servicio a domicilio</h2>
             <ServiciosCard icon={Domicilio} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={Beige}/>
             <ServiciosCard icon={Aseo} text={"Aseo de primera calidad para su cachorro o perro adulto."} backgroundColor={White}/>
             <ServiciosCard icon={BajoCosto} text={"Bajo costo, sin contratos, sin tarifas ocultas."} backgroundColor={Beige}/>
             <ServiciosCard icon={Atencion} text={"Atención personalizada y personal amable."} backgroundColor={White}/>
             <div className="serviciosBotonDiv">
-              <Boton>
+              <Boton url={"https://wa.me/529842170782"}>
                 <p>Consultar precios</p>
               </Boton>
             </div>
 
           </div>
         ):(
-          <div className="serviciosSecondSectionDesk">
+          <div id="servicioDomicilio"  className="serviciosSecondSectionDesk">
             <h2>Servicio a domicilio</h2>
             <div className="serviciosCardGrid">
               <ServiciosCard icon={Domicilio} text={"Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."} backgroundColor={Beige}/>
@@ -249,20 +249,20 @@ const windowSize = useWindowSize();
               <ServiciosCard icon={BajoCosto} text={"Bajo costo, sin contratos, sin tarifas ocultas."} backgroundColor={Beige}/>
             </div>            
             <div className="serviciosBotonDiv">
-              <Boton>
+              <Boton url={"https://wa.me/529842170782"}>
                 <p>Consultar precios</p>
               </Boton>
             </div>
           </div>
         )}
         {windowSize < 752 ? (
-          <div className="serviciosThirdSection">
+          <div id="handstripping" className="serviciosThirdSection">
             <h2>Hand Stripping</h2>
             <p>Se trata de una <span>muda artificial del pelo</span>. Quitamos las capas que están a punto de caerse para que <span>no dificulte el crecimiento de la nuevas capas de pelo</span> y así <span>crezca mucho más fuerte</span>.</p>
             <img src={Regla}/>
           </div>
         ):(
-          <div className="serviciosThirdSectionDesk">
+          <div id="handstripping"  className="serviciosThirdSectionDesk">
             <div className="handStrippingHorDiv">
               <div className="handInfo">
                 <h2>Hand Stripping</h2>
@@ -308,7 +308,7 @@ const windowSize = useWindowSize();
             <h2>Haz tu cita</h2>
             <p className="hazCitaFirstP">Comprueba nuestra <span>disponibilidad</span> y <span>reserva la fecha y la hora</span> que más te convengan. Te sugerimos <span>agendar</span> con al menos <span>1 día de anticipación</span> para garantizar que tengamos espacio disponible para tu mascota.</p>
             <p className="hazCitaSecondP">*En caso de que tu mascota venga con pulgas y/o garrapatas considera que se aplicará un tarifa extra a tu servicio.</p>
-            <Boton>
+            <Boton url={"https://wa.me/529842170782"}>
               <img src={WhatsappButton}/>
               <p>Agendar cita</p>
             </Boton>
@@ -331,7 +331,7 @@ const windowSize = useWindowSize();
               <p className="hazCitaFirstP">Comprueba nuestra <span>disponibilidad</span> y <span>reserva la fecha y la hora</span> que más te convengan. Te sugerimos <span>agendar</span> con al menos <span>1 día de anticipación</span> para garantizar que tengamos espacio disponible para tu mascota.</p>
               <p className="hazCitaSecondP">*En caso de que tu mascota venga con pulgas y/o garrapatas considera que se aplicará un tarifa extra a tu servicio.</p>
               <div className="citabotonDivDesk">
-                <Boton>
+                <Boton url={"https://wa.me/529842170782"}>
                   <img src={WhatsappButton}/>
                   <p>Agendar cita</p>
                 </Boton>

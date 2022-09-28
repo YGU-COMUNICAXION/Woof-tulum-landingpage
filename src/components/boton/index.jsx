@@ -2,10 +2,10 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import "./styles.css"
 
-function TypesExample({children}) {
+function TypesExample({children, url}) {
   return (
     <>
-      <Button variant="primary">
+      <Button href={url} variant="primary">
         {children}
       </Button>{' '}
     </>
