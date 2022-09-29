@@ -11,6 +11,9 @@ const HeaderTag = styled.header`
     justify-content: space-between;
     background-color: white;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 888;
 
     nav {
         display: flex;
@@ -25,8 +28,9 @@ const HeaderTag = styled.header`
         font-size: 20px;
     }
     a:hover {
-        color: #77D0D1;
-        text-decoration: underline
+        color: #77D0D1 !important;
+        text-decoration: underline !important;
+        font-family: "M SemiBold"
     }
     >div:nth-child(1) img {
         width: 40%;
@@ -43,8 +47,10 @@ const HeaderTag = styled.header`
     }
 
     @media only screen and (min-width: 1700px) {
+        height: 150px;
+
         >div:nth-child(1) img {
-            width: 280%;
+            width: 200%;
         }
         nav {
             width: 65%;
@@ -201,12 +207,12 @@ const Header = () => {
     return windowSize > 752 ? (
         <HeaderTag>
             <div>
-                <Link to='/'>                
+                <Link to='inicio'>                
                     <img src={Logo} alt="logo" />
                 </Link>
             </div>
             <nav>
-                <Link to= "/">Inicio</Link>
+                <Link to= "inicio">Inicio</Link>
                 <Link to= "sobre">Sobre Woof Tulum</Link>
                 <Link to='servicios' >Servicios</Link>
                 <Link to='instalaciones' >Instalaciones</Link>
@@ -228,14 +234,14 @@ const Header = () => {
                 <img src={Menu} nav={nav} onClick={() => setNav(!nav)} />
             </div>
             <div>
-                <Link to='/'>                
+                <Link to='inicio'>                
                     <img src={Logo} alt="logo" />
                 </Link>            
             </div>
         </HeaderTag>
         { nav ? (
             <MobileNav>
-            <Link to= "/">Inicio</Link>
+                <Link to= "inicio">Inicio</Link>
                 <Link to= "sobre">Sobre Woof Tulum</Link>
                 <Link to='servicios' >Servicios</Link>
                 <Link to='instalaciones' >Instalaciones</Link>

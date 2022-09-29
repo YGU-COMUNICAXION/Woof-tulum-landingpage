@@ -67,8 +67,8 @@ const windowSize = useWindowSize();
 
   return (
     <Layout>
-    <div className="mainDiv">
-      <div className="sobreWoof">
+    <div  id="inicio" className="mainDiv">
+      <div  className="sobreWoof">
       {windowSize < 752 ? (
         <div className="sobreFirstSection">
             <img src={Huellas1}/>

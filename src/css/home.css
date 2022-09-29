@@ -1,3 +1,6 @@
+.mainDiv {
+    margin-top: 17%;
+}
 .sobreFirstSection {
     display: flex;
     flex-direction: column;
@@ -720,6 +723,9 @@
     margin-top: 5%;
 }
 @media only screen and (min-width: 752px){
+    .mainDiv {
+        margin-top: 7%;
+    }
     .sobreFifhtSectionDesk {
         display: flex;
         flex-direction: row;
@@ -933,6 +939,9 @@
     }
 }
 @media only screen and (min-width: 1500px){
+    .mainDiv {
+        margin-top: 7%;
+    }
     .sectionTitle {
         font-size: 300%;
     }
@@ -1032,6 +1041,16 @@
     }
     .hazCitaDivDesk {
         height: 785px;
+    }
+    .hazCitaDivDesk h2 {
+        font-size: 250%;
+    }
+    .hazCitaFirstP {
+        font-size: 160%;
+    }
+    .hazCitaSecondP {
+        font-size: 140%;
+
     }
     .huellasCita {
         width: 15%;
@@ -1199,6 +1218,9 @@
     }
 }
 @media only screen and (min-width: 2500px){
+    .mainDiv {
+        margin-top: 5%;
+    }
     .sectionTitle {
         font-size: 460%;
     }
