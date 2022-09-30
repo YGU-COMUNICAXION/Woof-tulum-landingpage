@@ -232,7 +232,7 @@ const windowSize = useWindowSize();
             <ServiciosCard icon={BajoCosto} text={"Bajo costo, sin contratos, sin tarifas ocultas."} backgroundColor={Beige}/>
             <ServiciosCard icon={Atencion} text={"Atención personalizada y personal amable."} backgroundColor={White}/>
             <div className="serviciosBotonDiv">
-              <Boton url={"https://wa.me/529842170782"}>
+              <Boton url={PdfPrecios}>
                 <p>Consultar precios</p>
               </Boton>
             </div>
