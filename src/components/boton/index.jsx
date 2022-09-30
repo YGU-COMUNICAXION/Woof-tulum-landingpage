@@ -5,7 +5,7 @@ import "./styles.css"
 function TypesExample({children, url}) {
   return (
     <>
-      <Button href={url} variant="primary">
+      <Button href={url} variant="primary" target="_blank" rel="noreferrer">
         {children}
       </Button>{' '}
     </>

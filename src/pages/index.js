@@ -55,6 +55,7 @@ import WhatsappButton from "../images/mobile/cita/WhatsappLogo.svg"
 import BurbujasAzules from "../images/desktop/layout/círculos-verdes.svg"
 import BurbujasAmarillas from "../images/desktop/layout/círculos-amarillos.svg"
 import BurbujasRojas from "../images/desktop/layout/circulos-coral.svg"
+import PdfPrecios from "../static/Precios_Woof_Final.pdf"
 
 const IndexPage = () => {
 const Red = ("#FCCA65")
@@ -249,7 +250,7 @@ const windowSize = useWindowSize();
               <ServiciosCard icon={BajoCosto} text={"Bajo costo, sin contratos, sin tarifas ocultas."} backgroundColor={Beige}/>
             </div>            
             <div className="serviciosBotonDiv">
-              <Boton url={"https://wa.me/529842170782"}>
+              <Boton url={PdfPrecios}>
                 <p>Consultar precios</p>
               </Boton>
             </div>
