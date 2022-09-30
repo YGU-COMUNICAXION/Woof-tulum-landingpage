@@ -369,7 +369,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <p>Redes sociales</p>
-                                <p><a href="https://wa.me/529842170782">Whatsapp</a></p>
+                                <p><a href="https://wa.me/5215580452327">Whatsapp</a></p>
                                 <p><a href="https://www.facebook.com/profile.php?id=100084692705749" target='_blank'>Facebook</a></p>
                                 <p><a href="https://www.instagram.com/wooftulum/" target='_blank'>Instagram</a></p>
                             </div>
