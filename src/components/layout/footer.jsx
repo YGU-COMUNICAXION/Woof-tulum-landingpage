@@ -337,7 +337,7 @@ const Footer = () => {
                         <div>
                             <p>Woof Tulum</p>
                             <p><Link to='sobre'>Sobre Woof Tulum</Link></p>
-                            <p><Link to='porque'>¿Porque una peluquería canina</Link></p>
+                            <p><Link to='porque'>¿Por qué una peluquería canina</Link></p>
                             <p><Link to='bajoEstres'>¿Qué es una peluquería de bajo estrés?</Link></p>
                             <p><Link to='consejos'>Consejos</Link></p>
                         </div>
@@ -358,7 +358,7 @@ const Footer = () => {
                             <div>
                                 <p>Woof Tulum</p>
                                 <p><Link to='sobre'>Sobre Woof Tulum</Link></p>
-                                <p><Link to='porque'>¿Porque una peluquería canina</Link></p>
+                                <p><Link to='porque'>¿Por qué una peluquería canina</Link></p>
                                 <p><Link to='bajoEstres'>¿Qué es una peluquería de bajo estrés?</Link></p>
                                 <p><Link to='consejos'>Consejos</Link></p>
                             </div>
