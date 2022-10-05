@@ -6,13 +6,14 @@ function TypesExample({ children, url }) {
   return (
     <>
       <Button
+        className="btn-primary"
         href={url}
-        variant="primary"
+        // variant="primary"
         target="_blank"
         rel="noreferrer"
       >
         {children}
-      </Button>{" "}
+      </Button>
     </>
   );
 }

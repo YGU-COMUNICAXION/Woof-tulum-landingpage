@@ -11,11 +11,8 @@ import PdfPrecios from "../../../static/Precios_Woof_Final.pdf";
 import useWindowSize from "../../../hooks/useWindowSize";
 
 const ServiceWoof = () => {
-  const Red = "#FCCA65";
   const Beige = "#FFF5E0";
   const White = "#FFFFFF";
-  const Black = "#000000";
-  const Blue = "#5189D3";
 
   const windowSize = useWindowSize();
 
