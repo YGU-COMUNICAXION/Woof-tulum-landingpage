@@ -1,3 +1,9 @@
 {
-  "Home": "Inicio"
+  "Home": "Inicio",
+  "Banner": [
+    {
+      "Title": "¡Bienvenido a la comunidad de {0}!",
+      "Text": "¡Únete a la comunidad de {0} y descubre los últimos productos, noticias y eventos de {0}!"
+    }
+  ]
 }
