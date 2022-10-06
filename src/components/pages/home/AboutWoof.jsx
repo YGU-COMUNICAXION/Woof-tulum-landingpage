@@ -34,14 +34,13 @@ import { useTranslation } from "gatsby-plugin-react-i18next";
 
 const AboutWoof = () => {
   const Red = "#FCCA65";
-  const Beige = "#FFF5E0";
   const White = "#FFFFFF";
   const Black = "#000000";
   const Blue = "#5189D3";
 
   const windowSize = useWindowSize();
 
-  const { t } = useTranslation();
+  const { t } = useTranslation(["aboutWoof"]);
 
   return (
     <div className="sobreWoof">
@@ -54,7 +53,7 @@ const AboutWoof = () => {
             <span2>
               cuidar mascotas
               {/* Obtener texto de Banner.Title */}
-              {t("Banner")}
+              {t("TitleBanner")}
             </span2>
           </h1>
           <img src={PerroHome} />

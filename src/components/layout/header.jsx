@@ -183,6 +183,10 @@ const MobileNav = styled.nav`
   flex-direction: column;
   background-color: white;
   padding: 5% 0% 3% 8%;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  margin-top: 18%;
 
   a {
     text-decoration: none;
@@ -247,13 +251,30 @@ const Header = () => {
       </HeaderTag>
       {nav ? (
         <MobileNav>
-          <Link to="inicio">Inicio</Link>
-          <Link to="sobre">Sobre Woof Tulum</Link>
-          <Link to="servicios">Servicios</Link>
-          <Link to="instalaciones">Instalaciones</Link>
-          <Link to="cita">Haz tu cita</Link>
-          <Link to="testimonios">Testimonios</Link>
-          <Link to="contacto">Contacto</Link>
+          <Link to="inicio">{t("home")}</Link>
+          <Link to="sobre">{t("about")}</Link>
+          <Link to="servicios">{t("services")}</Link>
+          <Link to="instalaciones">{t("instalations")}</Link>
+          <Link to="cita">{t("appointment")}</Link>
+          <Link to="testimonios">{t("testimonials")}</Link>
+          <Link to="contacto">{t("contact")}</Link>
+          <div>
+            <ul className="languages">
+              {languages.map((lng) => (
+                <li key={lng}>
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      changeLanguage(lng);
+                    }}
+                  >
+                    {lng}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </MobileNav>
       ) : null}
     </div>
