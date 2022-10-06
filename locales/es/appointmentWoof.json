@@ -1,0 +1,9 @@
+{
+  "AppointmentTitle": "Haz tu cita",
+  "AppointmentParam1": "Comprueba nuestra <span>disponibilidad</span> y <span>reserva la fecha y la hora</span> que más te convengan. Te sugerimos <span>agendar</span> con al menos <span>1 día de anticipación</span> para garantizar que tengamos espacio disponible para tu mascota.",
+  "AppointmentParam2": "*En caso de que tu mascota venga con pulgas y/o garrapatas considera que se aplicará un tarifa extra a tu servicio.",
+  "ButtonText": "Agendar cita",
+
+  "AppointmentTitle2": "¡Regalo para tu peludo!",
+  "AppointmentParam3": "Por ser <span>cliente frecuente</span>, el<span>10mo baño</span> va por nuestra cuenta"
+}
