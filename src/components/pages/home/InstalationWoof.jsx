@@ -4,37 +4,34 @@ import PerroAmarillo from "../../../images/mobile/instalaciones/foto-perrito-ama
 import PerroRojo from "../../../images/mobile/instalaciones/foto-perrito-coral.svg";
 import PerroAzul from "../../../images/mobile/instalaciones/foto-perrito-azul.svg";
 import useWindowSize from "../../../hooks/useWindowSize";
+import renderStringHMTLtoJSX from "../../../utils/renderStringHMTLtoJSX";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 
 const InstalationWoof = () => {
   const windowSize = useWindowSize();
+  const { t } = useTranslation("instalationsWoof");
 
   return (
     <div id="instalaciones" className="instalaciones">
       <div className="instalacionesFirstSection">
-        <h1 className="sectionTitle">Instalaciones</h1>
+        <h1 className="sectionTitle">{t("InstalTitle")}</h1>
         {windowSize < 752 ? (
           <>
             <h2 className="instalacionesDescription">
-              <span>Woof Tulum</span> <span1>es un lugar de</span1> respeto,{" "}
-              <span2>tranquilidad,</span2> higiene, <span2>belleza</span2>{" "}
-              <span1>y</span1> diseño de imagen.
+              {renderStringHMTLtoJSX(t("InstalDescription"))}
             </h2>
             <img className="firstPerrito" src={PerroVerde} />
           </>
         ) : (
           <div className="descriptionImageDesk">
             <h2 className="instalacionesDescription">
-              <span>Woof Tulum</span> <span1>es un lugar de</span1> respeto,{" "}
-              <span2>tranquilidad,</span2> higiene, <span2>belleza</span2>{" "}
-              <span1>y</span1> diseño de imagen.
+              {renderStringHMTLtoJSX(t("InstalDescription"))}
             </h2>
             <img className="firstPerrito" src={PerroVerde} />
           </div>
         )}
         <p className="notaras">
-          Notarás el resultado a un <span>precio justo</span> y lo más
-          importante es la <span>responsabilidad</span> que tenemos con nuestros{" "}
-          <span>amigos peludos.</span>
+          {renderStringHMTLtoJSX(t("InstalDescription1"))}
         </p>
         <div className="perritosRow">
           <img src={PerroAmarillo} />
@@ -42,7 +39,7 @@ const InstalationWoof = () => {
           <img src={PerroAzul} />
         </div>
         <p className="notaras">
-          También vendemos <span>alimento y accesorios</span> para tus mascotas
+          {renderStringHMTLtoJSX(t("InstalDescription2"))}
         </p>
       </div>
     </div>
