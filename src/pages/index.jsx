@@ -3,11 +3,7 @@ import { graphql } from "gatsby";
 import IndexPage from "./IndexPage";
 
 const Index = () => {
-  return (
-    <>
-      <IndexPage />
-    </>
-  );
+  return <IndexPage />;
 };
 
 export default Index;
