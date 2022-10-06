@@ -6,9 +6,12 @@ import Boton from "../../../components/boton";
 import WhatsappButton from "../../../images/mobile/cita/WhatsappLogo.svg";
 import BurbujasRojas from "../../../images/desktop/layout/circulos-coral.svg";
 import useWindowSize from "../../../hooks/useWindowSize";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 
 const AppointmentWoof = () => {
   const windowSize = useWindowSize();
+
+  const { t } = useTranslation("appointmentWoof");
 
   return (
     <div className="cita">
