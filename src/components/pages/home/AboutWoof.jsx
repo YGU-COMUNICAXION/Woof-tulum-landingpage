@@ -31,6 +31,7 @@ import PerritoPeluqueria from "../../../images/desktop/sobre/foto-perrito.svg";
 
 import useWindowSize from "../../../hooks/useWindowSize";
 import { useTranslation } from "gatsby-plugin-react-i18next";
+import renderStringHMTLtoJSX from "../../../utils/renderStringHMTLtoJSX";
 
 const AboutWoof = () => {
   const Red = "#FCCA65";
@@ -49,19 +50,11 @@ const AboutWoof = () => {
         <div className="sobreFirstSection">
           <img src={Huellas1} />
           <h1 className="mainTitle">
-            En <span>Woof Tulum</span> hacemos mucho más que{" "}
-            <span2>
-              cuidar mascotas
-              {/* Obtener texto de Banner.Title */}
-              {t("TitleBanner")}
-            </span2>
+            {renderStringHMTLtoJSX(t("BannerTitle"))}
           </h1>
           <img src={PerroHome} />
           <p className="firstDescription">
-            Nos preocupamos por tu mascota tanto como nos preocupamos por la
-            nuestra. Así que puedes encontrar en <span>nuestro equipo</span> a{" "}
-            <span>amantes de los animales</span> con la experiencia para
-            brindarte el servicio de calidad que tus amigos perrunos se merecen.
+            {renderStringHMTLtoJSX(t("BannerDescription"))}
           </p>
         </div>
       ) : (
@@ -69,16 +62,11 @@ const AboutWoof = () => {
           <div className="leftHomeDiv">
             <img className="patasTop" src={PatasTop} />
             <h1 className="mainTitleDesk">
-              En <span>Woof Tulum</span> hacemos mucho más que{" "}
-              <span2>cuidar mascotas</span2>
+              {renderStringHMTLtoJSX(t("BannerTitle"))}
             </h1>
             <div className="pata-description">
               <p className="firstDescriptionDesk">
-                Nos preocupamos por tu mascota tanto como nos preocupamos por la
-                nuestra. Así que puedes encontrar en <span>nuestro equipo</span>{" "}
-                a <span>amantes de los animales</span> con la experiencia para
-                brindarte el servicio de calidad que tus amigos perrunos se
-                merecen.
+                {renderStringHMTLtoJSX(t("BannerDescription"))}
               </p>
               <img src={PataAmarilla} />
             </div>
@@ -90,136 +78,97 @@ const AboutWoof = () => {
         </div>
       )}
 
+      {/* About Woof */}
       {windowSize < 752 ? (
         <div id="sobre" className="sobreSecondSection">
-          <h1 className="sectionTitle">Sobre Woof Tulum</h1>
+          <h1 className="sectionTitle">
+            {renderStringHMTLtoJSX(t("AboutWoofTitle"))}
+          </h1>
           <div className="secondSubtitle">
             <h2 className="multiColorSubt">
-              Mucho más <span>que</span> <span1>Estética</span1>
+              {renderStringHMTLtoJSX(t("AboutWoofSlogan"))}
             </h2>
             <img src={Perro2} />
           </div>
           <p className="lightP">
-            Ante todo, somos unos verdaderos{" "}
-            <span>amantes de los animales</span>.
+            {renderStringHMTLtoJSX(t("AboutWoofParam1"))}
           </p>
           <p className="lightP">
-            {" "}
-            Y esa, es la <span>principal razón</span> que nos ha llevado a{" "}
-            <span>fundar Woof Tulum</span>, una{" "}
-            <span>peluquería canina especializada en cuidar y mimar</span> a las
-            mascotas siguiendo un modelo de estética de bajo estrés.
+            {renderStringHMTLtoJSX(t("AboutWoofParam2"))}
           </p>
-          <h3 id="porque">¿Por qué una peluquería canina? </h3>
+
+          <h3 id="porque">{renderStringHMTLtoJSX(t("AboutWoofSubtitle"))}</h3>
           <h2 className="tricolor">
-            Bañar, <span>secar,</span> <span1>cortar…</span1>
+            {renderStringHMTLtoJSX(t("AboutWoofSubSlogan"))}
           </h2>
-          <p className="boldP">
-            La peluquería canina es mucho más que el arreglo o la estética del
-            animal.
-          </p>
+          <p className="boldP">{t("AboutWoofSubParam1")}</p>
           <p className="lightP">
-            En <span>Woof Tulum</span>, te ayudamos a mantener{" "}
-            <span>la higiene de tu mascota</span> como{" "}
-            <span>prevención de su salud</span> y a{" "}
-            <span>detectar alteraciones en su piel</span>, así como alguna
-            enfermedad. También realizamos estas otras tareas.
+            {renderStringHMTLtoJSX(t("AboutWoofSubParam2"))}
           </p>
         </div>
       ) : (
         <div id="sobre" className="sobreSecondSectionDesk">
-          <h1 className="sectionTitle">Sobre Woof Tulum</h1>
+          <h1 className="sectionTitle">
+            {renderStringHMTLtoJSX(t("AboutWoofTitle"))}
+          </h1>
           <div className="sobreFirstHorDivDesk">
             <div className="subtitleDescriptionDesk">
               <h2 className="multiColorSubt">
-                Mucho más <span>que</span> <span1>Estética</span1>
+                {renderStringHMTLtoJSX(t("AboutWoofSlogan"))}
               </h2>
               <p className="lightP">
-                Ante todo, somos unos verdaderos{" "}
-                <span>amantes de los animales</span>.
+                {renderStringHMTLtoJSX(t("AboutWoofParam1"))}
               </p>
               <p className="lightP">
-                {" "}
-                Y esa, es la <span>principal razón</span> que nos ha llevado a{" "}
-                <span>fundar Woof Tulum</span>, una{" "}
-                <span>peluquería canina especializada en cuidar y mimar</span> a
-                las mascotas siguiendo un modelo de estética de bajo estrés.
+                {renderStringHMTLtoJSX(t("AboutWoofParam2"))}
               </p>
             </div>
             <img src={Perro2} />
           </div>
-          <h3 id="porque">¿Por qué una peluquería canina? </h3>
+
+          <h3 id="porque">{renderStringHMTLtoJSX(t("AboutWoofSubtitle"))}</h3>
           <h2 className="tricolor">
-            Bañar, <span>secar,</span> <span1>cortar…</span1>
+            {renderStringHMTLtoJSX(t("AboutWoofSubSlogan"))}
           </h2>
-          <p className="boldP">
-            La peluquería canina es mucho más que el arreglo o la estética del
-            animal.
-          </p>
+          <p className="boldP">{t("AboutWoofSubParam1")}</p>
           <p className="lightP" style={{ textAlign: "center" }}>
-            En <span>Woof Tulum</span>, te ayudamos a mantener{" "}
-            <span>la higiene de tu mascota</span> como{" "}
-            <span>prevención de su salud</span> y a{" "}
-            <span>detectar alteraciones en su piel</span>, así como alguna
-            enfermedad. También realizamos estas otras tareas.
+            {renderStringHMTLtoJSX(t("AboutWoofSubParam2"))}
           </p>
           <img className="BurbujasAzules" src={BurbujasAzules} />
           <img className="BurbujasAmarillas" src={BurbujasAmarillas} />
         </div>
       )}
 
+      {/* Servicios */}
       {windowSize < 752 ? (
         <div className="sobreThirdSection">
           <div className="manchasRow">
-            <ManchasItem
-              image={Mancha1}
-              text={"Peinar y cepillar el manto del perro"}
-            />
-            <ManchasItem image={Mancha2} text={"Cortar las uñas"} />
+            <ManchasItem image={Mancha1} text={t("Service1")} />
+            <ManchasItem image={Mancha2} text={t("Service2")} />
           </div>
           <div className="manchasRow">
-            <ManchasItem image={Mancha3} text={"Limpieza del canal auditivo"} />
-            <ManchasItem
-              image={Mancha4}
-              text={"Aplicacion de trtamientos para mejorar el pelaje"}
-            />
+            <ManchasItem image={Mancha3} text={t("Service3")} />
+            <ManchasItem image={Mancha4} text={t("Service4")} />
           </div>
           <div className="manchasRow">
-            <ManchasItem
-              image={Mancha5}
-              text={"Vacunación y desparacitación"}
-            />
-            <ManchasItem
-              image={Mancha6}
-              text={"Limpieza de glándulas anales"}
-            />
+            <ManchasItem image={Mancha5} text={t("Service5")} />
+            <ManchasItem image={Mancha6} text={t("Service6")} />
           </div>
         </div>
       ) : (
         <div className="sobreThirdSectionDesk">
           <div className="manchasRowDesk">
-            <ManchasItem
-              image={Mancha1}
-              text={"Peinar y cepillar el manto del perro"}
-            />
-            <ManchasItem image={Mancha2} text={"Cortar las uñas"} />
-            <ManchasItem image={Mancha3} text={"Limpieza del canal auditivo"} />
-            <ManchasItem
-              image={Mancha4}
-              text={"Aplicacion de trtamientos para mejorar el pelaje"}
-            />
-            <ManchasItem
-              image={Mancha5}
-              text={"Vacunación y desparacitación"}
-            />
-            <ManchasItem
-              image={Mancha6}
-              text={"Limpieza de glándulas anales"}
-            />
+            <ManchasItem image={Mancha1} text={t("Service1")} />
+            <ManchasItem image={Mancha2} text={t("Service2")} />
+            <ManchasItem image={Mancha3} text={t("Service3")} />
+            <ManchasItem image={Mancha4} text={t("Service4")} />
+            <ManchasItem image={Mancha5} text={t("Service5")} />
+            <ManchasItem image={Mancha6} text={t("Service6")} />
           </div>
         </div>
       )}
 
+      {/* What is */}
       {windowSize < 752 ? (
         <div id="bajoEstres" className="sobreFourthSection">
           <ManchaCard backgroundImage={ManchaCardimg}>
