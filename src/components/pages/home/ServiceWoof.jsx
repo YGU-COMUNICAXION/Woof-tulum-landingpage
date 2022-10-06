@@ -9,128 +9,113 @@ import Atencion from "../../../images/mobile/servicios/serviciosCard/heart.svg";
 import PerritoStripping from "../../../images/desktop/servicios/perritohandstripping.svg";
 import PdfPrecios from "../../../static/Precios_Woof_Final.pdf";
 import useWindowSize from "../../../hooks/useWindowSize";
+import { useTranslation } from "gatsby-plugin-react-i18next";
+import renderStringHMTLtoJSX from "../../../utils/renderStringHMTLtoJSX";
 
 const ServiceWoof = () => {
   const Beige = "#FFF5E0";
   const White = "#FFFFFF";
 
   const windowSize = useWindowSize();
+  const { t } = useTranslation("serviceWoof");
 
   return (
     <div id="servicios" className="servicios">
+      {/* Services Banner */}
       <div className="serviciosFirstSection">
-        <h1 className="sectionTitle">Servicios</h1>
+        <h1 className="sectionTitle">{t("BannerTitle")}</h1>
         <p className="serviciosFirstP">
-          Contamos con el{" "}
-          <span>servicio de recolección y entrega a domicilio</span> y nos
-          ocupamos de todas las necesidades <span>de aseo y baño</span> que tu
-          perro pueda necesitar.
+          {renderStringHMTLtoJSX(t("BannerParam1"))}
         </p>
         <p className="serviciosFirstP">
-          <span>¡Olvídate de largas colas y tiempo de espera!</span>
+          {renderStringHMTLtoJSX(t("BannerParam2"))}
         </p>
         <div className="serviciosSecondTextDiv">
+          <p className="serviciosSecondText">{t("BannerParam3")}</p>
           <p className="serviciosSecondText">
-            Nuestros precios pueden variar según el tamaño, la raza de tu perro
-            y sus necesidades específicas.
-          </p>
-          <p className="serviciosSecondText">
-            Aunque podemos asegurarte que somos la{" "}
-            <span>mejor opción de estética canina en Tulum.</span>
+            {renderStringHMTLtoJSX(t("BannerParam4"))}
           </p>
         </div>
       </div>
+
+      {/* Service to home */}
       {windowSize < 752 ? (
         <div id="servicioDomicilio" className="serviciosSecondSection">
-          <h2>Servicio a domicilio</h2>
+          <h2>{t("HomeServiceTitle")}</h2>
           <ServiciosCard
             icon={Domicilio}
-            text={
-              "Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."
-            }
+            text={t("HomeServiceCard1")}
             backgroundColor={Beige}
           />
           <ServiciosCard
             icon={Aseo}
-            text={"Aseo de primera calidad para su cachorro o perro adulto."}
+            text={t("HomeServiceCard2")}
             backgroundColor={White}
           />
           <ServiciosCard
             icon={BajoCosto}
-            text={"Bajo costo, sin contratos, sin tarifas ocultas."}
+            text={t("HomeServiceCard3")}
             backgroundColor={Beige}
           />
           <ServiciosCard
             icon={Atencion}
-            text={"Atención personalizada y personal amable."}
+            text={t("HomeServiceCard4")}
             backgroundColor={White}
           />
           <div className="serviciosBotonDiv">
             <Boton url={PdfPrecios}>
-              <p>Consultar precios</p>
+              <p>{t("HomeServiceButton")}</p>
             </Boton>
           </div>
         </div>
       ) : (
         <div id="servicioDomicilio" className="serviciosSecondSectionDesk">
-          <h2>Servicio a domicilio</h2>
+          <h2>{t("HomeServiceTitle")}</h2>
           <div className="serviciosCardGrid">
             <ServiciosCard
               icon={Domicilio}
-              text={
-                "Nosotros recogemos a tu peludo y lo regresamos a la puerta de tu casa."
-              }
+              text={t("HomeServiceCard1")}
               backgroundColor={Beige}
             />
             <ServiciosCard
               icon={Aseo}
-              text={"Aseo de primera calidad para su cachorro o perro adulto."}
+              text={t("HomeServiceCard2")}
               backgroundColor={White}
             />
           </div>
           <div className="serviciosCardGrid">
             <ServiciosCard
               icon={Atencion}
-              text={"Atención personalizada y personal amable."}
+              text={t("HomeServiceCard3")}
               backgroundColor={White}
             />
             <ServiciosCard
               icon={BajoCosto}
-              text={"Bajo costo, sin contratos, sin tarifas ocultas."}
+              text={t("HomeServiceCard4")}
               backgroundColor={Beige}
             />
           </div>
           <div className="serviciosBotonDiv">
             <Boton url={PdfPrecios}>
-              <p>Consultar precios</p>
+              <p>{t("HomeServiceButton")}</p>
             </Boton>
           </div>
         </div>
       )}
+
       {windowSize < 752 ? (
         <div id="handstripping" className="serviciosThirdSection">
-          <h2>Hand Stripping</h2>
-          <p>
-            Se trata de una <span>muda artificial del pelo</span>. Quitamos las
-            capas que están a punto de caerse para que{" "}
-            <span>no dificulte el crecimiento de la nuevas capas de pelo</span>{" "}
-            y así <span>crezca mucho más fuerte</span>.
-          </p>
+          <h2>{t("HandStrippingTitle")}</h2>
+          <p>{renderStringHMTLtoJSX(t("HandStrippingDescription"))}</p>
           <img src={Regla} />
         </div>
       ) : (
         <div id="handstripping" className="serviciosThirdSectionDesk">
           <div className="handStrippingHorDiv">
             <div className="handInfo">
-              <h2>Hand Stripping</h2>
-              <p>
-                Se trata de una <span>muda artificial del pelo</span>. Quitamos
-                las capas que están a punto de caerse para que{" "}
-                <span>
-                  no dificulte el crecimiento de la nuevas capas de pelo
-                </span>{" "}
-                y así <span>crezca mucho más fuerte</span>.
-              </p>
+              <h2>{t("HandStrippingTitle")}</h2>
+              <p>{renderStringHMTLtoJSX(t("HandStrippingDescription"))}</p>
+
               <img src={PerritoStripping} />
             </div>
             <div className="reglaDiv">
