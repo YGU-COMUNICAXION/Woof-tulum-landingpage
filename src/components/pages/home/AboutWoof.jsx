@@ -139,7 +139,7 @@ const AboutWoof = () => {
         </div>
       )}
 
-      {/* Servicios */}
+      {/* Services */}
       {windowSize < 752 ? (
         <div className="sobreThirdSection">
           <div className="manchasRow">
@@ -173,18 +173,13 @@ const AboutWoof = () => {
         <div id="bajoEstres" className="sobreFourthSection">
           <ManchaCard backgroundImage={ManchaCardimg}>
             <h2 className="firsth2">
-              ¿Que es una peluqueria de <span>bajo estrés?</span>
+              {renderStringHMTLtoJSX(t("WhatIsTitle"))}
             </h2>
             <h2 className="secondh2">
-              En <span>Woof Tulum Spa</span>, tu mascota marca el ritmo
+              {renderStringHMTLtoJSX(t("WhatIsSlogan"))}
             </h2>
             <p className="manchaP">
-              Queremos que tus caninos se sientan{" "}
-              <span>
-                como en casa y estén felices cuando vengas a buscarlos
-              </span>
-              . Por ello hemos apostado por un modelo de{" "}
-              <span>peluquería canina de bajo estrés</span>.
+              {renderStringHMTLtoJSX(t("WhatIsDescription"))}
             </p>
           </ManchaCard>
         </div>
@@ -192,18 +187,13 @@ const AboutWoof = () => {
         <div id="bajoEstres" className="sobreFourthSectionDesk">
           <ManchaCard backgroundImage={ManchaCardDesk}>
             <h2 className="firsth2">
-              ¿Que es una peluqueria de <span>bajo estrés?</span>
+              {renderStringHMTLtoJSX(t("WhatIsTitle"))}
             </h2>
             <h2 className="secondh2">
-              En <span>Woof Tulum Spa</span>, tu mascota marca el ritmo
+              {renderStringHMTLtoJSX(t("WhatIsSlogan"))}
             </h2>
             <p className="manchaP">
-              Queremos que tus caninos se sientan{" "}
-              <span>
-                como en casa y estén felices cuando vengas a buscarlos
-              </span>
-              . Por ello hemos apostado por un modelo de{" "}
-              <span>peluquería canina de bajo estrés</span>.
+              {renderStringHMTLtoJSX(t("WhatIsDescription"))}
             </p>
           </ManchaCard>
           <img className="huellasPeluqueria" src={HuellasPeluqueria} />
@@ -211,31 +201,26 @@ const AboutWoof = () => {
         </div>
       )}
 
+      {/* Process */}
       {windowSize < 752 ? (
         <div className="sobreFifhtSection">
           <ProcessCard
             image={Perro1}
-            title={"Antes de la sesión"}
-            text={
-              "Creamos un clima de calma y contemplamos el comportamiento de tu perro. La primera sesión será más lenta, ya que es una nueva experiencia para tu amigo peludo y requiere de un proceso de adaptación. El fin es evitarle el sentimiento miedo y desconfianza que le genera entrar a una peluquería canina."
-            }
+            title={t("Step1")}
+            text={t("Step1Description")}
             backgroundColor={Red}
           />
           <ProcessCard
             image={Perro4}
-            title={"Durante la sesión"}
-            text={
-              "Presentamos el material de manera progresiva, es decir, las máquinas de corte, secador, bañera, etcétera y cuidamos la potencia del aire, la temperatura o fuerza del agua, así como la velocidad del corte. Sin prisa pero sin pausa. El ritmo de trabajo es lento, para que el perro asimile el proceso y vaya poco a poco sintiendo confianza con su peluquero."
-            }
+            title={t("Step2")}
+            text={t("Step2Description")}
             backgroundColor={Black}
             color={White}
           />
           <ProcessCard
             image={Perro3}
-            title={"El momento del baño"}
-            text={
-              "Es lento, ya que dejamos que tu peludo tenga contacto con el agua y no se asuste. Si se muestra tranquilo, mojamos el resto del cuerpo a través de una ducha suave. Asimismo, utilizamos los mejores productos para mantener el pH del pelaje y evitar reacciones alérgicas."
-            }
+            title={t("Step3")}
+            text={t("Step3Description")}
             backgroundColor={Blue}
           />
         </div>
@@ -243,96 +228,56 @@ const AboutWoof = () => {
         <div className="sobreFifhtSectionDesk">
           <ProcessCard
             image={Perro1}
-            title={"Antes de la sesión"}
-            text={
-              "Creamos un clima de calma y contemplamos el comportamiento de tu perro. La primera sesión será más lenta, ya que es una nueva experiencia para tu amigo peludo y requiere de un proceso de adaptación. El fin es evitarle el sentimiento miedo y desconfianza que le genera entrar a una peluquería canina."
-            }
+            title={t("Step1")}
+            text={t("Step1Description")}
             backgroundColor={Red}
           />
           <ProcessCard
             image={Perro4}
-            title={"Durante la sesión"}
-            text={
-              "Presentamos el material de manera progresiva, es decir, las máquinas de corte, secador, bañera, etcétera y cuidamos la potencia del aire, la temperatura o fuerza del agua, así como la velocidad del corte. Sin prisa pero sin pausa. El ritmo de trabajo es lento, para que el perro asimile el proceso y vaya poco a poco sintiendo confianza con su peluquero."
-            }
+            title={t("Step2")}
+            text={t("Step2Description")}
             backgroundColor={Black}
             color={White}
           />
           <ProcessCard
             image={Perro3}
-            title={"El momento del baño"}
-            text={
-              "Es lento, ya que dejamos que tu peludo tenga contacto con el agua y no se asuste. Si se muestra tranquilo, mojamos el resto del cuerpo a través de una ducha suave. Asimismo, utilizamos los mejores productos para mantener el pH del pelaje y evitar reacciones alérgicas."
-            }
+            title={t("Step3")}
+            text={t("Step3Description")}
             backgroundColor={Blue}
           />
         </div>
       )}
 
+      {/* Tips before bath */}
       {windowSize < 752 ? (
         <div id="consejos" className="sobreSixthSection">
-          <h2>
-            Consejos para <span>antes</span> y <span1>después</span1> del baño{" "}
-          </h2>
-          <ConsejosCard
-            text={
-              "Media hora antes de la sesión dale un paseo relajante para que gaste energía, haga sus necesidades y se sienta más cómodo."
-            }
-            icon={PerroIcon}
-          />
-          <ConsejosCard
-            text={
-              "Al salir de la peluquería puedes premiarle con golosinas para reforzar positivamente su comportamiento."
-            }
-            icon={Hueso}
-          />
-          <ConsejosCard
-            text={
-              "Cepilla regularmente a tu perrito en casa para que se acostumbre a este tipo de acción y no sienta extraño cuando un desconocido lo peine."
-            }
-            icon={CepilloIcon}
-          />
+          <h2>{renderStringHMTLtoJSX(t("TipsTitle"))}</h2>
+          <ConsejosCard text={t("TipsCard1")} icon={PerroIcon} />
+          <ConsejosCard text={t("TipsCard2")} icon={Hueso} />
+          <ConsejosCard text={t("TipsCard3")} icon={CepilloIcon} />
         </div>
       ) : (
         <div id="consejos" className="sobreSixthSectionDesk">
-          <h2>
-            Consejos para <span>antes</span> y <span1>después</span1> del baño{" "}
-          </h2>
+          <h2>{renderStringHMTLtoJSX(t("TipsTitle"))}</h2>
           <div className="consejosRow">
-            <ConsejosCard
-              text={
-                "Media hora antes de la sesión dale un paseo relajante para que gaste energía, haga sus necesidades y se sienta más cómodo."
-              }
-              icon={PerroIcon}
-            />
-            <ConsejosCard
-              text={
-                "Al salir de la peluquería puedes premiarle con golosinas para reforzar positivamente su comportamiento."
-              }
-              icon={Hueso}
-            />
-            <ConsejosCard
-              text={
-                "Cepilla regularmente a tu perrito en casa para que se acostumbre a este tipo de acción y no sienta extraño cuando un desconocido lo peine."
-              }
-              icon={CepilloIcon}
-            />
+            <ConsejosCard text={t("TipsCard1")} icon={PerroIcon} />
+            <ConsejosCard text={t("TipsCard2")} icon={Hueso} />
+            <ConsejosCard text={t("TipsCard3")} icon={CepilloIcon} />
           </div>
         </div>
       )}
 
+      {/* SecondBanner */}
       {windowSize < 752 ? (
         <div id="servicios" className="sobreSeventhSection">
           <h2 className="sevenH2">
-            Servicios de <span>primera calidad</span> para que puedas{" "}
-            <span>consentir a tu peludo</span>.
+            {renderStringHMTLtoJSX(t("SecondBannerTitle"))}
           </h2>
         </div>
       ) : (
         <div className="sobreSeventhSectionDesk">
           <h2 className="sevenH2Desk">
-            Servicios de <span>primera calidad</span> para que puedas{" "}
-            <span>consentir a tu peludo</span>.
+            {renderStringHMTLtoJSX(t("SecondBannerTitle"))}
           </h2>
         </div>
       )}
