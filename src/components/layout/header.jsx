@@ -5,6 +5,7 @@ import Menu from "../../images/mobile/layout/header/pata menú.svg";
 import useWindowSize from "../../hooks/useWindowSize";
 import styled from "styled-components";
 import { useI18next, useTranslation } from "gatsby-plugin-react-i18next";
+import SwitchLeng from "./SwitchLeng";
 
 const HeaderTag = styled.header`
   display: flex;
@@ -163,7 +164,8 @@ const HeaderTag = styled.header`
   }
   @media only screen and (max-width: 752px) {
     > div:nth-child(1) img {
-      width: 50%;
+      width: 2.5rem;
+      margin-left: 0%;
     }
     > div:nth-child(2) img {
       width: 80%;
@@ -219,23 +221,7 @@ const Header = () => {
         <Link to="testimonios">{t("testimonials")}</Link>
         <Link to="contacto">{t("contact")}</Link>
       </nav>
-      <div>
-        <ul className="languages">
-          {languages.map((lng) => (
-            <li key={lng}>
-              <a
-                href="#"
-                onClick={(e) => {
-                  e.preventDefault();
-                  changeLanguage(lng);
-                }}
-              >
-                {lng}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <SwitchLeng />
     </HeaderTag>
   ) : (
     <div>
@@ -258,23 +244,7 @@ const Header = () => {
           <Link to="cita">{t("appointment")}</Link>
           <Link to="testimonios">{t("testimonials")}</Link>
           <Link to="contacto">{t("contact")}</Link>
-          <div>
-            <ul className="languages">
-              {languages.map((lng) => (
-                <li key={lng}>
-                  <a
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      changeLanguage(lng);
-                    }}
-                  >
-                    {lng}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <SwitchLeng />
         </MobileNav>
       ) : null}
     </div>
