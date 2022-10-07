@@ -1,47 +1,47 @@
 .btn-primary {
-    background-color: #77D0D1;
-    border-radius: 50px;
-    border: none;
-    width: 60%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  background-color: #77d0d1 !important;
+  border-radius: 50px !important;
+  border: none !important;
+  width: 60% !important;
+  height: 50px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center !important;
 }
 .btn-primary img {
-    width: 17%;
+  width: 17% !important;
 }
 .btn-primary p {
-    color: black;
-    margin-bottom: 0%;
-    font-family: "M Medium";
+  color: black !important;
+  margin-bottom: 0% !important;
+  font-family: "M Medium" !important;
 }
-@media only screen and (min-width: 1500px){
-    .btn-primary {
-        height: 60px;
-    }
-    .btn-primary p {
-        font-size: 160%;
-    } 
+@media only screen and (min-width: 1500px) {
+  .btn-primary {
+    height: 60px !important;
+  }
+  .btn-primary p {
+    font-size: 160%;
+  }
 }
-@media only screen and (min-width: 2000px){
-    .btn-primary {
-        height: 70px;
-    }
-    .btn-primary p {
-        font-size: 150%;
-    } 
+@media only screen and (min-width: 2000px) {
+  .btn-primary {
+    height: 70px !important;
+  }
+  .btn-primary p {
+    font-size: 150% !important;
+  }
 }
-@media only screen and (min-width: 2500px){
-    .btn-primary {
-        height: 80px;
-    }
-    .btn-primary p {
-        font-size: 180%;
-    } 
+@media only screen and (min-width: 2500px) {
+  .btn-primary {
+    height: 80px !important;
+  }
+  .btn-primary p {
+    font-size: 180% !important;
+  }
 }
 @font-face {
-    font-family: "M Regular";
-    src: url("../../static/fonts/Montserrat-Regular.ttf");
+  font-family: "M Regular";
+  src: url("../../static/fonts/Montserrat-Regular.ttf");
 }
