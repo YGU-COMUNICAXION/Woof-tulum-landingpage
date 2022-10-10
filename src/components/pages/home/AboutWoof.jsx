@@ -41,7 +41,7 @@ const AboutWoof = () => {
 
   const windowSize = useWindowSize();
 
-  const { t } = useTranslation(["aboutWoof"]);
+  const { t } = useTranslation("aboutWoof");
 
   return (
     <div className="sobreWoof">
