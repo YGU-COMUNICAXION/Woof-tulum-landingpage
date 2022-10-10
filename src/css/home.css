@@ -1,1352 +1,1344 @@
 .mainDiv {
-    margin-top: 17%;
+  margin-top: 17%;
 }
 .sobreFirstSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFF5E0;
-    padding: 3% 5% 15% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff5e0;
+  padding: 3% 5% 15% 5%;
 }
 .sobreFirstSection img {
-    width: 100%;
+  width: 100%;
 }
 .mainTitle {
-    font-family: "M Light";
-    font-size: 180%;
-    margin-bottom: 10%;
+  font-family: "M Light";
+  font-size: 180%;
+  margin-bottom: 10%;
 }
 .sectionTitle {
-    font-family: "M Bold";
-    color: #5189D3;
+  font-family: "M Bold";
+  color: #5189d3;
 }
-.mainTitle  span {
-    font-family: "M Bold";
-    color: #77D0D1;
+.mainTitle span {
+  font-family: "M Bold";
+  color: #77d0d1;
 }
-.mainTitle  span2 {
-    font-family: "M Bold";
-    color: #FE6B73;
+.mainTitle span2 {
+  font-family: "M Bold";
+  color: #fe6b73;
 }
 .firstDescription {
-    font-family: "M Light";
-    width: 100%;
-    margin-top: 13%;
+  font-family: "M Light";
+  width: 100%;
+  margin-top: 13%;
 }
 .firstDescription span {
-    font-family: "M SemiBold";
+  font-family: "M SemiBold";
 }
 .sobreSecondSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 13% 4% 13% 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 13% 4% 13% 4%;
 }
 .secondTitle {
-    font-family: "M Bold";
-    color: #5189D3;
-    text-align: center;
+  font-family: "M Bold";
+  color: #5189d3;
+  text-align: center;
 }
 .sobreSecondSection h3 {
-    text-align: center;
-    margin-bottom: 9%;
-    font-family: "M Bold";
-    width: 70%;
-    text-align: center;
-    margin-top: 9%;
+  text-align: center;
+  margin-bottom: 9%;
+  font-family: "M Bold";
+  width: 70%;
+  text-align: center;
+  margin-top: 9%;
 }
 .secondSubtitle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
 }
 .multiColorSubt {
-    font-family: "M Bold";
-    color: #FCCA65;
-    font-size: 190%;
+  font-family: "M Bold";
+  color: #fcca65;
+  font-size: 190%;
 }
-.multiColorSubt span{
-    font-family: "M LightItalic";
-    color: black;
+.multiColorSubt span {
+  font-family: "M LightItalic";
+  color: black;
 }
 .multiColorSubt span1 {
-    font-family: "Stick";
-    color: #77D0D1;
+  font-family: "Stick";
+  color: #77d0d1;
 }
 .lightP {
-    font-family: "M Light";
-    margin-bottom: 0%;
-    margin-top: 0;
+  font-family: "M Light";
+  margin-bottom: 0%;
+  margin-top: 0;
 }
-.lightP span{
-    font-family: "M Bold";
+.lightP span {
+  font-family: "M Bold";
 }
 .tricolor {
-    font-family: "Stick";
-    color: #FE6B73;
-    font-size: 280%;
-    margin-bottom: 9%;
-
+  font-family: "Stick";
+  color: #fe6b73;
+  font-size: 280%;
+  margin-bottom: 9%;
 }
-.tricolor span{
-    color: #5189D3;
+.tricolor span {
+  color: #5189d3;
 }
 .tricolor span1 {
-    color: #FCCA65;
+  color: #fcca65;
 }
 .boldP {
-    font-family: "M Medium";
-    margin-bottom: 8%;
+  font-family: "M Medium";
+  margin-bottom: 8%;
 }
 .sobreThirdSection {
-    background-color: #FFF5E0;
-    padding: 13% 3% 13% 3%;
+  background-color: #fff5e0;
+  padding: 13% 3% 13% 3%;
 }
 .manchasRow {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 4%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
 }
 .sobreFourthSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8% 2% 4% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 2% 4% 2%;
 }
 .sobreFifhtSection {
-    padding: 10% 0% 13% 0%;
+  padding: 10% 0% 13% 0%;
 }
 .sobreSixthSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5% 3% 13% 3%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 3% 13% 3%;
 }
-.sobreSixthSection h2 {    
-    font-family: "M Light";
-    text-align: center;
+.sobreSixthSection h2 {
+  font-family: "M Light";
+  text-align: center;
 }
 .sobreSixthSection span {
-    font-family: "M Bold";
-    color: #77D0D1;
+  font-family: "M Bold";
+  color: #77d0d1;
 }
 .sobreSixthSection span1 {
-    font-family: "M Bold";
-    color: #FCCA65;
+  font-family: "M Bold";
+  color: #fcca65;
 }
 .sobreSeventhSection {
-    background-image: url("../images/mobile/sobre/BannerWoof_Pagina_Opc1.svg");
-    padding: 2% 3% 0% 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: url("../images/mobile/sobre/BannerWoof_Pagina_Opc1.svg");
+  padding: 2% 3% 0% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .sevenH2 {
-    text-align: center;
-    font-family: "M Light";
-    font-size: 120%;
-    color: #FE6B73;
-    width: 80%;
-    margin-bottom: 28%;
+  text-align: center;
+  font-family: "M Light";
+  font-size: 120%;
+  color: #fe6b73;
+  width: 80%;
+  margin-bottom: 28%;
 }
 .sevenH2 span {
-    font-family: "M Bold"; 
+  font-family: "M Bold";
 }
 .serviciosFirstSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 5% 3% 13% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5% 3% 13% 3%;
 }
 .serviciosFirstSection h1 {
-    font-family: "M Bold";
-    color: #5189D3;
+  font-family: "M Bold";
+  color: #5189d3;
 }
 .serviciosFirstP {
-    font-family: "M Light";
-    width: 80%;
-    margin-bottom: 0%;
+  font-family: "M Light";
+  width: 80%;
+  margin-bottom: 0%;
 }
 .serviciosFirstP span {
-    font-family: "M Bold";
+  font-family: "M Bold";
 }
 .serviciosSecondTextDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .serviciosSecondText {
-    font-family: "M Light";
-    font-size: 90%;
-    width: 80%;
-    margin-bottom: 0%;
+  font-family: "M Light";
+  font-size: 90%;
+  width: 80%;
+  margin-bottom: 0%;
 }
 .serviciosSecondText span {
-    font-family: "M Bold";
-
+  font-family: "M Bold";
 }
 .serviciosSecondSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #5189D3;
-    padding: 5% 3% 13% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #5189d3;
+  padding: 5% 3% 13% 3%;
 }
 .serviciosSecondSection h2 {
-    font-family: "Stick";
-    color: white;
-    text-align: center;
+  font-family: "Stick";
+  color: white;
+  text-align: center;
 }
 .serviciosBotonDiv {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .serviciosThirdSection {
-    display: flex;
-    flex-direction: column;
-    background-color: #FFF5E0;
-    padding: 13% 3% 13% 3%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff5e0;
+  padding: 13% 3% 13% 3%;
 }
 .serviciosThirdSection h2 {
-    font-family: "Stick";
-    color: #FCCA65;
+  font-family: "Stick";
+  color: #fcca65;
 }
 .serviciosThirdSection p {
-    font-family: "M Light";
+  font-family: "M Light";
 }
 .serviciosThirdSection span {
-    font-family: "M Bold";
+  font-family: "M Bold";
 }
 .instalacionesFirstSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 13% 3% 13% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 13% 3% 13% 3%;
 }
 .instalacionesDescription {
-    font-family: "M Bold";
-    color: #FE6B73;
+  font-family: "M Bold";
+  color: #fe6b73;
 }
 .instalacionesDescription span {
-    color: #77D0D1;
+  color: #77d0d1;
 }
 .instalacionesDescription span1 {
-    font-family: "M Light";
-    color: black;
+  font-family: "M Light";
+  color: black;
 }
 .instalacionesDescription span2 {
-    font-family: "M MediumItalic";
-    color: #5189D3;
+  font-family: "M MediumItalic";
+  color: #5189d3;
 }
 .firstPerrito {
-    width: 60%;
-    margin-bottom: 15%;
+  width: 60%;
+  margin-bottom: 15%;
 }
 .notaras {
-    font-family: "M Light";
-    margin-bottom: 15%;
-    width: 88%;
+  font-family: "M Light";
+  margin-bottom: 15%;
+  width: 88%;
 }
-.notaras span{
-    font-family: "M Bold";
+.notaras span {
+  font-family: "M Bold";
 }
-.perritosRow{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 7%;
+.perritosRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7%;
 }
 .perritosRow img {
-    width: 30%;
-    margin: 2%;
+  width: 30%;
+  margin: 2%;
 }
 .citaFirstSection {
-    background-color: #FFF5E0;
-    padding: 0% 0% 13% 0%;
-
+  background-color: #fff5e0;
+  padding: 0% 0% 13% 0%;
 }
 .hazCitaDiv {
-    padding: 9% 9% 0% 7%;
-    background-image: url("../images/mobile/cita/contenedor.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 390px;
+  padding: 9% 9% 0% 7%;
+  background-image: url("../images/mobile/cita/contenedor.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 390px;
 }
 .hazCitaDiv h2 {
-    font-family: "M Bold";
-    color: white;
+  font-family: "M Bold";
+  color: white;
 }
 .hazCitaFirstP {
-    font-family: "M Light";
-    color: white;
+  font-family: "M Light";
+  color: white;
 }
-.hazCitaFirstP span{
-    font-family: "M SemiBold";
+.hazCitaFirstP span {
+  font-family: "M SemiBold";
 }
 .hazCitaSecondP {
-    font-family: "M Light";
-    color: white;
-    font-size: 80%;
+  font-family: "M Light";
+  color: white;
+  font-size: 80%;
 }
 .citaSecondSection {
-    background-color: #FFF5E0;
-    background-image: url("../images/mobile/cita/bannercita.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
+  background-color: #fff5e0;
+  background-image: url("../images/mobile/cita/bannercita.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .regaloDiv {
-    padding: 0% 10% 0% 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  padding: 0% 10% 0% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.regaloDiv h2{
-    font-family: "M Bold";
-    color: #FE6B73;
-    font-size: 120%;
-    margin: 0;
+.regaloDiv h2 {
+  font-family: "M Bold";
+  color: #fe6b73;
+  font-size: 120%;
+  margin: 0;
 }
 .regaloP {
-    font-family: "M Light";
-    width: 87%;
-    text-align: center;
-    font-size: 90%;
-    margin-bottom: 25%;
-
+  font-family: "M Light";
+  width: 87%;
+  text-align: center;
+  font-size: 90%;
+  margin-bottom: 25%;
 }
 .regaloP span {
-    font-family: "M Medium";
-    width: 87%;
-    text-align: center;
+  font-family: "M Medium";
+  width: 87%;
+  text-align: center;
 }
 .testimonios {
-    display: flex ;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5% 4% 13% 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 4% 13% 4%;
 }
 .testimonios h1 {
-    margin-bottom: 7%;
+  margin-bottom: 7%;
 }
 .carouselDiv {
-    width: 90%;
-    border-radius: 15%;
+  width: 90%;
+  border-radius: 15%;
 }
 .contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10% 4% 13% 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 4% 13% 4%;
 }
 .contacto h1 {
-    margin-bottom: 15%;
+  margin-bottom: 15%;
 }
 .contactoCardsDiv {
-    width: 100%;
-    margin-bottom: 10%;
+  width: 100%;
+  margin-bottom: 10%;
 }
 .mapa {
-    width: 100%;
-    height: 350px;
-    border: 0;
-    border-radius: 10px;
-    margin-bottom: 25%;
+  width: 100%;
+  height: 350px;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 25%;
 }
 .perritosBottom {
-    background-image: url("../images/mobile/layout/footer/Footer_Woof\ 1.svg");
-    background-size: contain;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 100%;
-    margin-top: 3%;
+  background-image: url("../images/mobile/layout/footer/Footer_Woof\ 1.svg");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  margin-top: 3%;
 }
 /* clases desktop */
 .sobreFirstSectionDesk {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FFF5E0;
-    padding: 3% 5% 3% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff5e0;
+  padding: 3% 5% 3% 5%;
 }
 .leftHomeDiv {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
 }
 .patasTop {
-    width: 60%;
+  width: 60%;
 }
 .mainTitleDesk {
-    font-family: "M Light";
-    font-size: 180%;
-    margin-bottom: 10%;
+  font-family: "M Light";
+  font-size: 180%;
+  margin-bottom: 2em;
+  margin-top: 1em;
 }
-.mainTitleDesk  span {
-    font-family: "M Bold";
-    color: #77D0D1;
+.mainTitleDesk span {
+  font-family: "M Bold";
+  color: #77d0d1;
 }
-.mainTitleDesk  span2 {
-    font-family: "M Bold";
-    color: #FE6B73;
+.mainTitleDesk span2 {
+  font-family: "M Bold";
+  color: #fe6b73;
 }
 .pata-description {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
 }
 .firstDescriptionDesk {
-    font-family: "M Light";
-    width: 100%;
-    margin-right: 5%;
-    margin-bottom: 8%;
+  font-family: "M Light";
+  width: 100%;
+  margin-right: 5%;
+  margin-bottom: 8%;
 }
 .firstDescriptionDesk span {
-    font-family: "M SemiBold";
+  font-family: "M SemiBold";
 }
 .pata-description img {
-    width: 15%;
+  width: 15%;
 }
 .pataAzul {
-    width: 15%;
-    margin-left: 10%;
+  width: 15%;
+  margin-left: 10%;
 }
 .perroHomeDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .perroHomeDesk {
-    width: 90%;
+  width: 90%;
 }
 .sobreSecondSectionDesk {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5% 4% 7% 4%;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 4% 7% 4%;
+  position: relative;
 }
 .BurbujasAzules {
-    position: absolute;
-    z-index: 2;
-    bottom: 85%;
-    left: 90%;
-    width: 5%;
+  position: absolute;
+  z-index: 2;
+  bottom: 85%;
+  left: 90%;
+  width: 5%;
 }
 .BurbujasAmarillas {
-    position: absolute;
-    z-index: 3;
-    left: 70%;
-    bottom: 30%;
-    width: 5%;
+  position: absolute;
+  z-index: 3;
+  left: 70%;
+  bottom: 30%;
+  width: 5%;
 }
 .sobreSecondSectionDesk h1 {
-    margin-bottom: 6%;
+  margin-bottom: 6%;
 }
 .sobreFirstHorDivDesk {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    justify-content: space-between;
-    margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  margin-bottom: 10%;
 }
 .sobreFirstHorDivDesk img {
-    width: 25%;
+  width: 25%;
 }
 .subtitleDescriptionDesk {
-    width: 60%;
+  width: 60%;
 }
 .sobreThirdSectionDesk {
-    background-color: #FFF5E0;
-    padding: 5% 3% 3% 3%;
+  background-color: #fff5e0;
+  padding: 5% 3% 3% 3%;
 }
 .manchasRowDesk {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
 }
-.sobreFourthSectionDesk{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 5% 4% 3% 4%;
-    position: relative;
-    z-index: 1;
+.sobreFourthSectionDesk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5% 4% 3% 4%;
+  position: relative;
+  z-index: 1;
 }
 .huellasPeluqueria {
-    position: absolute;
-    z-index: 2;
-    width: 57%;
-    left:40%;
-    top: 4%;
+  position: absolute;
+  z-index: 2;
+  width: 57%;
+  left: 40%;
+  top: 4%;
 }
 .perritoPeluqueria {
-    position: absolute;
-    z-index: 3;
-    width: 30%;
-    left: 60%;
-    top: 15%;
+  position: absolute;
+  z-index: 3;
+  width: 30%;
+  left: 60%;
+  top: 15%;
 }
 .sobreFifhtSectionDesk {
-    display: flex;
-    flex-direction: row;
-    padding: 10% 0% 0% 0%;
+  display: flex;
+  flex-direction: row;
+  padding: 10% 0% 0% 0%;
 }
 .sobreSixthSectionDesk {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5% 3% 5% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 3% 5% 3%;
 }
-.sobreSixthSectionDesk h2 {    
-    font-family: "M Light";
-    text-align: center;
+.sobreSixthSectionDesk h2 {
+  font-family: "M Light";
+  text-align: center;
 }
 .sobreSixthSectionDesk span {
-    font-family: "M Bold";
-    color: #77D0D1;
+  font-family: "M Bold";
+  color: #77d0d1;
 }
 .sobreSixthSectionDesk span1 {
-    font-family: "M Bold";
-    color: #FCCA65;
+  font-family: "M Bold";
+  color: #fcca65;
 }
 .consejosRow {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .serviciosSecondSectionDesk {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #5189D3;
-    padding: 5% 3% 7% 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5189d3;
+  padding: 5% 3% 7% 3%;
 }
 .sobreSeventhSectionDesk {
-    background-image: url("../images/desktop/sobre/patitasbottom.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding: 2% 0% 0% 0%;
-    display: flex;
-    justify-content: center;
-    height: 180px;
+  background-image: url("../images/desktop/sobre/patitasbottom.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 2% 0% 0% 0%;
+  display: flex;
+  justify-content: center;
+  height: 180px;
 }
 .sevenH2Desk {
-    text-align: center;
-    font-family: "M Light";
-    font-size: 120%;
-    color: #FE6B73;
-    width: 50%;
+  text-align: center;
+  font-family: "M Light";
+  font-size: 120%;
+  color: #fe6b73;
+  width: 50%;
 }
 .sevenH2Desk span {
-    font-family: "M Bold"; 
+  font-family: "M Bold";
 }
 .serviciosSecondSectionDesk h2 {
-    font-family: "Stick";
-    color: white;
-    text-align: center;
-    margin-bottom: 5%;
+  font-family: "Stick";
+  color: white;
+  text-align: center;
+  margin-bottom: 5%;
 }
 .serviciosCardGrid {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
 }
 .serviciosThirdSectionDesk {
-    display: flex;
-    flex-direction: column;
-    background-color: #FFF5E0;
-    padding: 5% 3% 5% 3%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff5e0;
+  padding: 5% 3% 5% 3%;
+  justify-content: center;
+  align-items: center;
 }
 .handStrippingHorDiv {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%;
 }
 .handInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 80%;
 }
 .handInfo h2 {
-    font-family: "Stick";
-    color: #FCCA65;
+  font-family: "Stick";
+  color: #fcca65;
 }
 .handInfo p {
-    font-family: "M Light";
+  font-family: "M Light";
 }
 .handInfo img {
-    width: 40%;
-    margin-left: 20%;
+  width: 40%;
+  margin-left: 20%;
 }
 .handInfo span {
-    font-family: "M Bold";
+  font-family: "M Bold";
 }
 .reglaDiv {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.reglaDiv img{
-    width: 90%;
+.reglaDiv img {
+  width: 90%;
 }
 .descriptionImageDesk {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 2%;
-    margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 .firstPerrito {
-    width: 25%;
-    margin-bottom: 0;
+  width: 25%;
+  margin-bottom: 0;
 }
 .citaFirstSectionDesk {
-    background-color: #FFF5E0;
-    padding: 5% 0% 0% 0%;
-    position: relative;
+  background-color: #fff5e0;
+  padding: 5% 0% 0% 0%;
+  position: relative;
 }
 .citaUpperDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hazCitaDivDesk {
+  padding: 5% 5% 0% 3%;
+  background-image: url("../images/mobile/cita/contenedor.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 47%;
+  height: 395px;
+}
+.hazCitaDivDesk h2 {
+  font-family: "M Bold";
+  color: white;
+}
+.citaUpperDiv img {
+  width: 30%;
+  margin-right: 5%;
+}
+.citabotonDivDesk {
+  margin-top: 10%;
+}
+.huellasCita {
+  position: absolute;
+  z-index: 8;
+  width: 18%;
+  left: 48%;
+  bottom: 25%;
+}
+.BurbujasRojas {
+  position: absolute;
+  z-index: 3;
+  bottom: 90%;
+  left: 90%;
+  width: 7%;
+}
+.regaloDivDesk {
+  background-image: url("../images/mobile/cita/bannercita.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 200px;
+}
+.regaloDivInfo {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 18%;
+  margin-top: 10%;
+}
+.regaloDivInfo h2 {
+  font-family: "M Bold";
+  color: #fe6b73;
+  font-size: 120%;
+  margin: 0;
+}
+.regaloPDesk {
+  font-family: "M Light";
+  width: 87%;
+  text-align: center;
+  font-size: 90%;
+  margin-bottom: 0%;
+}
+.regaloPDesk span {
+  font-family: "M Medium";
+  width: 87%;
+  text-align: center;
+}
+.testimoniosDesk {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.testimoniosDesk img {
+  width: 30%;
+}
+.contactoDeskDiv {
+  display: flex;
+  flex-direction: row;
+}
+.contactoCardsDivDesk {
+  margin-top: 5%;
+}
+@media only screen and (min-width: 752px) {
+  .mainDiv {
+    margin-top: 7%;
+  }
+  .sobreFifhtSectionDesk {
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+  }
+  .sobreSixthSectionDesk h2 {
+    width: 30%;
+    font-size: 130%;
+    margin-bottom: 3%;
+  }
+  .serviciosFirstSection {
+    padding: 4% 3% 5% 3%;
+  }
+  .serviciosFirstSection h1 {
+    margin-bottom: 4%;
+  }
+  .serviciosFirstP {
+    font-size: 80%;
+  }
+  .serviciosSecondTextDiv {
+    margin-top: 3%;
+  }
+  .serviciosBotonDiv {
+    width: 45%;
+    margin-top: 5%;
+  }
+  .instalacionesFirstSection {
+    padding: 5% 4% 5% 4%;
+  }
+  .notaras {
+    font-family: "M Light";
+    margin-bottom: 5%;
+    width: 88%;
+  }
+  .perritosRow img {
+    width: 22%;
+  }
+  .instalacionesDescription {
+    text-align: left;
+    font-size: 140%;
+    width: 50%;
+  }
+  .hazCitaFirstP {
+    font-size: 80%;
+  }
+  .hazCitaSecondP {
+    font-size: 80%;
+  }
+  .testimonios {
+    padding: 5% 4% 5% 4%;
+  }
+  .contacto {
+    padding: 5% 4% 5% 4%;
+  }
+  .contacto h1 {
+    margin-bottom: 7%;
+  }
+  .mapa {
+    width: 48%;
+    height: 300px;
+    margin-bottom: 0%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .sobreSecondSectionDesk {
+    padding: 5% 4% 4% 4%;
+  }
+  .sobreFirstHorDivDesk {
+    width: 80%;
+    margin-bottom: 8%;
+  }
+  .subtitleDescriptionDesk {
+    width: 70%;
+  }
+  .multiColorSubt {
+    width: 40%;
+  }
+  .tricolor {
+    margin-bottom: 2%;
+  }
+  .boldP {
+    margin-bottom: 3%;
+  }
+  .lightP {
+    width: 70%;
+  }
+  .sobreFourthSectionDesk {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.hazCitaDivDesk {
-    padding: 5% 5% 0% 3%;
-    background-image: url("../images/mobile/cita/contenedor.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 47%;
-    height: 395px;
-}
-.hazCitaDivDesk h2 {
-    font-family: "M Bold";
-    color: white;
-}
-.citaUpperDiv img {
-    width: 30%;
-    margin-right: 5%;
-}
-.citabotonDivDesk {
-    margin-top: 10%;
-}
-.huellasCita {
-    position: absolute;
-    z-index: 8;
-    width: 18%;
-    left: 48%;
-    bottom: 25%;
-}
-.BurbujasRojas {
-    position: absolute;
-    z-index: 3;
-    bottom: 90%;
-    left: 90%;
-    width: 7%;
-}
-.regaloDivDesk {
-    background-image: url("../images/mobile/cita/bannercita.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 200px;
-}
-.regaloDivInfo {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin-left: 18%;
-    margin-top: 10%;
-}
-.regaloDivInfo h2{
-    font-family: "M Bold";
-    color: #FE6B73;
+    padding: 5% 4% 6% 4%;
+    position: relative;
+    z-index: 1;
+  }
+  .huellasPeluqueria {
+    width: 50%;
+    left: 38%;
+    top: 5%;
+  }
+  .perritoPeluqueria {
+    width: 22%;
+  }
+  .sobreSixthSectionDesk h2 {
+    font-size: 170%;
+  }
+  .sobreSeventhSectionDesk {
+    height: 250px;
+  }
+  .sevenH2Desk {
+    font-size: 170%;
+    width: 45%;
+  }
+  .serviciosFirstP {
+    font-size: 100%;
+  }
+  .serviciosSecondText {
+    font-size: 100%;
+  }
+  .serviciosSecondSectionDesk {
+    padding: 5% 3% 4% 3%;
+  }
+  .serviciosSecondSectionDesk h2 {
+    margin-bottom: 3%;
+  }
+  .serviciosBotonDiv {
+    margin-top: 4%;
+  }
+  .handInfo h2 {
+    font-size: 222%;
+  }
+  .handInfo p {
     font-size: 120%;
-    margin: 0;
-}
-.regaloPDesk {
-    font-family: "M Light";
-    width: 87%;
-    text-align: center;
-    font-size: 90%;
-    margin-bottom: 0%;
-}
-.regaloPDesk span {
-    font-family: "M Medium";
-    width: 87%;
-    text-align: center;
-}
-.testimoniosDesk {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-.testimoniosDesk img {
+    width: 90%;
+  }
+  .handInfo img {
+    width: 35%;
+  }
+  .reglaDiv img {
+    width: 100%;
+  }
+  .descriptionImageDesk {
+    width: 80%;
+  }
+  .instalacionesDescription {
+    width: 50%;
+    font-size: 172%;
+  }
+  .notaras {
+    font-size: 115%;
+    width: 55%;
+    margin-bottom: 3%;
+  }
+  .perritosRow img {
+    width: 20%;
+  }
+  .hazCitaDivDesk {
+    width: 42%;
+    height: 516px;
+    padding: 5% 5% 0% 5%;
+  }
+  .hazCitaDivDesk h2 {
+    font-size: 182%;
+    margin-bottom: 7%;
+  }
+  .hazCitaFirstP {
+    font-size: 100%;
+  }
+  .hazCitaSecondP {
+    font-size: 100%;
+  }
+  .huellasCita {
+    width: 16%;
+    bottom: 28%;
+    left: 45%;
+  }
+  .citaUpperDiv img {
     width: 30%;
-}
-.contactoDeskDiv {
-    display: flex;
-    flex-direction: row;
-}
-.contactoCardsDivDesk {
+    margin-right: 7%;
+  }
+  .regaloDivDesk {
+    height: 300px;
+  }
+  .regaloDivInfo h2 {
+    font-size: 172%;
     margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .regaloPDesk {
+    font-size: 120%;
+    text-align: left;
+  }
+  .testimoniosDesk img {
+    width: 40%;
+  }
+  .contactoDeskDiv {
+    width: 70%;
+  }
+  .contacto h1 {
+    margin-bottom: 7%;
+  }
+  .contactoCardsDivDesk {
+    margin-right: 7%;
+  }
+  .mapa {
+    width: 52%;
+    height: 400px;
+    margin-bottom: 0%;
+  }
 }
-@media only screen and (min-width: 752px){
-    .mainDiv {
-        margin-top: 7%;
-    }
-    .sobreFifhtSectionDesk {
-        display: flex;
-        flex-direction: row;
-        padding:0%;
-    }
-    .sobreSixthSectionDesk h2 {
-        width: 30%;
-        font-size: 130%;
-        margin-bottom: 3%;
-    }
-    .serviciosFirstSection {
-        padding: 4% 3% 5% 3%;
-
-    }
-    .serviciosFirstSection h1 {
-        margin-bottom: 4%;
-    }
-    .serviciosFirstP {
-        font-size: 80%
-    }
-    .serviciosSecondTextDiv {
-        margin-top: 3%;
-    }
-    .serviciosBotonDiv {
-        width: 45%;
-        margin-top: 5%;
-    }
-    .instalacionesFirstSection {
-        padding: 5% 4% 5% 4%;
-    }
-    .notaras {
-        font-family: "M Light";
-        margin-bottom: 5%;
-        width: 88%;
-    } 
-    .perritosRow img {
-        width: 22%;
-    }
-    .instalacionesDescription {
-        text-align: left;
-        font-size: 140%;
-        width: 50%;
-    }
-    .hazCitaFirstP {
-        font-size: 80%;
-    }
-    .hazCitaSecondP {
-        font-size: 80%;
-
-    }
-    .testimonios {
-        padding: 5% 4% 5% 4%;
-    }
-    .contacto {
-        padding: 5% 4% 5% 4%;
-    }
-    .contacto h1 {
-        margin-bottom: 7%;
-    }
-    .mapa {
-        width: 48%;
-        height: 300px;
-        margin-bottom: 0%;
-    }
-    
+@media only screen and (min-width: 1500px) {
+  .mainDiv {
+    margin-top: 7%;
+  }
+  .sectionTitle {
+    font-size: 300%;
+  }
+  .leftHomeDiv {
+    width: 45%;
+  }
+  .patasTop {
+    width: 55%;
+    margin-bottom: 4%;
+  }
+  .mainTitleDesk {
+    font-size: 250%;
+    width: 70%;
+  }
+  .firstDescriptionDesk {
+    font-size: 130%;
+  }
+  .pataAzul {
+    width: 10%;
+  }
+  .multiColorSubt {
+    font-size: 280%;
+    width: 35%;
+  }
+  .lightP {
+    font-size: 120%;
+    width: 76%;
+  }
+  .sobreFirstHorDivDesk img {
+    margin-right: 7%;
+  }
+  .sobreSecondSectionDesk h3 {
+    font-size: 200%;
+  }
+  .tricolor {
+    font-size: 360%;
+    margin-bottom: 1%;
+  }
+  .boldP {
+    font-size: 120%;
+  }
+  .sobreThirdSectionDesk {
+    padding: 3% 3% 2% 3%;
+  }
+  .sobreSixthSectionDesk {
+    padding: 5% 3% 3% 3%;
+  }
+  .sobreSixthSectionDesk h2 {
+    font-size: 280%;
+  }
+  .sobreSeventhSectionDesk {
+    height: 330px;
+  }
+  .sevenH2Desk {
+    font-size: 210%;
+  }
+  .serviciosFirstP {
+    font-size: 130%;
+    width: 60%;
+  }
+  .serviciosSecondText {
+    font-size: 130%;
+    width: 100%;
+  }
+  .serviciosSecondSectionDesk h2 {
+    font-size: 280%;
+  }
+  .serviciosBotonDiv {
+    width: 25%;
+    margin-top: 3%;
+  }
+  .handInfo h2 {
+    font-size: 300%;
+  }
+  .handInfo p {
+    font-size: 150%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+  }
+  .handInfo img {
+    width: 25%;
+  }
+  .reglaDiv img {
+    width: 150%;
+  }
+  .instalacionesDescription {
+    font-size: 220%;
+  }
+  .firstPerrito {
+    width: 30%;
+  }
+  .notaras {
+    font-size: 160%;
+  }
+  .perritosRow img {
+    width: 30%;
+  }
+  .hazCitaDivDesk {
+    height: 785px;
+  }
+  .hazCitaDivDesk h2 {
+    font-size: 250%;
+  }
+  .hazCitaFirstP {
+    font-size: 160%;
+  }
+  .hazCitaSecondP {
+    font-size: 140%;
+  }
+  .huellasCita {
+    width: 15%;
+    bottom: 26%;
+    left: 45%;
+  }
+  .regaloDivDesk {
+    height: 380px;
+  }
+  .regaloDivInfo h2 {
+    font-size: 282%;
+  }
+  .regaloPDesk {
+    font-size: 180%;
+  }
+  .testimoniosDesk img {
+    margin-left: 5%;
+  }
+  .contacto h1 {
+    margin-bottom: 5%;
+  }
+  .mapa {
+    width: 52%;
+    height: 500px;
+    margin-bottom: 0%;
+  }
 }
-@media only screen and (min-width: 1000px){
-    .sobreSecondSectionDesk {
-        padding: 5% 4% 4% 4%;
-    }
-    .sobreFirstHorDivDesk {
-        width: 80%;
-        margin-bottom: 8%;
-    }
-    .subtitleDescriptionDesk {
-        width: 70%;
-    }
-    .multiColorSubt {
-        width: 40%;
-    }
-    .tricolor {
-        margin-bottom: 2%;
-    }
-    .boldP {
-        margin-bottom: 3%;
-    }
-    .lightP {
-        width: 70%;
-    }
-    .sobreFourthSectionDesk{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 5% 4% 6% 4%;
-        position: relative;
-        z-index: 1;
-    }
-    .huellasPeluqueria {
-        width: 50%;
-        left: 38%;
-        top: 5%;
-    }
-    .perritoPeluqueria {
-        width: 22%;
-    }
-    .sobreSixthSectionDesk h2 { 
-        font-size: 170%;
-    }
-    .sobreSeventhSectionDesk {
-        height: 250px;
-    }
-    .sevenH2Desk {
-        font-size: 170%;
-        width: 45%;
-    }
-    .serviciosFirstP {
-        font-size: 100%;
-    }
-    .serviciosSecondText {
-        font-size: 100%;
-    }
-    .serviciosSecondSectionDesk {
-        padding: 5% 3% 4% 3%;
-    }
-    .serviciosSecondSectionDesk h2 {
-        margin-bottom: 3%;
-    }
-    .serviciosBotonDiv {
-        margin-top: 4%;
-    }
-    .handInfo h2 {
-        font-size: 222%;
-    }
-    .handInfo p {
-        font-size: 120%;
-        width: 90%;
-    }
-    .handInfo img {
-        width: 35%;
-    }
-    .reglaDiv img {
-        width: 100%;
-    }
-    .descriptionImageDesk {
-        width: 80%;
-    }
-    .instalacionesDescription {
-        width: 50%;
-        font-size: 172%;
-    }
-    .notaras {
-        font-size: 115%;
-        width: 55%;
-        margin-bottom: 3%;
-    }
-    .perritosRow img {
-        width: 20%;
-    }
-    .hazCitaDivDesk {
-        width: 42%;
-        height: 516px;
-        padding: 5% 5% 0% 5%;
-    }
-    .hazCitaDivDesk h2 {
-        font-size: 182%;
-        margin-bottom: 7%;
-    }
-    .hazCitaFirstP {
-        font-size: 100%;
-    }
-    .hazCitaSecondP {
-        font-size: 100%;
-    }
-    .huellasCita {
-        width: 16%;
-        bottom: 28%;
-        left: 45%;
-    }
-    .citaUpperDiv img {
-        width: 30%;
-        margin-right: 7%;
-    }
-    .regaloDivDesk {
-        height: 300px;
-    }
-    .regaloDivInfo h2 {
-        font-size: 172%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .regaloPDesk {
-        font-size: 120%;
-        text-align: left;
-    }
-    .testimoniosDesk img {
-        width: 40%;
-    }
-    .contactoDeskDiv {
-        width: 70%;
-    }
-    .contacto h1 {
-        margin-bottom: 7%;
-    }
-    .contactoCardsDivDesk {
-        margin-right: 7%;
-    }
-    .mapa {
-        width: 52%;
-        height: 400px;
-        margin-bottom: 0%;
-    }
+@media only screen and (min-width: 2000px) {
+  .sectionTitle {
+    font-size: 380%;
+  }
+  .sobreFirstSectionDesk {
+    padding: 3% 7% 3% 7%;
+  }
+  .leftHomeDiv {
+    width: 50%;
+  }
+  .mainTitleDesk {
+    font-size: 330%;
+    width: 70%;
+    margin-bottom: 8%;
+  }
+  .firstDescriptionDesk {
+    font-size: 190%;
+  }
+  .perroHomeDiv {
+    width: 35%;
+  }
+  .perroHomeDesk {
+    width: 100%;
+  }
+  .multiColorSubt {
+    font-size: 380%;
+    width: 35%;
+    margin-bottom: 5%;
+  }
+  .lightP {
+    font-size: 190%;
+    width: 90%;
+  }
+  .sobreSecondSectionDesk h3 {
+    font-size: 250%;
+    margin-bottom: 1%;
+  }
+  .tricolor {
+    font-size: 500%;
+    margin-bottom: 1%;
+  }
+  .boldP {
+    font-size: 190%;
+  }
+  .sobreSixthSectionDesk h2 {
+    font-size: 380%;
+  }
+  .sobreSeventhSectionDesk {
+    height: 530px;
+  }
+  .sevenH2Desk {
+    font-size: 280%;
+    margin-top: 2%;
+    width: 35%;
+  }
+  .serviciosFirstP {
+    font-size: 200%;
+    width: 70%;
+  }
+  .serviciosSecondText {
+    font-size: 200%;
+    width: 100%;
+  }
+  .serviciosSecondSectionDesk h2 {
+    font-size: 350%;
+  }
+  .serviciosBotonDiv {
+    width: 25%;
+  }
+  .handInfo h2 {
+    font-size: 380%;
+  }
+  .handInfo p {
+    font-size: 220%;
+    width: 80%;
+  }
+  .handInfo img {
+    width: 30%;
+  }
+  .reglaDiv {
+    width: 50%;
+  }
+  .instalacionesDescription {
+    font-size: 290%;
+  }
+  .notaras {
+    font-size: 220%;
+    margin-bottom: 5%;
+  }
+  .perritosRow {
+    width: 80%;
+  }
+  .perritosRow img {
+    width: 33%;
+  }
+  .hazCitaDivDesk {
+    height: 970px;
+  }
+  .hazCitaDivDesk h2 {
+    font-size: 450%;
+    margin-bottom: 13%;
+  }
+  .hazCitaFirstP {
+    font-size: 190%;
+    margin-bottom: 10%;
+  }
+  .hazCitaSecondP {
+    font-size: 160%;
+  }
+  .citabotonDivDesk {
+    width: 70%;
+  }
+  .huellasCita {
+    width: 16%;
+    bottom: 30%;
+    left: 45%;
+  }
+  .regaloDivDesk {
+    height: 600px;
+    margin-top: 0%;
+  }
+  .regaloDivInfo h2 {
+    font-size: 320%;
+  }
+  .regaloPDesk {
+    font-size: 220%;
+  }
+  .testimonios {
+    padding: 3% 4% 3% 4%;
+  }
+  .contactoCardsDivDesk {
+    margin-top: 0%;
+  }
+  .mapa {
+    width: 40%;
+    height: 550px;
+    margin-bottom: 0%;
+  }
 }
-@media only screen and (min-width: 1500px){
-    .mainDiv {
-        margin-top: 7%;
-    }
-    .sectionTitle {
-        font-size: 300%;
-    }
-    .leftHomeDiv {
-        width: 45%;
-    }
-    .patasTop {
-        width: 55%;
-        margin-bottom: 4%;
-    }
-    .mainTitleDesk {
-        font-size: 250%;
-        width: 70%;
-    }
-    .firstDescriptionDesk {
-        font-size: 130%;
-    }
-    .pataAzul {
-        width: 10%;
-    }
-    .multiColorSubt {
-        font-size: 280%;
-        width: 35%;
-    }
-    .lightP {
-        font-size: 120%;
-        width: 76%;
-    }
-    .sobreFirstHorDivDesk img {
-        margin-right: 7%;
-    }
-    .sobreSecondSectionDesk h3 {
-        font-size: 200%;
-    }
-    .tricolor {
-        font-size: 360%;
-        margin-bottom: 1%;
-    }
-    .boldP {
-        font-size: 120%;
-    }
-    .sobreThirdSectionDesk {
-        padding: 3% 3% 2% 3%;
-    }
-    .sobreSixthSectionDesk {
-        padding: 5% 3% 3% 3%;
-    }
-    .sobreSixthSectionDesk h2 {
-        font-size: 280%;
-    }
-    .sobreSeventhSectionDesk {
-        height: 330px;
-    }
-    .sevenH2Desk {
-        font-size: 210%;
-    }
-    .serviciosFirstP {
-        font-size: 130%;
-        width: 60%;
-    }
-    .serviciosSecondText {
-        font-size: 130%;
-        width: 100%;
-    }
-    .serviciosSecondSectionDesk h2 {
-        font-size: 280%;
-    }
-    .serviciosBotonDiv {
-        width: 25%;
-        margin-top: 3%;
-    }
-    .handInfo h2 {
-        font-size: 300%;
-    }
-    .handInfo p {
-        font-size: 150%;
-        margin-top: 5%;
-        margin-bottom: 7%;
-    }
-    .handInfo img {
-        width: 25%;
-    }
-    .reglaDiv img {
-        width: 150%;
-    }
-    .instalacionesDescription {
-        font-size: 220%;
-    }
-    .firstPerrito {
-        width: 30%;
-    }
-    .notaras {
-        font-size: 160%;
-    }
-    .perritosRow img {
-        width: 30%;
-    }
-    .hazCitaDivDesk {
-        height: 785px;
-    }
-    .hazCitaDivDesk h2 {
-        font-size: 250%;
-    }
-    .hazCitaFirstP {
-        font-size: 160%;
-    }
-    .hazCitaSecondP {
-        font-size: 140%;
-
-    }
-    .huellasCita {
-        width: 15%;
-        bottom: 26%;
-        left: 45%;
-    }
-    .regaloDivDesk {
-        height: 380px;
-    }
-    .regaloDivInfo h2 {
-        font-size: 282%;
-    }
-    .regaloPDesk {
-        font-size: 180%;
-    }
-    .testimoniosDesk img {
-        margin-left: 5%;
-    }
-    .contacto h1 {
-        margin-bottom: 5%;
-    }
-    .mapa {
-        width: 52%;
-        height: 500px;
-        margin-bottom: 0%;
-    }
-}
-@media only screen and (min-width: 2000px){
-    .sectionTitle {
-        font-size: 380%;
-    }
-    .sobreFirstSectionDesk {
-        padding: 3% 7% 3% 7%;
-    }
-    .leftHomeDiv {
-        width: 50%;
-    }
-    .mainTitleDesk {
-        font-size: 330%;
-        width: 70%;
-        margin-bottom: 8%;
-    }
-    .firstDescriptionDesk {
-        font-size: 190%;
-    }
-    .perroHomeDiv {
-        width: 35%;
-    }
-    .perroHomeDesk {
-        width: 100%;
-    }
-    .multiColorSubt {
-        font-size: 380%;
-        width: 35%;
-        margin-bottom: 5%;
-    }
-    .lightP {
-        font-size: 190%;
-        width: 90%;
-    }
-    .sobreSecondSectionDesk h3 {
-        font-size: 250%;
-        margin-bottom: 1%;
-    }
-    .tricolor {
-        font-size: 500%;
-        margin-bottom: 1%;
-    }
-    .boldP {
-        font-size: 190%;
-    }
-    .sobreSixthSectionDesk h2 {
-        font-size: 380%;
-    }
-    .sobreSeventhSectionDesk {
-        height: 530px;
-    }
-    .sevenH2Desk {
-        font-size: 280%;
-        margin-top: 2%;
-        width: 35%;
-    }
-    .serviciosFirstP {
-        font-size: 200%;
-        width: 70%;
-    }
-    .serviciosSecondText {
-        font-size: 200%;
-        width: 100%;
-    }
-    .serviciosSecondSectionDesk h2 {
-        font-size: 350%;
-    }
-    .serviciosBotonDiv {
-        width: 25%;
-    }
-    .handInfo h2 {
-        font-size: 380%;
-    }
-    .handInfo p {
-        font-size: 220%;
-        width: 80%;
-    }
-    .handInfo img {
-        width: 30%;
-    }
-    .reglaDiv  {
-        width: 50%;
-    }
-    .instalacionesDescription {
-        font-size: 290%;
-    }
-    .notaras {
-        font-size: 220%;
-        margin-bottom: 5%;
-    }
-    .perritosRow {
-        width: 80%;
-    }
-    .perritosRow img {
-        width: 33%;
-    }
-    .hazCitaDivDesk {
-        height: 970px;
-    }
-    .hazCitaDivDesk h2 {
-        font-size: 450%;
-        margin-bottom: 13%;
-    }
-    .hazCitaFirstP {
-        font-size: 190%;
-        margin-bottom: 10%;
-    }
-    .hazCitaSecondP {
-        font-size: 160%;
-    }
-    .citabotonDivDesk {
-        width: 70%;
-    }
-    .huellasCita {
-        width: 16%;
-        bottom: 30%;
-        left: 45%;
-    }
-    .regaloDivDesk {
-       height: 600px;
-       margin-top:0%;
-    }
-    .regaloDivInfo h2 {
-        font-size: 320%;
-    }
-    .regaloPDesk {
-        font-size: 220%;
-    }
-    .testimonios {
-        padding: 3% 4% 3% 4%;
-    }
-    .contactoCardsDivDesk {
-        margin-top: 0%;
-    }
-    .mapa {
-        width: 40%;
-        height: 550px;
-        margin-bottom: 0%;
-    }
-}
-@media only screen and (min-width: 2500px){
-    .mainDiv {
-        margin-top: 5%;
-    }
-    .sectionTitle {
-        font-size: 460%;
-    }
-    .mainTitleDesk {
-        font-size: 450%;
-        width: 70%;
-    }
-    .firstDescriptionDesk {
-        font-size: 230%;
-    }
-    .multiColorSubt {
-        font-size: 480%;
-    }
-    .lightP {
-        font-size: 240%;
-        width: 90%;
-    }
-    .sobreSecondSectionDesk h3 {
-        font-size: 350%;
-    }
-    .tricolor {
-        font-size: 670%;
-        margin-bottom: 1%;
-    }
-    .boldP {
-        font-size: 250%;
-    }
-    .huellasPeluqueria {
-        width: 50%;
-        left:37%
-    }
-    .perritoPeluqueria {
-        width: 20%;
-        top: 18%
-    }
-    .sobreSixthSectionDesk h2 {
-        font-size: 480%;
-    }
-    .sobreSeventhSectionDesk {
-        height: 650px;
-    }
-    .sevenH2Desk {
-        font-size: 380%;
-        margin-top: 2%;
-        width: 40%;
-    }
-    .serviciosFirstP {
-        font-size: 250%;
-    }
-    .serviciosSecondText {
-        font-size: 250%;
-    }
-    .serviciosSecondSectionDesk h2 {
-        font-size: 450%;
-    }
-    .handInfo h2 {
-        font-size: 580%;
-    }
-    .handInfo p {
-        font-size: 260%;
-        width: 80%;
-    }
-    .instalacionesDescription {
-        font-size: 350%;
-    }
-    .notaras {
-        font-size: 280%;
-        width: 60%;
-        margin-bottom: 5%;
-    }
-    .hazCitaDivDesk {
-        height: 1480px;
-    }
-    .huellasCita {
-        width: 16%;
-        bottom: 25%;
-        left: 45%;
-    }
-    .regaloDivDesk {
-        height: 670px;
-        margin-top:0%;
-    }
-    .regaloDivInfo h2 {
-        font-size: 420%;
-    }
-    .regaloPDesk {
-        font-size: 290%;
-    }
-    .testimoniosDesk img {
-        width: 50%;
-    }
-    .mapa {
-        width: 50%;
-        height: 750px;
-        margin-bottom: 0%;
-    }
+@media only screen and (min-width: 2500px) {
+  .mainDiv {
+    margin-top: 5%;
+  }
+  .sectionTitle {
+    font-size: 460%;
+  }
+  .mainTitleDesk {
+    font-size: 450%;
+    width: 70%;
+  }
+  .firstDescriptionDesk {
+    font-size: 230%;
+  }
+  .multiColorSubt {
+    font-size: 480%;
+  }
+  .lightP {
+    font-size: 240%;
+    width: 90%;
+  }
+  .sobreSecondSectionDesk h3 {
+    font-size: 350%;
+  }
+  .tricolor {
+    font-size: 670%;
+    margin-bottom: 1%;
+  }
+  .boldP {
+    font-size: 250%;
+  }
+  .huellasPeluqueria {
+    width: 50%;
+    left: 37%;
+  }
+  .perritoPeluqueria {
+    width: 20%;
+    top: 18%;
+  }
+  .sobreSixthSectionDesk h2 {
+    font-size: 480%;
+  }
+  .sobreSeventhSectionDesk {
+    height: 650px;
+  }
+  .sevenH2Desk {
+    font-size: 380%;
+    margin-top: 2%;
+    width: 40%;
+  }
+  .serviciosFirstP {
+    font-size: 250%;
+  }
+  .serviciosSecondText {
+    font-size: 250%;
+  }
+  .serviciosSecondSectionDesk h2 {
+    font-size: 450%;
+  }
+  .handInfo h2 {
+    font-size: 580%;
+  }
+  .handInfo p {
+    font-size: 260%;
+    width: 80%;
+  }
+  .instalacionesDescription {
+    font-size: 350%;
+  }
+  .notaras {
+    font-size: 280%;
+    width: 60%;
+    margin-bottom: 5%;
+  }
+  .hazCitaDivDesk {
+    height: 1480px;
+  }
+  .huellasCita {
+    width: 16%;
+    bottom: 25%;
+    left: 45%;
+  }
+  .regaloDivDesk {
+    height: 670px;
+    margin-top: 0%;
+  }
+  .regaloDivInfo h2 {
+    font-size: 420%;
+  }
+  .regaloPDesk {
+    font-size: 290%;
+  }
+  .testimoniosDesk img {
+    width: 50%;
+  }
+  .mapa {
+    width: 50%;
+    height: 750px;
+    margin-bottom: 0%;
+  }
 }
 @font-face {
-    font-family: "M Bold";
-    src: url("../static/fonts/Montserrat-Bold.ttf");
+  font-family: "M Bold";
+  src: url("../static/fonts/Montserrat-Bold.ttf");
 }
 @font-face {
-    font-family: "M ExtraBold";
-    src: url("../static/fonts/Montserrat-ExtraBold.ttf");
+  font-family: "M ExtraBold";
+  src: url("../static/fonts/Montserrat-ExtraBold.ttf");
 }
 @font-face {
-    font-family: "M Light";
-    src: url("../static/fonts/Montserrat-Light.ttf");
+  font-family: "M Light";
+  src: url("../static/fonts/Montserrat-Light.ttf");
 }
 @font-face {
-    font-family: "M LightItalic";
-    src: url("../static/fonts/Montserrat-LightItalic.ttf");
+  font-family: "M LightItalic";
+  src: url("../static/fonts/Montserrat-LightItalic.ttf");
 }
 @font-face {
-    font-family: "M Medium";
-    src: url("../static/fonts/Montserrat-Medium.ttf");
+  font-family: "M Medium";
+  src: url("../static/fonts/Montserrat-Medium.ttf");
 }
 @font-face {
-    font-family: "M MediumItalic";
-    src: url("../static/fonts/Montserrat-MediumItalic.ttf");
+  font-family: "M MediumItalic";
+  src: url("../static/fonts/Montserrat-MediumItalic.ttf");
 }
 @font-face {
-    font-family: "M SemiBold";
-    src: url("../static/fonts/Montserrat-SemiBold.ttf");
+  font-family: "M SemiBold";
+  src: url("../static/fonts/Montserrat-SemiBold.ttf");
 }
 @font-face {
-    font-family: "Stick";
-    src: url("../static/fonts/StickARound.otf");
+  font-family: "Stick";
+  src: url("../static/fonts/StickARound.otf");
 }
