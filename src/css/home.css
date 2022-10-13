@@ -931,6 +931,14 @@
     margin-bottom: 0%;
   }
 }
+@media only screen and (min-width: 1230px){
+  .manchaDiv {
+    padding: 3% 12% 2% 4% !important; 
+  }
+  .hazCitaDivDesk {
+    padding: 5% 9% 0% 3%;
+  }
+}
 @media only screen and (min-width: 1500px) {
   .mainDiv {
     margin-top: 7%;
