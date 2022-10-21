@@ -286,7 +286,7 @@ const DerechosDiv = styled.div`
 
   @media only screen and (min-width: 1500px) {
     padding: 0.6vw;
-    font-size: 25px;
+    font-size: 24px;
   }
 
   @media only screen and (min-width: 2000px) {
