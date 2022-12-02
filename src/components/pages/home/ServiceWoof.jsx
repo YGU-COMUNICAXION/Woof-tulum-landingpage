@@ -6,7 +6,7 @@ import Domicilio from "../../../images/mobile/servicios/serviciosCard/auto.svg";
 import Aseo from "../../../images/mobile/servicios/serviciosCard/estampilla.svg";
 import BajoCosto from "../../../images/mobile/servicios/serviciosCard/plata.svg";
 import Atencion from "../../../images/mobile/servicios/serviciosCard/heart.svg";
-import PerritoStripping from "../../../images/desktop/servicios/perritohandstripping.svg";
+import PerritoStripping from "../../../images/desktop/servicios/perritohandstripping.png";
 import PdfPrecios from "../../../static/Precios_Woof_Final.pdf";
 import useWindowSize from "../../../hooks/useWindowSize";
 import { useTranslation } from "gatsby-plugin-react-i18next";

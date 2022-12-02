@@ -385,7 +385,7 @@
 .leftHomeDiv {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
 }
 .patasTop {
   width: 60%;
@@ -430,6 +430,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width:40%
 }
 .perroHomeDesk {
   width: 90%;
@@ -787,6 +788,9 @@
   }
 }
 @media only screen and (min-width: 1000px) {
+  .perroHomeDesk {
+    width: 80%;
+  }
   .sobreSecondSectionDesk {
     padding: 5% 4% 4% 4%;
   }
@@ -958,6 +962,9 @@
     font-size: 250%;
     width: 70%;
   }
+  .perroHomeDesk {
+    width: 70%;
+  }
   .firstDescriptionDesk {
     font-size: 130%;
   }
@@ -1039,7 +1046,7 @@
     font-size: 160%;
   }
   .perritosRow img {
-    width: 30%;
+    width: 24%;
   }
   .hazCitaDivDesk {
     height: 785px;

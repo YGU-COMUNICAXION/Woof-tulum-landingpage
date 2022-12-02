@@ -1,8 +1,8 @@
 import React from "react";
-import PerroVerde from "../../../images/mobile/instalaciones/foto-perrito-verde.svg";
-import PerroAmarillo from "../../../images/mobile/instalaciones/foto-perrito-amarillo.svg";
-import PerroRojo from "../../../images/mobile/instalaciones/foto-perrito-coral.svg";
-import PerroAzul from "../../../images/mobile/instalaciones/foto-perrito-azul.svg";
+import PerroVerde from "../../../images/mobile/instalaciones/foto-perrito-verde.png";
+import PerroAmarillo from "../../../images/mobile/instalaciones/foto-perrito-amarillo.png";
+import PerroRojo from "../../../images/mobile/instalaciones/foto-perrito-coral.png";
+import PerroAzul from "../../../images/mobile/instalaciones/foto-perrito-azul.png";
 import useWindowSize from "../../../hooks/useWindowSize";
 import renderStringHMTLtoJSX from "../../../utils/renderStringHMTLtoJSX";
 import { useTranslation } from "gatsby-plugin-react-i18next";

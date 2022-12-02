@@ -2,7 +2,7 @@ import React from "react";
 import BurbujasAzules from "../../../images/desktop/layout/círculos-verdes.svg";
 import BurbujasAmarillas from "../../../images/desktop/layout/círculos-amarillos.svg";
 import Huellas1 from "../../../images/mobile/sobre/Group 70.svg";
-import PerroHome from "../../../images/mobile/sobre/perropatas.svg";
+import PerroHome from "../../../images/mobile/sobre/perropatas.png";
 import Perro2 from "../../../images/mobile/sobre/foto-perrito.svg";
 import ManchasItem from "../../../components/manchasItem";
 import Mancha1 from "../../../images/mobile/sobre/mancha-cepillo.svg";
@@ -25,9 +25,9 @@ import CepilloIcon from "../../../images/mobile/sobre/consejosCards/cepillo.svg"
 import PatasTop from "../../../images/desktop/sobre/patas top.svg";
 import PataAmarilla from "../../../images/desktop/sobre/pataAmarilla.svg";
 import PataAzul from "../../../images/desktop/sobre/pataazul.svg";
-import PerroHomeDesk from "../../../images/desktop/sobre/foto-home.svg";
+import PerroHomeDesk from "../../../images/desktop/sobre/foto-home.png";
 import HuellasPeluqueria from "../../../images/desktop/sobre/huellaspeluqueria.svg";
-import PerritoPeluqueria from "../../../images/desktop/sobre/foto-perrito.svg";
+import PerritoPeluqueria from "../../../images/desktop/sobre/foto-perrito.png";
 
 import useWindowSize from "../../../hooks/useWindowSize";
 import { useTranslation } from "gatsby-plugin-react-i18next";
