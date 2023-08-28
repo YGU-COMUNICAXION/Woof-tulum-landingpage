@@ -11,7 +11,6 @@ import renderStringHMTLtoJSX from "../../../utils/renderStringHMTLtoJSX";
 
 const AppointmentWoof = () => {
   const windowSize = useWindowSize();
-
   const { t } = useTranslation("appointmentWoof");
 
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Boton from "../../boton";
 import ServiciosCard from "../../../components/serviciosCard";
 import Regla from "../../../images/mobile/servicios/Regla_woof.svg";
@@ -7,17 +7,20 @@ import Aseo from "../../../images/mobile/servicios/serviciosCard/estampilla.svg"
 import BajoCosto from "../../../images/mobile/servicios/serviciosCard/plata.svg";
 import Atencion from "../../../images/mobile/servicios/serviciosCard/heart.svg";
 import PerritoStripping from "../../../images/desktop/servicios/perritohandstripping.png";
-import PdfPrecios from "../../../static/Precios_Woof_Final.pdf";
 import useWindowSize from "../../../hooks/useWindowSize";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import renderStringHMTLtoJSX from "../../../utils/renderStringHMTLtoJSX";
+
+import PdfPrecios from "../../../static/Precios_Woof_Final_20Abril.pdf";
+import PdfPrices from "../../../static/Precios_Woof_Final_Eng_20Abril.pdf";
 
 const ServiceWoof = () => {
   const Beige = "#FFF5E0";
   const White = "#FFFFFF";
 
   const windowSize = useWindowSize();
-  const { t } = useTranslation("serviceWoof");
+  const { t, i18n } = useTranslation("serviceWoof");
+  const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
 
   return (
     <div id="servicios" className="servicios">
@@ -63,7 +66,7 @@ const ServiceWoof = () => {
             backgroundColor={White}
           />
           <div className="serviciosBotonDiv">
-            <Boton url={PdfPrecios}>
+            <Boton url={currentLanguage === "es" ? PdfPrecios : PdfPrices}>
               <p>{t("HomeServiceButton")}</p>
             </Boton>
           </div>
@@ -96,7 +99,7 @@ const ServiceWoof = () => {
             />
           </div>
           <div className="serviciosBotonDiv">
-            <Boton url={PdfPrecios}>
+            <Boton url={currentLanguage === "es" ? PdfPrecios : PdfPrices}>
               <p>{t("HomeServiceButton")}</p>
             </Boton>
           </div>
