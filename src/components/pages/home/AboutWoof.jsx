@@ -100,6 +100,13 @@ const AboutWoof = () => {
             {renderStringHMTLtoJSX(t("AboutWoofParam3"))}
           </div>
 
+          <h2 className="multiColorSubt">
+            {renderStringHMTLtoJSX(t("AboutWoofWhyTitle"))}
+          </h2>
+          <p className="lightP">
+            {renderStringHMTLtoJSX(t("AboutWoofWhyList"))}
+          </p>
+
           <h3 id="porque">{renderStringHMTLtoJSX(t("AboutWoofSubtitle"))}</h3>
           <h2 className="tricolor">
             {renderStringHMTLtoJSX(t("AboutWoofSubSlogan"))}
@@ -129,6 +136,14 @@ const AboutWoof = () => {
               <div className="lightP">
                 {renderStringHMTLtoJSX(t("AboutWoofParam3"))}
               </div>
+              <br />
+
+              <h2 className="multiColorSubt">
+                {renderStringHMTLtoJSX(t("AboutWoofWhyTitle"))}
+              </h2>
+              <p className="lightP">
+                {renderStringHMTLtoJSX(t("AboutWoofWhyList"))}
+              </p>
             </div>
             <img src={Perro2} />
           </div>

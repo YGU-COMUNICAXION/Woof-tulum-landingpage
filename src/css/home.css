@@ -481,6 +481,7 @@
   margin-bottom: 10%;
 }
 .sobreFirstHorDivDesk img {
+  align-self: flex-start;
   width: 25%;
 }
 .subtitleDescriptionDesk {
