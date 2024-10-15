@@ -27,12 +27,12 @@ const ServiceWoof = () => {
       {/* Services Banner */}
       <div className="serviciosFirstSection">
         <h1 className="sectionTitle">{t("BannerTitle")}</h1>
-        <p className="serviciosFirstP">
+        {/* <p className="serviciosFirstP">
           {renderStringHMTLtoJSX(t("BannerParam1"))}
-        </p>
-        <p className="serviciosFirstP">
+        </p> */}
+        {/* <p className="serviciosFirstP">
           {renderStringHMTLtoJSX(t("BannerParam2"))}
-        </p>
+        </p> */}
         <div className="serviciosSecondTextDiv">
           <p className="serviciosSecondText">{t("BannerParam3")}</p>
           <p className="serviciosSecondText">
@@ -45,6 +45,8 @@ const ServiceWoof = () => {
       {windowSize < 752 ? (
         <div id="servicioDomicilio" className="serviciosSecondSection">
           <h2>{t("HomeServiceTitle")}</h2>
+          <h2 style={{ fontSize: "1.4rem" }}>{t("HomeServiceSubTitle")}</h2>
+
           <ServiciosCard
             icon={Domicilio}
             text={t("HomeServiceCard1")}
@@ -74,6 +76,7 @@ const ServiceWoof = () => {
       ) : (
         <div id="servicioDomicilio" className="serviciosSecondSectionDesk">
           <h2>{t("HomeServiceTitle")}</h2>
+          <h2 style={{ fontSize: "1.4rem" }}>{t("HomeServiceSubTitle")}</h2>
           <div className="serviciosCardGrid">
             <ServiciosCard
               icon={Domicilio}
