@@ -260,6 +260,7 @@
   font-family: "M Light";
   margin-bottom: 15%;
   width: 88%;
+  z-index: 50;
 }
 .notaras span {
   font-family: "M Bold";
