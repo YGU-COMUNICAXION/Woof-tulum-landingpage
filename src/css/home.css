@@ -17,6 +17,12 @@
   font-size: 180%;
   margin-bottom: 10%;
 }
+
+.mainTitle b {
+  font-family: "M Bold";
+  color: #5189d3;
+}
+
 .sectionTitle {
   font-family: "M Bold";
   color: #5189d3;
@@ -396,6 +402,12 @@
   margin-bottom: 2em;
   margin-top: 1em;
 }
+
+.mainTitleDesk b {
+  font-family: "M Bold";
+  color: #5189d3;
+}
+
 .mainTitleDesk span {
   font-family: "M Bold";
   color: #77d0d1;
@@ -430,7 +442,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width:40%
+  width: 40%;
 }
 .perroHomeDesk {
   width: 90%;
@@ -936,9 +948,9 @@
     margin-bottom: 0%;
   }
 }
-@media only screen and (min-width: 1230px){
+@media only screen and (min-width: 1230px) {
   .manchaDiv {
-    padding: 3% 12% 2% 4% !important; 
+    padding: 3% 12% 2% 4% !important;
   }
   .hazCitaDivDesk {
     padding: 5% 9% 0% 3%;
