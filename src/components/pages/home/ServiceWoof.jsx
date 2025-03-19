@@ -11,8 +11,8 @@ import useWindowSize from "../../../hooks/useWindowSize";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import renderStringHMTLtoJSX from "../../../utils/renderStringHMTLtoJSX";
 
-import PdfPrecios from "../../../static/Precios_Woof_Final_20Abril.pdf";
-import PdfPrices from "../../../static/Precios_Woof_Final_Eng_20Abril.pdf";
+import PdfPrecios from "../../../static/LISTA_PRECIOS_WOOF.pdf";
+import PdfPrices from "../../../static/WOOF_PRICING_LIST.pdf";
 
 const ServiceWoof = () => {
   const Beige = "#FFF5E0";
