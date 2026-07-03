@@ -1,54 +1,51 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+﻿# Woof Tulum
 
-## 🚀 Quick start
+Landing page para Woof Tulum, desarrollada con Gatsby y React. El sitio presenta servicios, instalaciones, testimonios, contacto, mapa y listas de precios en español e inglés.
 
-1.  **Create a Gatsby site.**
+## URL pública
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- https://www.wooftulum.com/
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Fechas del proyecto
 
-2.  **Start developing.**
+- Inicio del repositorio: 2022-09-22
+- Primer commit de Jonathan: 2022-10-05
+- Commit de referencia: `72a6caf` - agregado traducciones y librerias de i18next
 
-    Navigate into your new site’s directory and start it up.
+## Mi rol
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Participé en la implementación de internacionalización, traducciones y ajustes del sitio sobre una base Gatsby colaborativa.
 
-3.  **Open the code and start customizing!**
+## Tecnologías utilizadas
 
-    Your site is now running at http://localhost:8000!
+- Gatsby 4
+- React
+- Bootstrap
+- React Bootstrap
+- Styled Components
+- i18next
+- Gatsby React i18next
+- React Scroll
+- Google Maps Embed
+- PDFs estáticos para listas de precios
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## Desarrollo y reto técnico
 
-4.  **Learn more**
+El proyecto es una landing enfocada en servicios para mascotas en Tulum. La estructura incluye secciones de servicios, instalaciones, testimonios, contacto y recursos descargables.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+El reto técnico principal fue habilitar una experiencia bilingüe con Gatsby React i18next, manteniendo contenido, textos y archivos como listas de precios en español e inglés. También se integró mapa de ubicación y navegación por secciones para una experiencia rápida en móvil.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Resultado
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+El sitio quedó como una landing bilingüe, clara y funcional, orientada a contacto y consulta de servicios. Para portafolio, muestra trabajo en internacionalización y mantenimiento sobre Gatsby.
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Ejecución local
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```bash
+npm install
+npm run develop
+```
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Notas para portafolio
 
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Proyecto Gatsby colaborativo. Documentar como participación en traducciones/i18n, contenido bilingüe, servicios y contacto.
